@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../iirfilter/include/iirfilter.h
+stdint.h
+-
+
+/home/ramandrom/sharedir/soft_arm_ads8867/iirfilter/src/iirfilter.cpp
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+iirfilter.h
+/home/ramandrom/sharedir/soft_arm_ads8867/iirfilter/src/iirfilter.h
+

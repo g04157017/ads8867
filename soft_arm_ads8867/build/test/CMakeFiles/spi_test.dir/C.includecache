@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ql_oe/include/ql_error.h
+
+../ql_oe/include/ql_gpio.h
+
+../ql_oe/include/ql_spi.h
+
+/home/ramandrom/sharedir/soft_arm_ads8867/test/src/example_spi.c
+stdint.h
+-
+stdio.h
+-
+linux/spi/spidev.h
+-
+sys/ioctl.h
+-
+string.h
+-
+errno.h
+-
+sys/time.h
+-
+stdarg.h
+-
+unistd.h
+-
+fcntl.h
+-
+stdlib.h
+-
+ql_spi.h
+/home/ramandrom/sharedir/soft_arm_ads8867/test/src/ql_spi.h
+ql_gpio.h
+/home/ramandrom/sharedir/soft_arm_ads8867/test/src/ql_gpio.h
+ql_error.h
+/home/ramandrom/sharedir/soft_arm_ads8867/test/src/ql_error.h
+

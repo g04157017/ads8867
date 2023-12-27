@@ -1,0 +1,544 @@
+The system is: Linux - 4.4.0-210-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc -march=armv7-a;-mfloat-abi=softfp;-mfpu=neon
+Build flags: ;-O2;-fexpensive-optimizations;-frename-registers;-fomit-frame-pointer;-include;quectel-features-config.h
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++ -march=armv7-a;-mfloat-abi=softfp;-mfpu=neon
+Build flags: ;-O2;-fexpensive-optimizations;-frename-registers;-fomit-frame-pointer;-include;quectel-features-config.h
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89d79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89d79.dir/build.make CMakeFiles/cmTC_89d79.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89d79.dir/testCCompiler.c.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -o CMakeFiles/cmTC_89d79.dir/testCCompiler.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_89d79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89d79.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTC_89d79.dir/testCCompiler.c.o  -o cmTC_89d79 
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82c22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82c22.dir/build.make CMakeFiles/cmTC_82c22.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82c22.dir/CMakeCCompilerABI.c.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -o CMakeFiles/cmTC_82c22.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_82c22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82c22.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v CMakeFiles/cmTC_82c22.dir/CMakeCCompilerABI.c.o  -o cmTC_82c22  
+Using built-in specs.
+COLLECT_GCC=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc
+COLLECT_LTO_WRAPPER=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper
+Target: arm-oe-linux-gnueabi
+Configured with: /P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=arm-oe-linux-gnueabi --prefix=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/c++/4.9.2 --with-build-time-tools=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi --with-build-sysroot=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf --enable-poison-system-directories --with-mpfr=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --with-mpc=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --enable-nls
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/
+LIBRARY_PATH=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=neon' '-O2' '-fexpensive-optimizations' '-frename-registers' '-fomit-frame-pointer' '-include' 'quectel-features-config.h' '-v' '-o' 'cmTC_82c22' '-mtls-dialect=gnu'
+ /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/collect2 -plugin /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/liblto_plugin.so -plugin-opt=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxBRQoB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_82c22 /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crt1.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crti.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbegin.o -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2 -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2 -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_82c22.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtend.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crtn.o
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_82c22/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_82c22.dir/build.make CMakeFiles/cmTC_82c22.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_82c22.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -o CMakeFiles/cmTC_82c22.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_82c22]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82c22.dir/link.txt --verbose=1]
+  ignore line: [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v CMakeFiles/cmTC_82c22.dir/CMakeCCompilerABI.c.o  -o cmTC_82c22  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper]
+  ignore line: [Target: arm-oe-linux-gnueabi]
+  ignore line: [Configured with: /P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=arm-oe-linux-gnueabi --prefix=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/c++/4.9.2 --with-build-time-tools=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi --with-build-sysroot=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf --enable-poison-system-directories --with-mpfr=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --with-mpc=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --enable-nls]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/]
+  ignore line: [LIBRARY_PATH=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=neon' '-O2' '-fexpensive-optimizations' '-frename-registers' '-fomit-frame-pointer' '-include' 'quectel-features-config.h' '-v' '-o' 'cmTC_82c22' '-mtls-dialect=gnu']
+  link line: [ /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/collect2 -plugin /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/liblto_plugin.so -plugin-opt=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxBRQoB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_82c22 /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crt1.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crti.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbegin.o -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2 -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2 -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_82c22.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtend.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crtn.o]
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxBRQoB.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_82c22] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crt1.o] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crti.o] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbegin.o] ==> ignore
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2]
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc]
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib]
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2]
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_82c22.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtend.o] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/lib]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2;/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc;/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/lib;/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2;/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a3d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a3d7.dir/build.make CMakeFiles/cmTC_4a3d7.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a3d7.dir/feature_tests.c.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -std=c11 -o CMakeFiles/cmTC_4a3d7.dir/feature_tests.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4a3d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a3d7.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTC_4a3d7.dir/feature_tests.c.o  -o cmTC_4a3d7 
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aff45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aff45.dir/build.make CMakeFiles/cmTC_aff45.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aff45.dir/feature_tests.c.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -std=c99 -o CMakeFiles/cmTC_aff45.dir/feature_tests.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_aff45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aff45.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTC_aff45.dir/feature_tests.c.o  -o cmTC_aff45 
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_762df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_762df.dir/build.make CMakeFiles/cmTC_762df.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_762df.dir/feature_tests.c.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -std=c90 -o CMakeFiles/cmTC_762df.dir/feature_tests.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_762df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_762df.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTC_762df.dir/feature_tests.c.o  -o cmTC_762df 
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82f7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82f7f.dir/build.make CMakeFiles/cmTC_82f7f.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_82f7f.dir/testCXXCompiler.cxx.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon    -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -o CMakeFiles/cmTC_82f7f.dir/testCXXCompiler.cxx.o -c /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_82f7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82f7f.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTC_82f7f.dir/testCXXCompiler.cxx.o  -o cmTC_82f7f 
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a626b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a626b.dir/build.make CMakeFiles/cmTC_a626b.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a626b.dir/CMakeCXXCompilerABI.cpp.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon    -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -o CMakeFiles/cmTC_a626b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a626b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a626b.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v CMakeFiles/cmTC_a626b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a626b  
+Using built-in specs.
+COLLECT_GCC=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper
+Target: arm-oe-linux-gnueabi
+Configured with: /P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=arm-oe-linux-gnueabi --prefix=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/c++/4.9.2 --with-build-time-tools=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi --with-build-sysroot=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf --enable-poison-system-directories --with-mpfr=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --with-mpc=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --enable-nls
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/
+LIBRARY_PATH=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=neon' '-O2' '-fexpensive-optimizations' '-frename-registers' '-fomit-frame-pointer' '-include' 'quectel-features-config.h' '-v' '-o' 'cmTC_a626b' '-shared-libgcc' '-mtls-dialect=gnu'
+ /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/collect2 -plugin /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/liblto_plugin.so -plugin-opt=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrpRWvZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_a626b /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crt1.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crti.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbegin.o -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2 -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2 -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_a626b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtend.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crtn.o
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a626b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a626b.dir/build.make CMakeFiles/cmTC_a626b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a626b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon    -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -o CMakeFiles/cmTC_a626b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a626b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a626b.dir/link.txt --verbose=1]
+  ignore line: [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v CMakeFiles/cmTC_a626b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a626b  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper]
+  ignore line: [Target: arm-oe-linux-gnueabi]
+  ignore line: [Configured with: /P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=arm-oe-linux-gnueabi --prefix=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/c++/4.9.2 --with-build-time-tools=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi --with-build-sysroot=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf --enable-poison-system-directories --with-mpfr=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --with-mpc=/P4code/depot3/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/x86_64-nativesdk-oesdk-linux --enable-nls]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/]
+  ignore line: [LIBRARY_PATH=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/:/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=neon' '-O2' '-fexpensive-optimizations' '-frename-registers' '-fomit-frame-pointer' '-include' 'quectel-features-config.h' '-v' '-o' 'cmTC_a626b' '-shared-libgcc' '-mtls-dialect=gnu']
+  link line: [ /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/collect2 -plugin /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/liblto_plugin.so -plugin-opt=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrpRWvZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_a626b /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crt1.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crti.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbegin.o -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2 -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2 -L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_a626b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtend.o /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crtn.o]
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrpRWvZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a626b] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crt1.o] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crti.o] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbegin.o] ==> ignore
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2]
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc]
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib]
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2]
+    arg [-L/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib] ==> dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_a626b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtend.o] ==> ignore
+    arg [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../lib/arm-oe-linux-gnueabi/gcc] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/lib] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/lib]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2]
+  collapse library dir [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/../../armv7a-vfp-neon-oe-linux-gnueabi/usr/lib] ==> [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2;/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc;/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/lib;/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/lib/arm-oe-linux-gnueabi/4.9.2;/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/armv7a-vfp-neon-oe-linux-gnueabi/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2703/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2703.dir/build.make CMakeFiles/cmTC_b2703.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2703.dir/feature_tests.cxx.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon    -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -std=c++14 -o CMakeFiles/cmTC_b2703.dir/feature_tests.cxx.o -c /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b2703
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2703.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTC_b2703.dir/feature_tests.cxx.o  -o cmTC_b2703 
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_163fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_163fb.dir/build.make CMakeFiles/cmTC_163fb.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_163fb.dir/feature_tests.cxx.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon    -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -std=c++11 -o CMakeFiles/cmTC_163fb.dir/feature_tests.cxx.o -c /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_163fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_163fb.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTC_163fb.dir/feature_tests.cxx.o  -o cmTC_163fb 
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c984/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c984.dir/build.make CMakeFiles/cmTC_0c984.dir/build
+make[1]: Entering directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c984.dir/feature_tests.cxx.o
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon    -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -std=c++98 -o CMakeFiles/cmTC_0c984.dir/feature_tests.cxx.o -c /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0c984
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c984.dir/link.txt --verbose=1
+/home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon   -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h     -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTC_0c984.dir/feature_tests.cxx.o  -o cmTC_0c984 
+make[1]: Leaving directory '/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

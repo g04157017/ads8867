@@ -1,0 +1,73 @@
+#/***************************************************************************
+
+#* Copyright (C), 2016-2026, , All rights reserved.
+
+#* File        : Makefile
+
+#* Decription  : 
+
+
+#* Author      :  yanyc
+
+#* Version     :  v1.0
+
+#* Date        :  2020/02/21
+
+#* Histroy	   :
+
+#**************************************************************************/
+
+ROOTFS_DIR ?= $(shell pwd)/../../../ql-ol-sdk/ql-ol-rootfs
+SX_SDK_PATH ?= $(shell pwd)/../..
+
+#--------------------------------------------------------
+# 
+#--------------------------------------------------------
+CFLAGS += -g -fPIC
+
+CFLAGS +=   -I./                     \
+
+SX_CFLAGS = -I$(SX_SDK_PATH)/libs/log \
+
+LDFLAGS += -g -shared -L./ -L$(QL_SDK_PATH)/lib -lrt -lssl -lcrypto -lm -lz \
+
+SX_LDFLAGS = -L$(SX_SDK_PATH)/libs/log       \
+			 -llog  \
+
+.PHONY : really clean install uninstall
+
+COMMON_OBJS= modbus-tcp.o modbus-rtu.o modbus.o modbus-data.o
+COMMON_SOURCE_FILE =modbus-tcp.c modbus-rtu.c modbus.c modbus-data.c
+
+ALL_DEPS=libmodbus.so
+
+all : ${ALL_DEPS}
+
+reallyclean : clean
+
+clean :
+	-rm -f *.o  $(ALL_DEPS)
+
+$(ALL_DEPS) : ${COMMON_OBJS}
+	$(CC) $(SX_LDFLAGS) $(LDFLAGS) $^ -o $@ 
+
+%.o: %.c
+	$(CC) $(CFLAGS) $(SX_CFLAGS) -c $< -o $@
+
+test: unit-test.o
+	$(CC) $^ -o $@ -L./ -lmodbus
+
+update : clean
+
+	-rm -f ${ROOTFS_DIR}/lib/    
+
+install : all
+
+	install -d ${ROOTFS_DIR}/lib
+
+	install $(ALL_DEPS) ${ROOTFS_DIR}/lib/$(ALL_DEPS)
+
+uninstall :
+
+	-rm -f ${ROOTFS_DIR}/lib/$(ALL_DEPS)
+
