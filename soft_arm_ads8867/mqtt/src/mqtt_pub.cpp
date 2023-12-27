@@ -909,7 +909,28 @@ int MosquittoPub::MqttProc_send(MqttMsg_T* pMqttMsg)
 		}
     }
 	if(pMqttMsg->stat == NORMAL)
-		ret = publish_mqtt_msg();
+	{
+		for(int i = 3;i>0;i--)
+		{
+			ret = publish_mqtt_msg();
+			if(ret == MQTTCLIENT_SUCCESS)
+				break;
+			if(i==1)
+			{
+				DataBase * pDataBase = DataBase::GetInstance();
+				ret = pDataBase->LoadDatabase("/home/data.db");
+				CHK_ERR(ret,ERR);
+				MosquittoPub_log("+++++++++++++++++++++++++++++++MqttProc  unconnect , store in the database !++++++++++++++++++++++++++++++++");
+
+				DoubleQuotationMark2Asterisk();
+				ret = pDataBase->AddData2Table(p_sendBuff,"SenSorTable",m_nSendLen);
+				CHK_ERR(ret,ERR);
+
+				pDataBase->UnLoadDatabase();
+			}
+		}
+
+	}
 	else
 		ret = publish_ALARM_msg(p_sendBuff,m_nSendLen);
 	return ret;
