@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/sgmii/CMakeFiles/progress.marks
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sgmii/CMakeFiles/progress.marks
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/clean
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sgmii/CMakeFiles/sgmiii_ex.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/CMakeFiles/sgmiii_ex.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sgmii/CMakeFiles/sgmiii_ex.dir/rule
 .PHONY : sgmii/CMakeFiles/sgmiii_ex.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ sgmiii_ex: sgmii/CMakeFiles/sgmiii_ex.dir/rule
 
 # fast build rule for target.
 sgmiii_ex/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sgmii/CMakeFiles/sgmiii_ex.dir/build.make sgmii/CMakeFiles/sgmiii_ex.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sgmii/CMakeFiles/sgmiii_ex.dir/build.make sgmii/CMakeFiles/sgmiii_ex.dir/build
 .PHONY : sgmiii_ex/fast
 
 src/sgmii.o: src/sgmii.cpp.o
@@ -131,7 +131,7 @@ src/sgmii.o: src/sgmii.cpp.o
 
 # target to build an object file
 src/sgmii.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sgmii/CMakeFiles/sgmiii_ex.dir/build.make sgmii/CMakeFiles/sgmiii_ex.dir/src/sgmii.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sgmii/CMakeFiles/sgmiii_ex.dir/build.make sgmii/CMakeFiles/sgmiii_ex.dir/src/sgmii.cpp.o
 .PHONY : src/sgmii.cpp.o
 
 src/sgmii.i: src/sgmii.cpp.i
@@ -140,7 +140,7 @@ src/sgmii.i: src/sgmii.cpp.i
 
 # target to preprocess a source file
 src/sgmii.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sgmii/CMakeFiles/sgmiii_ex.dir/build.make sgmii/CMakeFiles/sgmiii_ex.dir/src/sgmii.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sgmii/CMakeFiles/sgmiii_ex.dir/build.make sgmii/CMakeFiles/sgmiii_ex.dir/src/sgmii.cpp.i
 .PHONY : src/sgmii.cpp.i
 
 src/sgmii.s: src/sgmii.cpp.s
@@ -149,7 +149,7 @@ src/sgmii.s: src/sgmii.cpp.s
 
 # target to generate assembly for a file
 src/sgmii.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sgmii/CMakeFiles/sgmiii_ex.dir/build.make sgmii/CMakeFiles/sgmiii_ex.dir/src/sgmii.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sgmii/CMakeFiles/sgmiii_ex.dir/build.make sgmii/CMakeFiles/sgmiii_ex.dir/src/sgmii.cpp.s
 .PHONY : src/sgmii.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

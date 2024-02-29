@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -137,19 +137,6 @@ aestest/fast:
 .PHONY : aestest/fast
 
 #=============================================================================
-# Target rules for targets named utils
-
-# Build rule for target.
-utils: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 utils
-.PHONY : utils
-
-# fast build rule for target.
-utils/fast:
-	$(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/build
-.PHONY : utils/fast
-
-#=============================================================================
 # Target rules for targets named cjson
 
 # Build rule for target.
@@ -161,6 +148,19 @@ cjson: cmake_check_build_system
 cjson/fast:
 	$(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/build
 .PHONY : cjson/fast
+
+#=============================================================================
+# Target rules for targets named utils
+
+# Build rule for target.
+utils: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 utils
+.PHONY : utils
+
+# fast build rule for target.
+utils/fast:
+	$(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/build
+.PHONY : utils/fast
 
 #=============================================================================
 # Target rules for targets named mqtt_pub
@@ -422,6 +422,19 @@ iirfilter/fast:
 	$(MAKE) -f iirfilter/CMakeFiles/iirfilter.dir/build.make iirfilter/CMakeFiles/iirfilter.dir/build
 .PHONY : iirfilter/fast
 
+#=============================================================================
+# Target rules for targets named cgi_test
+
+# Build rule for target.
+cgi_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cgi_test
+.PHONY : cgi_test
+
+# fast build rule for target.
+cgi_test/fast:
+	$(MAKE) -f cgi-bin/CMakeFiles/cgi_test.dir/build.make cgi-bin/CMakeFiles/cgi_test.dir/build
+.PHONY : cgi_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -432,8 +445,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... aes"
 	@echo "... aestest"
-	@echo "... utils"
 	@echo "... cjson"
+	@echo "... utils"
 	@echo "... mqtt_pub"
 	@echo "... spi_test"
 	@echo "... test_main"
@@ -454,6 +467,7 @@ help:
 	@echo "... sgmiii_ex"
 	@echo "... cfg"
 	@echo "... iirfilter"
+	@echo "... cgi_test"
 .PHONY : help
 
 

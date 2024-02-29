@@ -1,4 +1,4 @@
-# Install script for directory: /home/ramandrom/sharedir/soft_arm_ads8867/utils
+# Install script for directory: /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

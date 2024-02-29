@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include sm2/libtommath/CMakeFiles/tommath.dir/depend.make
@@ -59,16 +59,16 @@ include sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.o: ../sm2/libtommath/bn_mp_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_init.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init.c > CMakeFiles/tommath.dir/bn_mp_init.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init.c > CMakeFiles/tommath.dir/bn_mp_init.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_init.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init.c -o CMakeFiles/tommath.dir/bn_mp_init.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init.c -o CMakeFiles/tommath.dir/bn_mp_init.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.o.requires:
 
@@ -83,16 +83,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.o: ../sm2/libtommath/bn_mp_fread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_fread.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_fread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_fread.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_fread.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_fread.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_fread.c > CMakeFiles/tommath.dir/bn_mp_fread.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_fread.c > CMakeFiles/tommath.dir/bn_mp_fread.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_fread.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_fread.c -o CMakeFiles/tommath.dir/bn_mp_fread.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_fread.c -o CMakeFiles/tommath.dir/bn_mp_fread.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.o.requires:
 
@@ -107,16 +107,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.o: ../sm2/libtommath/bn_mp_reduce.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_reduce.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce.c > CMakeFiles/tommath.dir/bn_mp_reduce.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce.c > CMakeFiles/tommath.dir/bn_mp_reduce.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_reduce.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce.c -o CMakeFiles/tommath.dir/bn_mp_reduce.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce.c -o CMakeFiles/tommath.dir/bn_mp_reduce.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.o.requires:
 
@@ -131,16 +131,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o: ../sm2/libtommath/bn_mp_dr_is_modulus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_is_modulus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_is_modulus.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_is_modulus.c > CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_is_modulus.c > CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_is_modulus.c -o CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_is_modulus.c -o CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o.requires:
 
@@ -155,16 +155,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o.provides.build: sm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.o: ../sm2/libtommath/bn_mp_cmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_cmp.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_cmp.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_cmp.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp.c > CMakeFiles/tommath.dir/bn_mp_cmp.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp.c > CMakeFiles/tommath.dir/bn_mp_cmp.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_cmp.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp.c -o CMakeFiles/tommath.dir/bn_mp_cmp.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp.c -o CMakeFiles/tommath.dir/bn_mp_cmp.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.o.requires:
 
@@ -179,16 +179,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.o: ../sm2/libtommath/bn_mp_mul_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mul_2.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mul_2.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_mul_2.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2.c > CMakeFiles/tommath.dir/bn_mp_mul_2.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2.c > CMakeFiles/tommath.dir/bn_mp_mul_2.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_mul_2.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2.c -o CMakeFiles/tommath.dir/bn_mp_mul_2.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2.c -o CMakeFiles/tommath.dir/bn_mp_mul_2.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.o.requires:
 
@@ -203,16 +203,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o: ../sm2/libtommath/bn_mp_prime_miller_rabin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_miller_rabin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_miller_rabin.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_miller_rabin.c > CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_miller_rabin.c > CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_miller_rabin.c -o CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_miller_rabin.c -o CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o.requires:
 
@@ -227,16 +227,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o.provides.buil
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o: ../sm2/libtommath/bn_mp_prime_fermat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_fermat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_fermat.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_fermat.c > CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_fermat.c > CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_fermat.c -o CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_fermat.c -o CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o.requires:
 
@@ -251,16 +251,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o.provides.build: sm2
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o: ../sm2/libtommath/bn_mp_prime_rabin_miller_trials.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_rabin_miller_trials.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_rabin_miller_trials.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_rabin_miller_trials.c > CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_rabin_miller_trials.c > CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_rabin_miller_trials.c -o CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_rabin_miller_trials.c -o CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o.requires:
 
@@ -275,16 +275,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o.provid
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.o: ../sm2/libtommath/bn_mp_mul_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mul_d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mul_d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_mul_d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_d.c > CMakeFiles/tommath.dir/bn_mp_mul_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_d.c > CMakeFiles/tommath.dir/bn_mp_mul_d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_mul_d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_d.c -o CMakeFiles/tommath.dir/bn_mp_mul_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_d.c -o CMakeFiles/tommath.dir/bn_mp_mul_d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.o.requires:
 
@@ -299,16 +299,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.o: ../sm2/libtommath/bn_mp_div.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_div.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div.c > CMakeFiles/tommath.dir/bn_mp_div.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div.c > CMakeFiles/tommath.dir/bn_mp_div.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_div.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div.c -o CMakeFiles/tommath.dir/bn_mp_div.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div.c -o CMakeFiles/tommath.dir/bn_mp_div.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.o.requires:
 
@@ -323,16 +323,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.o: ../sm2/libtommath/bn_mp_n_root.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_n_root.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_n_root.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_n_root.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_n_root.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_n_root.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_n_root.c > CMakeFiles/tommath.dir/bn_mp_n_root.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_n_root.c > CMakeFiles/tommath.dir/bn_mp_n_root.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_n_root.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_n_root.c -o CMakeFiles/tommath.dir/bn_mp_n_root.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_n_root.c -o CMakeFiles/tommath.dir/bn_mp_n_root.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.o.requires:
 
@@ -347,16 +347,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o: ../sm2/libtommath/bn_fast_s_mp_sqr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_sqr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_sqr.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_sqr.c > CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_sqr.c > CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_sqr.c -o CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_sqr.c -o CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o.requires:
 
@@ -371,16 +371,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o.provides.build: sm2/l
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.o: ../sm2/libtommath/bn_mp_div_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div_d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div_d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_div_d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_d.c > CMakeFiles/tommath.dir/bn_mp_div_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_d.c > CMakeFiles/tommath.dir/bn_mp_div_d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_div_d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_d.c -o CMakeFiles/tommath.dir/bn_mp_div_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_d.c -o CMakeFiles/tommath.dir/bn_mp_div_d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.o.requires:
 
@@ -395,16 +395,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.o: ../sm2/libtommath/bn_mp_count_bits.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_count_bits.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_count_bits.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_count_bits.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_count_bits.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_count_bits.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_count_bits.c > CMakeFiles/tommath.dir/bn_mp_count_bits.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_count_bits.c > CMakeFiles/tommath.dir/bn_mp_count_bits.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_count_bits.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_count_bits.c -o CMakeFiles/tommath.dir/bn_mp_count_bits.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_count_bits.c -o CMakeFiles/tommath.dir/bn_mp_count_bits.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.o.requires:
 
@@ -419,16 +419,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.o.provides.build: sm2/l
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.o: ../sm2/libtommath/bn_mp_gcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_gcd.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_gcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_gcd.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_gcd.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_gcd.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_gcd.c > CMakeFiles/tommath.dir/bn_mp_gcd.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_gcd.c > CMakeFiles/tommath.dir/bn_mp_gcd.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_gcd.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_gcd.c -o CMakeFiles/tommath.dir/bn_mp_gcd.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_gcd.c -o CMakeFiles/tommath.dir/bn_mp_gcd.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.o.requires:
 
@@ -443,16 +443,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.o: ../sm2/libtommath/bn_mp_exch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_exch.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_exch.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exch.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_exch.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exch.c > CMakeFiles/tommath.dir/bn_mp_exch.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exch.c > CMakeFiles/tommath.dir/bn_mp_exch.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_exch.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exch.c -o CMakeFiles/tommath.dir/bn_mp_exch.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exch.c -o CMakeFiles/tommath.dir/bn_mp_exch.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.o.requires:
 
@@ -467,16 +467,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.o: ../sm2/libtommath/bn_mp_sub_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sub_d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sub_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sub_d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sub_d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_sub_d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sub_d.c > CMakeFiles/tommath.dir/bn_mp_sub_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sub_d.c > CMakeFiles/tommath.dir/bn_mp_sub_d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_sub_d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sub_d.c -o CMakeFiles/tommath.dir/bn_mp_sub_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sub_d.c -o CMakeFiles/tommath.dir/bn_mp_sub_d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.o.requires:
 
@@ -491,16 +491,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.o: ../sm2/libtommath/bn_mp_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sqrt.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sqrt.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrt.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_sqrt.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrt.c > CMakeFiles/tommath.dir/bn_mp_sqrt.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrt.c > CMakeFiles/tommath.dir/bn_mp_sqrt.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_sqrt.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrt.c -o CMakeFiles/tommath.dir/bn_mp_sqrt.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrt.c -o CMakeFiles/tommath.dir/bn_mp_sqrt.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.o.requires:
 
@@ -515,16 +515,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o: ../sm2/libtommath/bn_mp_prime_is_prime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_prime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_prime.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_prime.c > CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_prime.c > CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_prime.c -o CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_prime.c -o CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o.requires:
 
@@ -539,16 +539,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o.provides.build: s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.o: ../sm2/libtommath/bn_mp_init_copy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_copy.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_copy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_copy.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_copy.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_init_copy.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_copy.c > CMakeFiles/tommath.dir/bn_mp_init_copy.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_copy.c > CMakeFiles/tommath.dir/bn_mp_init_copy.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_init_copy.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_copy.c -o CMakeFiles/tommath.dir/bn_mp_init_copy.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_copy.c -o CMakeFiles/tommath.dir/bn_mp_init_copy.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.o.requires:
 
@@ -563,16 +563,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.o.provides.build: sm2/li
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.o: ../sm2/libtommath/bn_mp_lshd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_lshd.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_lshd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_lshd.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_lshd.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_lshd.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_lshd.c > CMakeFiles/tommath.dir/bn_mp_lshd.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_lshd.c > CMakeFiles/tommath.dir/bn_mp_lshd.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_lshd.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_lshd.c -o CMakeFiles/tommath.dir/bn_mp_lshd.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_lshd.c -o CMakeFiles/tommath.dir/bn_mp_lshd.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.o.requires:
 
@@ -587,16 +587,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o: ../sm2/libtommath/bn_mp_invmod_slow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod_slow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod_slow.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod_slow.c > CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod_slow.c > CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod_slow.c -o CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod_slow.c -o CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o.requires:
 
@@ -611,16 +611,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o.provides.build: sm2/
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o: ../sm2/libtommath/bn_mp_exptmod_fast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod_fast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod_fast.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod_fast.c > CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod_fast.c > CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod_fast.c -o CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod_fast.c -o CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o.requires:
 
@@ -635,16 +635,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o.provides.build: sm2
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o: ../sm2/libtommath/bn_mp_reduce_2k_l.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_l.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_l.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_l.c > CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_l.c > CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_l.c -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_l.c -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o.requires:
 
@@ -659,16 +659,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o.provides.build: sm2/
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.o: ../sm2/libtommath/bn_mp_init_multi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_multi.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_multi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_multi.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_multi.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_init_multi.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_multi.c > CMakeFiles/tommath.dir/bn_mp_init_multi.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_multi.c > CMakeFiles/tommath.dir/bn_mp_init_multi.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_init_multi.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_multi.c -o CMakeFiles/tommath.dir/bn_mp_init_multi.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_multi.c -o CMakeFiles/tommath.dir/bn_mp_init_multi.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.o.requires:
 
@@ -683,16 +683,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.o.provides.build: sm2/l
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.o: ../sm2/libtommath/bn_mp_rshd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_rshd.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_rshd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_rshd.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_rshd.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_rshd.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_rshd.c > CMakeFiles/tommath.dir/bn_mp_rshd.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_rshd.c > CMakeFiles/tommath.dir/bn_mp_rshd.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_rshd.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_rshd.c -o CMakeFiles/tommath.dir/bn_mp_rshd.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_rshd.c -o CMakeFiles/tommath.dir/bn_mp_rshd.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.o.requires:
 
@@ -707,16 +707,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o: ../sm2/libtommath/bn_mp_cnt_lsb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cnt_lsb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cnt_lsb.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cnt_lsb.c > CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cnt_lsb.c > CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cnt_lsb.c -o CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cnt_lsb.c -o CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o.requires:
 
@@ -731,16 +731,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o.provides.build: sm2/libt
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o: ../sm2/libtommath/bn_mp_read_unsigned_bin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_read_unsigned_bin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_read_unsigned_bin.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_read_unsigned_bin.c > CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_read_unsigned_bin.c > CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_read_unsigned_bin.c -o CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_read_unsigned_bin.c -o CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o.requires:
 
@@ -755,16 +755,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o.provides.build
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.o: ../sm2/libtommath/bn_mp_submod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_submod.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_submod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_submod.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_submod.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_submod.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_submod.c > CMakeFiles/tommath.dir/bn_mp_submod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_submod.c > CMakeFiles/tommath.dir/bn_mp_submod.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_submod.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_submod.c -o CMakeFiles/tommath.dir/bn_mp_submod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_submod.c -o CMakeFiles/tommath.dir/bn_mp_submod.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.o.requires:
 
@@ -779,16 +779,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.o: ../sm2/libtommath/bn_mp_init_set.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_set.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_set.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_init_set.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set.c > CMakeFiles/tommath.dir/bn_mp_init_set.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set.c > CMakeFiles/tommath.dir/bn_mp_init_set.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_init_set.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set.c -o CMakeFiles/tommath.dir/bn_mp_init_set.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set.c -o CMakeFiles/tommath.dir/bn_mp_init_set.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.o.requires:
 
@@ -803,16 +803,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.o.provides.build: sm2/lib
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o: ../sm2/libtommath/bn_mp_reduce_setup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_setup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_setup.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_setup.c > CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_setup.c > CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_setup.c -o CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_setup.c -o CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o.requires:
 
@@ -827,16 +827,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o.provides.build: sm2
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.o: ../sm2/libtommath/bn_mp_xor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_xor.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_xor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_xor.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_xor.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_xor.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_xor.c > CMakeFiles/tommath.dir/bn_mp_xor.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_xor.c > CMakeFiles/tommath.dir/bn_mp_xor.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_xor.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_xor.c -o CMakeFiles/tommath.dir/bn_mp_xor.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_xor.c -o CMakeFiles/tommath.dir/bn_mp_xor.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.o.requires:
 
@@ -851,16 +851,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.o: ../sm2/libtommath/bn_prime_tab.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_prime_tab.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_prime_tab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_prime_tab.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_prime_tab.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_prime_tab.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_prime_tab.c > CMakeFiles/tommath.dir/bn_prime_tab.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_prime_tab.c > CMakeFiles/tommath.dir/bn_prime_tab.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_prime_tab.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_prime_tab.c -o CMakeFiles/tommath.dir/bn_prime_tab.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_prime_tab.c -o CMakeFiles/tommath.dir/bn_prime_tab.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.o.requires:
 
@@ -875,16 +875,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.o: ../sm2/libtommath/bn_mp_init_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_size.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_size.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_size.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_init_size.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_size.c > CMakeFiles/tommath.dir/bn_mp_init_size.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_size.c > CMakeFiles/tommath.dir/bn_mp_init_size.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_init_size.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_size.c -o CMakeFiles/tommath.dir/bn_mp_init_size.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_size.c -o CMakeFiles/tommath.dir/bn_mp_init_size.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.o.requires:
 
@@ -899,16 +899,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.o.provides.build: sm2/li
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.o: ../sm2/libtommath/bn_mp_neg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_neg.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_neg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_neg.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_neg.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_neg.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_neg.c > CMakeFiles/tommath.dir/bn_mp_neg.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_neg.c > CMakeFiles/tommath.dir/bn_mp_neg.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_neg.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_neg.c -o CMakeFiles/tommath.dir/bn_mp_neg.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_neg.c -o CMakeFiles/tommath.dir/bn_mp_neg.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.o.requires:
 
@@ -923,16 +923,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.o: ../sm2/libtommath/bn_mp_clamp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_clamp.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_clamp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_clamp.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_clamp.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_clamp.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_clamp.c > CMakeFiles/tommath.dir/bn_mp_clamp.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_clamp.c > CMakeFiles/tommath.dir/bn_mp_clamp.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_clamp.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_clamp.c -o CMakeFiles/tommath.dir/bn_mp_clamp.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_clamp.c -o CMakeFiles/tommath.dir/bn_mp_clamp.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.o.requires:
 
@@ -947,16 +947,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o: ../sm2/libtommath/bn_mp_init_set_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set_int.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_init_set_int.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set_int.c > CMakeFiles/tommath.dir/bn_mp_init_set_int.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set_int.c > CMakeFiles/tommath.dir/bn_mp_init_set_int.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_init_set_int.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set_int.c -o CMakeFiles/tommath.dir/bn_mp_init_set_int.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_init_set_int.c -o CMakeFiles/tommath.dir/bn_mp_init_set_int.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o.requires:
 
@@ -971,16 +971,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o.provides.build: sm2
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o: ../sm2/libtommath/bn_mp_signed_bin_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_signed_bin_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_signed_bin_size.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_signed_bin_size.c > CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_signed_bin_size.c > CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_signed_bin_size.c -o CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_signed_bin_size.c -o CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o.requires:
 
@@ -995,16 +995,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o.provides.build: 
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.o: ../sm2/libtommath/bn_mp_mul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mul.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mul.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_mul.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul.c > CMakeFiles/tommath.dir/bn_mp_mul.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul.c > CMakeFiles/tommath.dir/bn_mp_mul.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_mul.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul.c -o CMakeFiles/tommath.dir/bn_mp_mul.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul.c -o CMakeFiles/tommath.dir/bn_mp_mul.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.o.requires:
 
@@ -1019,16 +1019,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o: ../sm2/libtommath/bn_mp_sqrmod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrmod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrmod.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_sqrmod.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrmod.c > CMakeFiles/tommath.dir/bn_mp_sqrmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrmod.c > CMakeFiles/tommath.dir/bn_mp_sqrmod.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_sqrmod.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrmod.c -o CMakeFiles/tommath.dir/bn_mp_sqrmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sqrmod.c -o CMakeFiles/tommath.dir/bn_mp_sqrmod.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o.requires:
 
@@ -1043,16 +1043,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.o: ../sm2/libtommath/bn_mp_add_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_add_d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_add_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_add_d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_add_d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_add_d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_add_d.c > CMakeFiles/tommath.dir/bn_mp_add_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_add_d.c > CMakeFiles/tommath.dir/bn_mp_add_d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_add_d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_add_d.c -o CMakeFiles/tommath.dir/bn_mp_add_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_add_d.c -o CMakeFiles/tommath.dir/bn_mp_add_d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.o.requires:
 
@@ -1067,16 +1067,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.o: ../sm2/libtommath/bn_mp_expt_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_expt_d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_expt_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_expt_d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_expt_d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_expt_d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_expt_d.c > CMakeFiles/tommath.dir/bn_mp_expt_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_expt_d.c > CMakeFiles/tommath.dir/bn_mp_expt_d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_expt_d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_expt_d.c -o CMakeFiles/tommath.dir/bn_mp_expt_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_expt_d.c -o CMakeFiles/tommath.dir/bn_mp_expt_d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.o.requires:
 
@@ -1091,16 +1091,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o: ../sm2/libtommath/bn_mp_to_unsigned_bin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin.c > CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin.c > CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin.c -o CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin.c -o CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o.requires:
 
@@ -1115,16 +1115,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o.provides.build: 
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o: ../sm2/libtommath/bn_mp_reduce_2k_setup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup.c > CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup.c > CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup.c -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup.c -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o.requires:
 
@@ -1139,16 +1139,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o.provides.build: 
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o: ../sm2/libtommath/bn_mp_dr_setup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_setup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_setup.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_dr_setup.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_setup.c > CMakeFiles/tommath.dir/bn_mp_dr_setup.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_setup.c > CMakeFiles/tommath.dir/bn_mp_dr_setup.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_dr_setup.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_setup.c -o CMakeFiles/tommath.dir/bn_mp_dr_setup.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_setup.c -o CMakeFiles/tommath.dir/bn_mp_dr_setup.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o.requires:
 
@@ -1163,16 +1163,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o.provides.build: sm2/lib
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.o: ../sm2/libtommath/bn_mp_2expt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_2expt.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_2expt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_2expt.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_2expt.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_2expt.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_2expt.c > CMakeFiles/tommath.dir/bn_mp_2expt.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_2expt.c > CMakeFiles/tommath.dir/bn_mp_2expt.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_2expt.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_2expt.c -o CMakeFiles/tommath.dir/bn_mp_2expt.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_2expt.c -o CMakeFiles/tommath.dir/bn_mp_2expt.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.o.requires:
 
@@ -1187,16 +1187,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o: ../sm2/libtommath/bn_mp_dr_reduce.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_reduce.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_reduce.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_reduce.c > CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_reduce.c > CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_reduce.c -o CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_dr_reduce.c -o CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o.requires:
 
@@ -1211,16 +1211,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o.provides.build: sm2/li
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.o: ../sm2/libtommath/bn_mp_add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_add.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_add.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_add.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_add.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_add.c > CMakeFiles/tommath.dir/bn_mp_add.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_add.c > CMakeFiles/tommath.dir/bn_mp_add.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_add.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_add.c -o CMakeFiles/tommath.dir/bn_mp_add.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_add.c -o CMakeFiles/tommath.dir/bn_mp_add.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.o.requires:
 
@@ -1235,16 +1235,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o: ../sm2/libtommath/bn_s_mp_sqr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sqr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sqr.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_s_mp_sqr.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sqr.c > CMakeFiles/tommath.dir/bn_s_mp_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sqr.c > CMakeFiles/tommath.dir/bn_s_mp_sqr.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_s_mp_sqr.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sqr.c -o CMakeFiles/tommath.dir/bn_s_mp_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sqr.c -o CMakeFiles/tommath.dir/bn_s_mp_sqr.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o.requires:
 
@@ -1259,16 +1259,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o: ../sm2/libtommath/bn_mp_read_signed_bin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_read_signed_bin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_read_signed_bin.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_read_signed_bin.c > CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_read_signed_bin.c > CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_read_signed_bin.c -o CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_read_signed_bin.c -o CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o.requires:
 
@@ -1283,16 +1283,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o.provides.build: 
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.o: ../sm2/libtommath/bn_mp_grow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_grow.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_grow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_grow.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_grow.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_grow.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_grow.c > CMakeFiles/tommath.dir/bn_mp_grow.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_grow.c > CMakeFiles/tommath.dir/bn_mp_grow.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_grow.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_grow.c -o CMakeFiles/tommath.dir/bn_mp_grow.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_grow.c -o CMakeFiles/tommath.dir/bn_mp_grow.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.o.requires:
 
@@ -1307,16 +1307,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.o: ../sm2/libtommath/bn_mp_toradix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_toradix.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_toradix.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_toradix.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix.c > CMakeFiles/tommath.dir/bn_mp_toradix.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix.c > CMakeFiles/tommath.dir/bn_mp_toradix.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_toradix.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix.c -o CMakeFiles/tommath.dir/bn_mp_toradix.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix.c -o CMakeFiles/tommath.dir/bn_mp_toradix.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.o.requires:
 
@@ -1331,16 +1331,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.o.provides.build: sm2/libt
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o: ../sm2/libtommath/bn_mp_cmp_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_cmp_d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_d.c > CMakeFiles/tommath.dir/bn_mp_cmp_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_d.c > CMakeFiles/tommath.dir/bn_mp_cmp_d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_cmp_d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_d.c -o CMakeFiles/tommath.dir/bn_mp_cmp_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_d.c -o CMakeFiles/tommath.dir/bn_mp_cmp_d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o.requires:
 
@@ -1355,16 +1355,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.o: ../sm2/libtommath/bn_mp_invmod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_invmod.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_invmod.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_invmod.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod.c > CMakeFiles/tommath.dir/bn_mp_invmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod.c > CMakeFiles/tommath.dir/bn_mp_invmod.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_invmod.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod.c -o CMakeFiles/tommath.dir/bn_mp_invmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_invmod.c -o CMakeFiles/tommath.dir/bn_mp_invmod.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.o.requires:
 
@@ -1379,16 +1379,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.o: ../sm2/libtommath/bn_mp_rand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_rand.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_rand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_rand.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_rand.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_rand.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_rand.c > CMakeFiles/tommath.dir/bn_mp_rand.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_rand.c > CMakeFiles/tommath.dir/bn_mp_rand.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_rand.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_rand.c -o CMakeFiles/tommath.dir/bn_mp_rand.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_rand.c -o CMakeFiles/tommath.dir/bn_mp_rand.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.o.requires:
 
@@ -1403,16 +1403,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.o: ../sm2/libtommath/bn_reverse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_reverse.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_reverse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_reverse.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_reverse.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_reverse.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_reverse.c > CMakeFiles/tommath.dir/bn_reverse.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_reverse.c > CMakeFiles/tommath.dir/bn_reverse.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_reverse.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_reverse.c -o CMakeFiles/tommath.dir/bn_reverse.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_reverse.c -o CMakeFiles/tommath.dir/bn_reverse.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.o.requires:
 
@@ -1427,16 +1427,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.o: ../sm2/libtommath/bn_mp_read_radix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_read_radix.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_read_radix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_read_radix.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_read_radix.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_read_radix.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_read_radix.c > CMakeFiles/tommath.dir/bn_mp_read_radix.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_read_radix.c > CMakeFiles/tommath.dir/bn_mp_read_radix.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_read_radix.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_read_radix.c -o CMakeFiles/tommath.dir/bn_mp_read_radix.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_read_radix.c -o CMakeFiles/tommath.dir/bn_mp_read_radix.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.o.requires:
 
@@ -1451,16 +1451,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.o.provides.build: sm2/l
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.o: ../sm2/libtommath/bn_mp_jacobi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_jacobi.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_jacobi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_jacobi.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_jacobi.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_jacobi.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_jacobi.c > CMakeFiles/tommath.dir/bn_mp_jacobi.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_jacobi.c > CMakeFiles/tommath.dir/bn_mp_jacobi.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_jacobi.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_jacobi.c -o CMakeFiles/tommath.dir/bn_mp_jacobi.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_jacobi.c -o CMakeFiles/tommath.dir/bn_mp_jacobi.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.o.requires:
 
@@ -1475,16 +1475,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.o: ../sm2/libtommath/bn_mp_div_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div_2.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div_2.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_div_2.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2.c > CMakeFiles/tommath.dir/bn_mp_div_2.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2.c > CMakeFiles/tommath.dir/bn_mp_div_2.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_div_2.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2.c -o CMakeFiles/tommath.dir/bn_mp_div_2.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2.c -o CMakeFiles/tommath.dir/bn_mp_div_2.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.o.requires:
 
@@ -1499,16 +1499,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o: ../sm2/libtommath/bn_s_mp_mul_high_digs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_high_digs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_high_digs.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_high_digs.c > CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_high_digs.c > CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_high_digs.c -o CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_high_digs.c -o CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o.requires:
 
@@ -1523,16 +1523,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o.provides.build: 
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o: ../sm2/libtommath/bn_mp_mod_2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_2d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_mod_2d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_2d.c > CMakeFiles/tommath.dir/bn_mp_mod_2d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_2d.c > CMakeFiles/tommath.dir/bn_mp_mod_2d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_mod_2d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_2d.c -o CMakeFiles/tommath.dir/bn_mp_mod_2d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_2d.c -o CMakeFiles/tommath.dir/bn_mp_mod_2d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o.requires:
 
@@ -1547,16 +1547,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o: ../sm2/libtommath/bn_fast_s_mp_mul_digs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_digs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_digs.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_digs.c > CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_digs.c > CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_digs.c -o CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_digs.c -o CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o.requires:
 
@@ -1571,16 +1571,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o.provides.build: 
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o: ../sm2/libtommath/bn_mp_exteuclid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exteuclid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exteuclid.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_exteuclid.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exteuclid.c > CMakeFiles/tommath.dir/bn_mp_exteuclid.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exteuclid.c > CMakeFiles/tommath.dir/bn_mp_exteuclid.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_exteuclid.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exteuclid.c -o CMakeFiles/tommath.dir/bn_mp_exteuclid.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exteuclid.c -o CMakeFiles/tommath.dir/bn_mp_exteuclid.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o.requires:
 
@@ -1595,16 +1595,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o.provides.build: sm2/li
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o: ../sm2/libtommath/bn_mp_montgomery_calc_normalization.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_calc_normalization.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_calc_normalization.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_calc_normalization.c > CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_calc_normalization.c > CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_calc_normalization.c -o CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_calc_normalization.c -o CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o.requires:
 
@@ -1619,16 +1619,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o.pr
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o: ../sm2/libtommath/bn_mp_toom_sqr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_sqr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_sqr.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_sqr.c > CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_sqr.c > CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_sqr.c -o CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_sqr.c -o CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o.requires:
 
@@ -1643,16 +1643,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o.provides.build: sm2/lib
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.o: ../sm2/libtommath/bn_mp_set.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_set.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_set.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_set.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_set.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_set.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_set.c > CMakeFiles/tommath.dir/bn_mp_set.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_set.c > CMakeFiles/tommath.dir/bn_mp_set.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_set.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_set.c -o CMakeFiles/tommath.dir/bn_mp_set.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_set.c -o CMakeFiles/tommath.dir/bn_mp_set.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.o.requires:
 
@@ -1667,16 +1667,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.o: ../sm2/libtommath/bn_mp_mulmod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mulmod.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mulmod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mulmod.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mulmod.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_mulmod.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mulmod.c > CMakeFiles/tommath.dir/bn_mp_mulmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mulmod.c > CMakeFiles/tommath.dir/bn_mp_mulmod.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_mulmod.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mulmod.c -o CMakeFiles/tommath.dir/bn_mp_mulmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mulmod.c -o CMakeFiles/tommath.dir/bn_mp_mulmod.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.o.requires:
 
@@ -1691,16 +1691,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o: ../sm2/libtommath/bn_mp_mul_2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_mul_2d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2d.c > CMakeFiles/tommath.dir/bn_mp_mul_2d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2d.c > CMakeFiles/tommath.dir/bn_mp_mul_2d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_mul_2d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2d.c -o CMakeFiles/tommath.dir/bn_mp_mul_2d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mul_2d.c -o CMakeFiles/tommath.dir/bn_mp_mul_2d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o.requires:
 
@@ -1715,16 +1715,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o: ../sm2/libtommath/bn_mp_cmp_mag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_mag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_mag.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_mag.c > CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_mag.c > CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_mag.c -o CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_cmp_mag.c -o CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o.requires:
 
@@ -1739,16 +1739,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o.provides.build: sm2/libt
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.o: ../sm2/libtommath/bn_mp_sub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sub.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sub.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sub.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_sub.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sub.c > CMakeFiles/tommath.dir/bn_mp_sub.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sub.c > CMakeFiles/tommath.dir/bn_mp_sub.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_sub.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sub.c -o CMakeFiles/tommath.dir/bn_mp_sub.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sub.c -o CMakeFiles/tommath.dir/bn_mp_sub.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.o.requires:
 
@@ -1763,16 +1763,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.o: ../sm2/libtommath/bncore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bncore.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bncore.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bncore.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bncore.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bncore.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bncore.c > CMakeFiles/tommath.dir/bncore.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bncore.c > CMakeFiles/tommath.dir/bncore.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bncore.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bncore.c -o CMakeFiles/tommath.dir/bncore.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bncore.c -o CMakeFiles/tommath.dir/bncore.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.o.requires:
 
@@ -1787,16 +1787,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.o.provides.build: sm2/libtommath/
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.o: ../sm2/libtommath/bn_mp_copy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_copy.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_copy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_copy.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_copy.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_copy.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_copy.c > CMakeFiles/tommath.dir/bn_mp_copy.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_copy.c > CMakeFiles/tommath.dir/bn_mp_copy.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_copy.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_copy.c -o CMakeFiles/tommath.dir/bn_mp_copy.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_copy.c -o CMakeFiles/tommath.dir/bn_mp_copy.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.o.requires:
 
@@ -1811,16 +1811,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o: ../sm2/libtommath/bn_mp_to_signed_bin_n.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin_n.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin_n.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin_n.c > CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin_n.c > CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin_n.c -o CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin_n.c -o CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o.requires:
 
@@ -1835,16 +1835,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o.provides.build: 
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.o: ../sm2/libtommath/bn_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_error.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_error.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_error.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_error.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_error.c > CMakeFiles/tommath.dir/bn_error.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_error.c > CMakeFiles/tommath.dir/bn_error.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_error.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_error.c -o CMakeFiles/tommath.dir/bn_error.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_error.c -o CMakeFiles/tommath.dir/bn_error.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.o.requires:
 
@@ -1859,16 +1859,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.o.provides.build: sm2/libtommat
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.o: ../sm2/libtommath/bn_mp_or.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_or.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_or.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_or.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_or.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_or.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_or.c > CMakeFiles/tommath.dir/bn_mp_or.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_or.c > CMakeFiles/tommath.dir/bn_mp_or.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_or.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_or.c -o CMakeFiles/tommath.dir/bn_mp_or.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_or.c -o CMakeFiles/tommath.dir/bn_mp_or.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.o.requires:
 
@@ -1883,16 +1883,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.o.provides.build: sm2/libtommat
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o: ../sm2/libtommath/bn_mp_unsigned_bin_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_unsigned_bin_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_unsigned_bin_size.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_unsigned_bin_size.c > CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_unsigned_bin_size.c > CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_unsigned_bin_size.c -o CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_unsigned_bin_size.c -o CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o.requires:
 
@@ -1907,16 +1907,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o.provides.build
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o: ../sm2/libtommath/bn_mp_reduce_is_2k.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k.c > CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k.c > CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k.c -o CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k.c -o CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o.requires:
 
@@ -1931,16 +1931,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o.provides.build: sm2
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.o: ../sm2/libtommath/bn_mp_sqr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sqr.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sqr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_sqr.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sqr.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_sqr.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sqr.c > CMakeFiles/tommath.dir/bn_mp_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sqr.c > CMakeFiles/tommath.dir/bn_mp_sqr.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_sqr.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_sqr.c -o CMakeFiles/tommath.dir/bn_mp_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_sqr.c -o CMakeFiles/tommath.dir/bn_mp_sqr.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.o.requires:
 
@@ -1955,16 +1955,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o: ../sm2/libtommath/bn_mp_karatsuba_mul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_mul.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_mul.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_mul.c > CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_mul.c > CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_mul.c -o CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_mul.c -o CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o.requires:
 
@@ -1979,16 +1979,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o.provides.build: sm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.o: ../sm2/libtommath/bn_mp_radix_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_radix_size.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_radix_size.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_size.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_radix_size.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_size.c > CMakeFiles/tommath.dir/bn_mp_radix_size.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_size.c > CMakeFiles/tommath.dir/bn_mp_radix_size.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_radix_size.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_size.c -o CMakeFiles/tommath.dir/bn_mp_radix_size.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_size.c -o CMakeFiles/tommath.dir/bn_mp_radix_size.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.o.requires:
 
@@ -2003,16 +2003,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.o.provides.build: sm2/l
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o: ../sm2/libtommath/bn_mp_montgomery_reduce.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_reduce.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_reduce.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_reduce.c > CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_reduce.c > CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_reduce.c -o CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_reduce.c -o CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o.requires:
 
@@ -2027,16 +2027,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o.provides.build
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.o: ../sm2/libtommath/bn_mp_lcm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_lcm.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_lcm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_lcm.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_lcm.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_lcm.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_lcm.c > CMakeFiles/tommath.dir/bn_mp_lcm.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_lcm.c > CMakeFiles/tommath.dir/bn_mp_lcm.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_lcm.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_lcm.c -o CMakeFiles/tommath.dir/bn_mp_lcm.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_lcm.c -o CMakeFiles/tommath.dir/bn_mp_lcm.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.o.requires:
 
@@ -2051,16 +2051,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o: ../sm2/libtommath/bn_mp_reduce_is_2k_l.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k_l.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k_l.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k_l.c > CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k_l.c > CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k_l.c -o CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_is_2k_l.c -o CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o.requires:
 
@@ -2075,16 +2075,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o.provides.build: s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.o: ../sm2/libtommath/bn_mp_div_2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div_2d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div_2d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_div_2d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2d.c > CMakeFiles/tommath.dir/bn_mp_div_2d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2d.c > CMakeFiles/tommath.dir/bn_mp_div_2d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_div_2d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2d.c -o CMakeFiles/tommath.dir/bn_mp_div_2d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_2d.c -o CMakeFiles/tommath.dir/bn_mp_div_2d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.o.requires:
 
@@ -2099,16 +2099,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o: ../sm2/libtommath/bn_mp_toom_mul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_mul.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_mul.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_toom_mul.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_mul.c > CMakeFiles/tommath.dir/bn_mp_toom_mul.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_mul.c > CMakeFiles/tommath.dir/bn_mp_toom_mul.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_toom_mul.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_mul.c -o CMakeFiles/tommath.dir/bn_mp_toom_mul.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toom_mul.c -o CMakeFiles/tommath.dir/bn_mp_toom_mul.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o.requires:
 
@@ -2123,16 +2123,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o.provides.build: sm2/lib
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o: ../sm2/libtommath/bn_mp_karatsuba_sqr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_sqr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_sqr.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_sqr.c > CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_sqr.c > CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_sqr.c -o CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_karatsuba_sqr.c -o CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o.requires:
 
@@ -2147,16 +2147,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o.provides.build: sm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o: ../sm2/libtommath/bn_mp_prime_next_prime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_next_prime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_next_prime.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_next_prime.c > CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_next_prime.c > CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_next_prime.c -o CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_next_prime.c -o CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o.requires:
 
@@ -2171,16 +2171,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o.provides.build:
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.o: ../sm2/libtommath/bn_s_mp_add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_add.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_add.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_add.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_s_mp_add.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_add.c > CMakeFiles/tommath.dir/bn_s_mp_add.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_add.c > CMakeFiles/tommath.dir/bn_s_mp_add.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_s_mp_add.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_add.c -o CMakeFiles/tommath.dir/bn_s_mp_add.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_add.c -o CMakeFiles/tommath.dir/bn_s_mp_add.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.o.requires:
 
@@ -2195,16 +2195,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o: ../sm2/libtommath/bn_mp_prime_is_divisible.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_divisible.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_divisible.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_divisible.c > CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_divisible.c > CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_divisible.c -o CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_is_divisible.c -o CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o.requires:
 
@@ -2219,16 +2219,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o.provides.buil
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.o: ../sm2/libtommath/bn_mp_addmod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_addmod.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_addmod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_addmod.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_addmod.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_addmod.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_addmod.c > CMakeFiles/tommath.dir/bn_mp_addmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_addmod.c > CMakeFiles/tommath.dir/bn_mp_addmod.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_addmod.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_addmod.c -o CMakeFiles/tommath.dir/bn_mp_addmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_addmod.c -o CMakeFiles/tommath.dir/bn_mp_addmod.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.o.requires:
 
@@ -2243,16 +2243,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.o: ../sm2/libtommath/bn_mp_exptmod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_exptmod.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_exptmod.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_exptmod.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod.c > CMakeFiles/tommath.dir/bn_mp_exptmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod.c > CMakeFiles/tommath.dir/bn_mp_exptmod.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_exptmod.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod.c -o CMakeFiles/tommath.dir/bn_mp_exptmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_exptmod.c -o CMakeFiles/tommath.dir/bn_mp_exptmod.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.o.requires:
 
@@ -2267,16 +2267,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.o.provides.build: sm2/libt
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.o: ../sm2/libtommath/bn_mp_div_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div_3.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_div_3.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_3.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_div_3.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_3.c > CMakeFiles/tommath.dir/bn_mp_div_3.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_3.c > CMakeFiles/tommath.dir/bn_mp_div_3.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_div_3.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_div_3.c -o CMakeFiles/tommath.dir/bn_mp_div_3.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_div_3.c -o CMakeFiles/tommath.dir/bn_mp_div_3.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.o.requires:
 
@@ -2291,16 +2291,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.o: ../sm2/libtommath/bn_mp_abs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_abs.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_abs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_abs.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_abs.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_abs.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_abs.c > CMakeFiles/tommath.dir/bn_mp_abs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_abs.c > CMakeFiles/tommath.dir/bn_mp_abs.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_abs.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_abs.c -o CMakeFiles/tommath.dir/bn_mp_abs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_abs.c -o CMakeFiles/tommath.dir/bn_mp_abs.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.o.requires:
 
@@ -2315,16 +2315,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.o: ../sm2/libtommath/bn_mp_fwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_fwrite.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_fwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_fwrite.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_fwrite.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_fwrite.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_fwrite.c > CMakeFiles/tommath.dir/bn_mp_fwrite.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_fwrite.c > CMakeFiles/tommath.dir/bn_mp_fwrite.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_fwrite.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_fwrite.c -o CMakeFiles/tommath.dir/bn_mp_fwrite.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_fwrite.c -o CMakeFiles/tommath.dir/bn_mp_fwrite.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.o.requires:
 
@@ -2339,16 +2339,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.o: ../sm2/libtommath/bn_mp_is_square.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_is_square.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_is_square.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_is_square.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_is_square.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_is_square.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_is_square.c > CMakeFiles/tommath.dir/bn_mp_is_square.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_is_square.c > CMakeFiles/tommath.dir/bn_mp_is_square.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_is_square.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_is_square.c -o CMakeFiles/tommath.dir/bn_mp_is_square.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_is_square.c -o CMakeFiles/tommath.dir/bn_mp_is_square.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.o.requires:
 
@@ -2363,16 +2363,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.o.provides.build: sm2/li
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.o: ../sm2/libtommath/bn_s_mp_sub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_sub.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_sub.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sub.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_s_mp_sub.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sub.c > CMakeFiles/tommath.dir/bn_s_mp_sub.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sub.c > CMakeFiles/tommath.dir/bn_s_mp_sub.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_s_mp_sub.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sub.c -o CMakeFiles/tommath.dir/bn_s_mp_sub.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_sub.c -o CMakeFiles/tommath.dir/bn_s_mp_sub.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.o.requires:
 
@@ -2387,16 +2387,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o: ../sm2/libtommath/bn_mp_prime_random_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_random_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_random_ex.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_random_ex.c > CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_random_ex.c > CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_random_ex.c -o CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_prime_random_ex.c -o CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o.requires:
 
@@ -2411,16 +2411,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o.provides.build: 
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o: ../sm2/libtommath/bn_mp_to_unsigned_bin_n.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin_n.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin_n.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin_n.c > CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin_n.c > CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin_n.c -o CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_unsigned_bin_n.c -o CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o.requires:
 
@@ -2435,16 +2435,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o.provides.build
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.o: ../sm2/libtommath/bn_mp_set_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_set_int.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_set_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_set_int.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_set_int.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_set_int.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_set_int.c > CMakeFiles/tommath.dir/bn_mp_set_int.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_set_int.c > CMakeFiles/tommath.dir/bn_mp_set_int.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_set_int.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_set_int.c -o CMakeFiles/tommath.dir/bn_mp_set_int.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_set_int.c -o CMakeFiles/tommath.dir/bn_mp_set_int.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.o.requires:
 
@@ -2459,16 +2459,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.o.provides.build: sm2/libt
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o: ../sm2/libtommath/bn_mp_reduce_2k_setup_l.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup_l.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup_l.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup_l.c > CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup_l.c > CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup_l.c -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k_setup_l.c -o CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o.requires:
 
@@ -2483,16 +2483,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o.provides.build
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.o: ../sm2/libtommath/bn_mp_mod_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mod_d.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mod_d.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_d.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_mod_d.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_d.c > CMakeFiles/tommath.dir/bn_mp_mod_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_d.c > CMakeFiles/tommath.dir/bn_mp_mod_d.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_mod_d.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_d.c -o CMakeFiles/tommath.dir/bn_mp_mod_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mod_d.c -o CMakeFiles/tommath.dir/bn_mp_mod_d.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.o.requires:
 
@@ -2507,16 +2507,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o: ../sm2/libtommath/bn_fast_mp_invmod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_invmod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_invmod.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_invmod.c > CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_invmod.c > CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_invmod.c -o CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_invmod.c -o CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o.requires:
 
@@ -2531,16 +2531,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o.provides.build: sm2/
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.o: ../sm2/libtommath/bn_mp_mod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mod.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_mod.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mod.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_mod.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mod.c > CMakeFiles/tommath.dir/bn_mp_mod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mod.c > CMakeFiles/tommath.dir/bn_mp_mod.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_mod.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_mod.c -o CMakeFiles/tommath.dir/bn_mp_mod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_mod.c -o CMakeFiles/tommath.dir/bn_mp_mod.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.o.requires:
 
@@ -2555,16 +2555,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.o: ../sm2/libtommath/bn_mp_clear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_clear.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_clear.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_clear.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_clear.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_clear.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_clear.c > CMakeFiles/tommath.dir/bn_mp_clear.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_clear.c > CMakeFiles/tommath.dir/bn_mp_clear.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_clear.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_clear.c -o CMakeFiles/tommath.dir/bn_mp_clear.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_clear.c -o CMakeFiles/tommath.dir/bn_mp_clear.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.o.requires:
 
@@ -2579,16 +2579,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.o.provides.build: sm2/libtom
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o: ../sm2/libtommath/bn_s_mp_mul_digs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_digs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_digs.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_digs.c > CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_digs.c > CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_digs.c -o CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_mul_digs.c -o CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o.requires:
 
@@ -2603,16 +2603,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o.provides.build: sm2/l
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o: ../sm2/libtommath/bn_mp_radix_smap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_smap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_smap.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_radix_smap.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_smap.c > CMakeFiles/tommath.dir/bn_mp_radix_smap.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_smap.c > CMakeFiles/tommath.dir/bn_mp_radix_smap.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_radix_smap.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_smap.c -o CMakeFiles/tommath.dir/bn_mp_radix_smap.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_radix_smap.c -o CMakeFiles/tommath.dir/bn_mp_radix_smap.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o.requires:
 
@@ -2627,16 +2627,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o.provides.build: sm2/l
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o: ../sm2/libtommath/bn_mp_reduce_2k.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k.c > CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k.c > CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k.c -o CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_reduce_2k.c -o CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o.requires:
 
@@ -2651,16 +2651,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o.provides.build: sm2/li
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o: ../sm2/libtommath/bn_fast_mp_montgomery_reduce.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_montgomery_reduce.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_montgomery_reduce.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_montgomery_reduce.c > CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_montgomery_reduce.c > CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_montgomery_reduce.c -o CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_mp_montgomery_reduce.c -o CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o.requires:
 
@@ -2675,16 +2675,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o.provides.
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.o: ../sm2/libtommath/bn_mp_zero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_zero.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_zero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_zero.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_zero.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_zero.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_zero.c > CMakeFiles/tommath.dir/bn_mp_zero.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_zero.c > CMakeFiles/tommath.dir/bn_mp_zero.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_zero.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_zero.c -o CMakeFiles/tommath.dir/bn_mp_zero.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_zero.c -o CMakeFiles/tommath.dir/bn_mp_zero.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.o.requires:
 
@@ -2699,16 +2699,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.o.provides.build: sm2/libtomm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o: ../sm2/libtommath/bn_mp_montgomery_setup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_setup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_setup.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_setup.c > CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_setup.c > CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_setup.c -o CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_montgomery_setup.c -o CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o.requires:
 
@@ -2723,16 +2723,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o.provides.build:
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o: ../sm2/libtommath/bn_mp_to_signed_bin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin.c > CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin.c > CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin.c -o CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_to_signed_bin.c -o CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o.requires:
 
@@ -2747,16 +2747,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o.provides.build: sm
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.o: ../sm2/libtommath/bn_mp_shrink.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_shrink.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_shrink.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_shrink.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_shrink.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_shrink.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_shrink.c > CMakeFiles/tommath.dir/bn_mp_shrink.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_shrink.c > CMakeFiles/tommath.dir/bn_mp_shrink.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_shrink.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_shrink.c -o CMakeFiles/tommath.dir/bn_mp_shrink.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_shrink.c -o CMakeFiles/tommath.dir/bn_mp_shrink.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.o.requires:
 
@@ -2771,16 +2771,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.o.provides.build: sm2/libto
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o: ../sm2/libtommath/bn_fast_s_mp_mul_high_digs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_high_digs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_high_digs.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_high_digs.c > CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_high_digs.c > CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_high_digs.c -o CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_fast_s_mp_mul_high_digs.c -o CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o.requires:
 
@@ -2795,16 +2795,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o.provides.bu
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o: ../sm2/libtommath/bn_mp_toradix_n.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix_n.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix_n.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_toradix_n.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix_n.c > CMakeFiles/tommath.dir/bn_mp_toradix_n.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix_n.c > CMakeFiles/tommath.dir/bn_mp_toradix_n.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_toradix_n.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix_n.c -o CMakeFiles/tommath.dir/bn_mp_toradix_n.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_toradix_n.c -o CMakeFiles/tommath.dir/bn_mp_toradix_n.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o.requires:
 
@@ -2819,16 +2819,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o.provides.build: sm2/li
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.o: ../sm2/libtommath/bn_mp_get_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_get_int.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_get_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_get_int.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_get_int.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_get_int.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_get_int.c > CMakeFiles/tommath.dir/bn_mp_get_int.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_get_int.c > CMakeFiles/tommath.dir/bn_mp_get_int.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_get_int.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_get_int.c -o CMakeFiles/tommath.dir/bn_mp_get_int.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_get_int.c -o CMakeFiles/tommath.dir/bn_mp_get_int.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.o.requires:
 
@@ -2843,16 +2843,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.o.provides.build: sm2/libt
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o: ../sm2/libtommath/bn_mp_clear_multi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_clear_multi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_clear_multi.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_clear_multi.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_clear_multi.c > CMakeFiles/tommath.dir/bn_mp_clear_multi.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_clear_multi.c > CMakeFiles/tommath.dir/bn_mp_clear_multi.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_clear_multi.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_clear_multi.c -o CMakeFiles/tommath.dir/bn_mp_clear_multi.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_clear_multi.c -o CMakeFiles/tommath.dir/bn_mp_clear_multi.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o.requires:
 
@@ -2867,16 +2867,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o.provides.build: sm2/
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.o: ../sm2/libtommath/bn_mp_and.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_and.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_and.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_mp_and.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_and.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_mp_and.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_and.c > CMakeFiles/tommath.dir/bn_mp_and.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_and.c > CMakeFiles/tommath.dir/bn_mp_and.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_mp_and.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_mp_and.c -o CMakeFiles/tommath.dir/bn_mp_and.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_mp_and.c -o CMakeFiles/tommath.dir/bn_mp_and.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.o.requires:
 
@@ -2891,16 +2891,16 @@ sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.o.provides.build: sm2/libtomma
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o: sm2/libtommath/CMakeFiles/tommath.dir/flags.make
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o: ../sm2/libtommath/bn_s_mp_exptmod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_exptmod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_exptmod.c
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_exptmod.c > CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_exptmod.c > CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.i
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath/bn_s_mp_exptmod.c -o CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath/bn_s_mp_exptmod.c -o CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.s
 
 sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o.requires:
 
@@ -3159,8 +3159,8 @@ tommath_EXTERNAL_OBJECTS =
 ../lib/libtommath.so: sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o
 ../lib/libtommath.so: sm2/libtommath/CMakeFiles/tommath.dir/build.make
 ../lib/libtommath.so: sm2/libtommath/CMakeFiles/tommath.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Linking C shared library ../../../lib/libtommath.so"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tommath.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Linking C shared library ../../../lib/libtommath.so"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tommath.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sm2/libtommath/CMakeFiles/tommath.dir/build: ../lib/libtommath.so
@@ -3290,10 +3290,10 @@ sm2/libtommath/CMakeFiles/tommath.dir/requires: sm2/libtommath/CMakeFiles/tommat
 .PHONY : sm2/libtommath/CMakeFiles/tommath.dir/requires
 
 sm2/libtommath/CMakeFiles/tommath.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath && $(CMAKE_COMMAND) -P CMakeFiles/tommath.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath && $(CMAKE_COMMAND) -P CMakeFiles/tommath.dir/cmake_clean.cmake
 .PHONY : sm2/libtommath/CMakeFiles/tommath.dir/clean
 
 sm2/libtommath/CMakeFiles/tommath.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/sm2/libtommath /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath/CMakeFiles/tommath.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/libtommath /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath/CMakeFiles/tommath.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sm2/libtommath/CMakeFiles/tommath.dir/depend
 

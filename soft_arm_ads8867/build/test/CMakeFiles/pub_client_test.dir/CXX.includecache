@@ -280,7 +280,7 @@ stdlib.h
 pthread.h
 -
 
-/home/ramandrom/sharedir/soft_arm_ads8867/test/src/pub_client_test.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/pub_client_test.cpp
 mqtt.h
-/home/ramandrom/sharedir/soft_arm_ads8867/test/src/mqtt.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/mqtt.h
 

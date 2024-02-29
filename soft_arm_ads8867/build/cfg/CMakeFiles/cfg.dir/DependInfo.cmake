@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ramandrom/sharedir/soft_arm_ads8867/cfg/src/alarm.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/cfg/src/otaload.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cfg/src/alarm.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cfg/src/otaload.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -41,14 +41,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../cfg/include"
   "../iirfilter/include"
   "../tools/zlib-1.2.13/include"
+  "../cgi-bin/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/mqtt/CMakeFiles/mqtt_pub.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/database/CMakeFiles/kydatabase.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/mqtt/CMakeFiles/mqtt_pub.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database/CMakeFiles/kydatabase.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

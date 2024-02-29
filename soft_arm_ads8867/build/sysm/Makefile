@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm/CMakeFiles/progress.marks
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm/CMakeFiles/progress.marks
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/clean
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sysm/CMakeFiles/sysm.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/CMakeFiles/sysm.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sysm/CMakeFiles/sysm.dir/rule
 .PHONY : sysm/CMakeFiles/sysm.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ sysm: sysm/CMakeFiles/sysm.dir/rule
 
 # fast build rule for target.
 sysm/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/build
 .PHONY : sysm/fast
 
 src/sysm.o: src/sysm.cpp.o
@@ -131,7 +131,7 @@ src/sysm.o: src/sysm.cpp.o
 
 # target to build an object file
 src/sysm.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm.cpp.o
 .PHONY : src/sysm.cpp.o
 
 src/sysm.i: src/sysm.cpp.i
@@ -140,7 +140,7 @@ src/sysm.i: src/sysm.cpp.i
 
 # target to preprocess a source file
 src/sysm.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm.cpp.i
 .PHONY : src/sysm.cpp.i
 
 src/sysm.s: src/sysm.cpp.s
@@ -149,7 +149,7 @@ src/sysm.s: src/sysm.cpp.s
 
 # target to generate assembly for a file
 src/sysm.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm.cpp.s
 .PHONY : src/sysm.cpp.s
 
 src/sysm_LedAndHeart.o: src/sysm_LedAndHeart.cpp.o
@@ -158,7 +158,7 @@ src/sysm_LedAndHeart.o: src/sysm_LedAndHeart.cpp.o
 
 # target to build an object file
 src/sysm_LedAndHeart.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.o
 .PHONY : src/sysm_LedAndHeart.cpp.o
 
 src/sysm_LedAndHeart.i: src/sysm_LedAndHeart.cpp.i
@@ -167,7 +167,7 @@ src/sysm_LedAndHeart.i: src/sysm_LedAndHeart.cpp.i
 
 # target to preprocess a source file
 src/sysm_LedAndHeart.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.i
 .PHONY : src/sysm_LedAndHeart.cpp.i
 
 src/sysm_LedAndHeart.s: src/sysm_LedAndHeart.cpp.s
@@ -176,7 +176,7 @@ src/sysm_LedAndHeart.s: src/sysm_LedAndHeart.cpp.s
 
 # target to generate assembly for a file
 src/sysm_LedAndHeart.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.s
 .PHONY : src/sysm_LedAndHeart.cpp.s
 
 src/sysm_authorization.o: src/sysm_authorization.cpp.o
@@ -185,7 +185,7 @@ src/sysm_authorization.o: src/sysm_authorization.cpp.o
 
 # target to build an object file
 src/sysm_authorization.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o
 .PHONY : src/sysm_authorization.cpp.o
 
 src/sysm_authorization.i: src/sysm_authorization.cpp.i
@@ -194,7 +194,7 @@ src/sysm_authorization.i: src/sysm_authorization.cpp.i
 
 # target to preprocess a source file
 src/sysm_authorization.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.i
 .PHONY : src/sysm_authorization.cpp.i
 
 src/sysm_authorization.s: src/sysm_authorization.cpp.s
@@ -203,7 +203,7 @@ src/sysm_authorization.s: src/sysm_authorization.cpp.s
 
 # target to generate assembly for a file
 src/sysm_authorization.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.s
 .PHONY : src/sysm_authorization.cpp.s
 
 src/sysm_log.o: src/sysm_log.cpp.o
@@ -212,7 +212,7 @@ src/sysm_log.o: src/sysm_log.cpp.o
 
 # target to build an object file
 src/sysm_log.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.o
 .PHONY : src/sysm_log.cpp.o
 
 src/sysm_log.i: src/sysm_log.cpp.i
@@ -221,7 +221,7 @@ src/sysm_log.i: src/sysm_log.cpp.i
 
 # target to preprocess a source file
 src/sysm_log.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.i
 .PHONY : src/sysm_log.cpp.i
 
 src/sysm_log.s: src/sysm_log.cpp.s
@@ -230,7 +230,7 @@ src/sysm_log.s: src/sysm_log.cpp.s
 
 # target to generate assembly for a file
 src/sysm_log.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sysm/CMakeFiles/sysm.dir/build.make sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.s
 .PHONY : src/sysm_log.cpp.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

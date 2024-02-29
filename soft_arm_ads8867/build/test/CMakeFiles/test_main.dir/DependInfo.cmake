@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ramandrom/sharedir/soft_arm_ads8867/test/src/main_test.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/test/CMakeFiles/test_main.dir/src/main_test.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/main_test.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test/CMakeFiles/test_main.dir/src/main_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -40,6 +40,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../cfg/include"
   "../iirfilter/include"
   "../tools/zlib-1.2.13/include"
+  "../cgi-bin/include"
   "../test/include"
   )
 

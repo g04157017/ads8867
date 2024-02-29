@@ -40,39 +40,39 @@ tommath.h
 
 ../sm2/sm2_imp/include/sm3.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/base64.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/base64.cpp
 string.h
 -
 stdlib.h
 -
 base64.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/base64.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/base64.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm2.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm2.cpp
 sm2.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm2.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm2.h
 sm3.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm3.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm3.h
 tommath.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/tommath.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/tommath.h
 stdio.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/stdio.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/stdio.h
 stdlib.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/stdlib.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/stdlib.h
 string.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/string.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/string.h
 GM_define.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/GM_define.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/GM_define.h
 time.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/time.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/time.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm3.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm3.cpp
 sm3.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm3.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm3.h
 stdio.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/stdio.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/stdio.h
 stdlib.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/stdlib.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/stdlib.h
 string.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/string.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/string.h
 

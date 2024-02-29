@@ -3,7 +3,7 @@
 
 sm2/sm2_imp/CMakeFiles/sm2.dir/src/base64.cpp.o
  ../sm2/sm2_imp/include/base64.h
- /home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/base64.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/base64.cpp
 sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm2.cpp.o
  ../sm2/include/tommath.h
  ../sm2/include/tommath_class.h
@@ -11,7 +11,7 @@ sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm2.cpp.o
  ../sm2/sm2_imp/include/GM_define.h
  ../sm2/sm2_imp/include/sm2.h
  ../sm2/sm2_imp/include/sm3.h
- /home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm2.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm2.cpp
 sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm3.cpp.o
  ../sm2/sm2_imp/include/sm3.h
- /home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm3.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm3.cpp

@@ -38,11 +38,11 @@ stdint.h
 stddef.h
 -
 
-/home/ramandrom/sharedir/soft_arm_ads8867/json/src/CJsonObject.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/CJsonObject.cpp
 CJsonObject.h
-/home/ramandrom/sharedir/soft_arm_ads8867/json/src/CJsonObject.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/CJsonObject.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/json/src/cJSON.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/cJSON.cpp
 string.h
 -
 stdio.h
@@ -58,11 +58,11 @@ limits.h
 ctype.h
 -
 cJSON.h
-/home/ramandrom/sharedir/soft_arm_ads8867/json/src/cJSON.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/cJSON.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/json/src/parson.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/parson.cpp
 parson.h
-/home/ramandrom/sharedir/soft_arm_ads8867/json/src/parson.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/parson.h
 stdio.h
 -
 stdlib.h

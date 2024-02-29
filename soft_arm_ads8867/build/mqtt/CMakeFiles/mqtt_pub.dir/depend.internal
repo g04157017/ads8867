@@ -19,4 +19,4 @@ mqtt/CMakeFiles/mqtt_pub.dir/src/mqtt_pub.cpp.o
  ../tools/zlib-1.2.13/include/zlib.h
  ../utils/include/list.h
  ../utils/include/queue.h
- /home/ramandrom/sharedir/soft_arm_ads8867/mqtt/src/mqtt_pub.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/mqtt/src/mqtt_pub.cpp

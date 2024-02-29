@@ -198,11 +198,11 @@ pkt_queue.h
 ringbuf.h
 ../utils/include/ringbuf.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/utils/src/utils.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/utils/src/utils.cpp
 stdio.h
 -
 utils.h
-/home/ramandrom/sharedir/soft_arm_ads8867/utils/src/utils.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/utils/src/utils.h
 utils_inc.h
-/home/ramandrom/sharedir/soft_arm_ads8867/utils/src/utils_inc.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/utils/src/utils_inc.h
 

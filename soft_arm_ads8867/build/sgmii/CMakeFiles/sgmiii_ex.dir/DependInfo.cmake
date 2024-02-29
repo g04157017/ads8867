@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ramandrom/sharedir/soft_arm_ads8867/sgmii/src/sgmii.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/sgmii/CMakeFiles/sgmiii_ex.dir/src/sgmii.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sgmii/src/sgmii.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sgmii/CMakeFiles/sgmiii_ex.dir/src/sgmii.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -40,13 +40,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../cfg/include"
   "../iirfilter/include"
   "../tools/zlib-1.2.13/include"
+  "../cgi-bin/include"
   "../sgmii/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

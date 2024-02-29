@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser/CMakeFiles/progress.marks
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser/CMakeFiles/progress.marks
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/clean
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 iniparser/CMakeFiles/iniparser.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/CMakeFiles/iniparser.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 iniparser/CMakeFiles/iniparser.dir/rule
 .PHONY : iniparser/CMakeFiles/iniparser.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ iniparser: iniparser/CMakeFiles/iniparser.dir/rule
 
 # fast build rule for target.
 iniparser/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/build
 .PHONY : iniparser/fast
 
 src/dictionary.o: src/dictionary.cpp.o
@@ -131,7 +131,7 @@ src/dictionary.o: src/dictionary.cpp.o
 
 # target to build an object file
 src/dictionary.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o
 .PHONY : src/dictionary.cpp.o
 
 src/dictionary.i: src/dictionary.cpp.i
@@ -140,7 +140,7 @@ src/dictionary.i: src/dictionary.cpp.i
 
 # target to preprocess a source file
 src/dictionary.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.i
 .PHONY : src/dictionary.cpp.i
 
 src/dictionary.s: src/dictionary.cpp.s
@@ -149,7 +149,7 @@ src/dictionary.s: src/dictionary.cpp.s
 
 # target to generate assembly for a file
 src/dictionary.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.s
 .PHONY : src/dictionary.cpp.s
 
 src/iniext.o: src/iniext.cpp.o
@@ -158,7 +158,7 @@ src/iniext.o: src/iniext.cpp.o
 
 # target to build an object file
 src/iniext.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o
 .PHONY : src/iniext.cpp.o
 
 src/iniext.i: src/iniext.cpp.i
@@ -167,7 +167,7 @@ src/iniext.i: src/iniext.cpp.i
 
 # target to preprocess a source file
 src/iniext.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.i
 .PHONY : src/iniext.cpp.i
 
 src/iniext.s: src/iniext.cpp.s
@@ -176,7 +176,7 @@ src/iniext.s: src/iniext.cpp.s
 
 # target to generate assembly for a file
 src/iniext.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.s
 .PHONY : src/iniext.cpp.s
 
 src/iniparser.o: src/iniparser.cpp.o
@@ -185,7 +185,7 @@ src/iniparser.o: src/iniparser.cpp.o
 
 # target to build an object file
 src/iniparser.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o
 .PHONY : src/iniparser.cpp.o
 
 src/iniparser.i: src/iniparser.cpp.i
@@ -194,7 +194,7 @@ src/iniparser.i: src/iniparser.cpp.i
 
 # target to preprocess a source file
 src/iniparser.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.i
 .PHONY : src/iniparser.cpp.i
 
 src/iniparser.s: src/iniparser.cpp.s
@@ -203,7 +203,7 @@ src/iniparser.s: src/iniparser.cpp.s
 
 # target to generate assembly for a file
 src/iniparser.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f iniparser/CMakeFiles/iniparser.dir/build.make iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.s
 .PHONY : src/iniparser.cpp.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

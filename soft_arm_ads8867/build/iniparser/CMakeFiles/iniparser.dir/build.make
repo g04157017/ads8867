@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include iniparser/CMakeFiles/iniparser.dir/depend.make
@@ -59,16 +59,16 @@ include iniparser/CMakeFiles/iniparser.dir/flags.make
 
 iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o: iniparser/CMakeFiles/iniparser.dir/flags.make
 iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o: ../iniparser/src/iniparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iniparser.dir/src/iniparser.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iniparser.dir/src/iniparser.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniparser.cpp
 
 iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iniparser.dir/src/iniparser.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniparser.cpp > CMakeFiles/iniparser.dir/src/iniparser.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniparser.cpp > CMakeFiles/iniparser.dir/src/iniparser.cpp.i
 
 iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iniparser.dir/src/iniparser.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniparser.cpp -o CMakeFiles/iniparser.dir/src/iniparser.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniparser.cpp -o CMakeFiles/iniparser.dir/src/iniparser.cpp.s
 
 iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o.requires:
 
@@ -83,16 +83,16 @@ iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o.provides.build: iniparser
 
 iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o: iniparser/CMakeFiles/iniparser.dir/flags.make
 iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o: ../iniparser/src/dictionary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iniparser.dir/src/dictionary.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/dictionary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iniparser.dir/src/dictionary.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/dictionary.cpp
 
 iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iniparser.dir/src/dictionary.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/dictionary.cpp > CMakeFiles/iniparser.dir/src/dictionary.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/dictionary.cpp > CMakeFiles/iniparser.dir/src/dictionary.cpp.i
 
 iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iniparser.dir/src/dictionary.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/dictionary.cpp -o CMakeFiles/iniparser.dir/src/dictionary.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/dictionary.cpp -o CMakeFiles/iniparser.dir/src/dictionary.cpp.s
 
 iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o.requires:
 
@@ -107,16 +107,16 @@ iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o.provides.build: iniparse
 
 iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o: iniparser/CMakeFiles/iniparser.dir/flags.make
 iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o: ../iniparser/src/iniext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iniparser.dir/src/iniext.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iniparser.dir/src/iniext.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniext.cpp
 
 iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iniparser.dir/src/iniext.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniext.cpp > CMakeFiles/iniparser.dir/src/iniext.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniext.cpp > CMakeFiles/iniparser.dir/src/iniext.cpp.i
 
 iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iniparser.dir/src/iniext.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniext.cpp -o CMakeFiles/iniparser.dir/src/iniext.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniext.cpp -o CMakeFiles/iniparser.dir/src/iniext.cpp.s
 
 iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o.requires:
 
@@ -143,8 +143,8 @@ iniparser_EXTERNAL_OBJECTS =
 ../lib/libiniparser.so: iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o
 ../lib/libiniparser.so: iniparser/CMakeFiles/iniparser.dir/build.make
 ../lib/libiniparser.so: iniparser/CMakeFiles/iniparser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../lib/libiniparser.so"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iniparser.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../lib/libiniparser.so"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iniparser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 iniparser/CMakeFiles/iniparser.dir/build: ../lib/libiniparser.so
@@ -158,10 +158,10 @@ iniparser/CMakeFiles/iniparser.dir/requires: iniparser/CMakeFiles/iniparser.dir/
 .PHONY : iniparser/CMakeFiles/iniparser.dir/requires
 
 iniparser/CMakeFiles/iniparser.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser && $(CMAKE_COMMAND) -P CMakeFiles/iniparser.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser && $(CMAKE_COMMAND) -P CMakeFiles/iniparser.dir/cmake_clean.cmake
 .PHONY : iniparser/CMakeFiles/iniparser.dir/clean
 
 iniparser/CMakeFiles/iniparser.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/iniparser /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser /home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : iniparser/CMakeFiles/iniparser.dir/depend
 

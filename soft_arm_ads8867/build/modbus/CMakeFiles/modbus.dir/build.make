@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include modbus/CMakeFiles/modbus.dir/depend.make
@@ -59,16 +59,16 @@ include modbus/CMakeFiles/modbus.dir/flags.make
 
 modbus/CMakeFiles/modbus.dir/src/modbus.c.o: modbus/CMakeFiles/modbus.dir/flags.make
 modbus/CMakeFiles/modbus.dir/src/modbus.c.o: ../modbus/src/modbus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object modbus/CMakeFiles/modbus.dir/src/modbus.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/modbus.dir/src/modbus.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object modbus/CMakeFiles/modbus.dir/src/modbus.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/modbus.dir/src/modbus.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus.c
 
 modbus/CMakeFiles/modbus.dir/src/modbus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/modbus.dir/src/modbus.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus.c > CMakeFiles/modbus.dir/src/modbus.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus.c > CMakeFiles/modbus.dir/src/modbus.c.i
 
 modbus/CMakeFiles/modbus.dir/src/modbus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/modbus.dir/src/modbus.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus.c -o CMakeFiles/modbus.dir/src/modbus.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus.c -o CMakeFiles/modbus.dir/src/modbus.c.s
 
 modbus/CMakeFiles/modbus.dir/src/modbus.c.o.requires:
 
@@ -83,16 +83,16 @@ modbus/CMakeFiles/modbus.dir/src/modbus.c.o.provides.build: modbus/CMakeFiles/mo
 
 modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o: modbus/CMakeFiles/modbus.dir/flags.make
 modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o: ../modbus/src/modbus-data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/modbus.dir/src/modbus-data.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/modbus.dir/src/modbus-data.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-data.c
 
 modbus/CMakeFiles/modbus.dir/src/modbus-data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/modbus.dir/src/modbus-data.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-data.c > CMakeFiles/modbus.dir/src/modbus-data.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-data.c > CMakeFiles/modbus.dir/src/modbus-data.c.i
 
 modbus/CMakeFiles/modbus.dir/src/modbus-data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/modbus.dir/src/modbus-data.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-data.c -o CMakeFiles/modbus.dir/src/modbus-data.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-data.c -o CMakeFiles/modbus.dir/src/modbus-data.c.s
 
 modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o.requires:
 
@@ -107,16 +107,16 @@ modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o.provides.build: modbus/CMakeFil
 
 modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o: modbus/CMakeFiles/modbus.dir/flags.make
 modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o: ../modbus/src/modbus-rtu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/modbus.dir/src/modbus-rtu.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-rtu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/modbus.dir/src/modbus-rtu.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-rtu.c
 
 modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/modbus.dir/src/modbus-rtu.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-rtu.c > CMakeFiles/modbus.dir/src/modbus-rtu.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-rtu.c > CMakeFiles/modbus.dir/src/modbus-rtu.c.i
 
 modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/modbus.dir/src/modbus-rtu.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-rtu.c -o CMakeFiles/modbus.dir/src/modbus-rtu.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-rtu.c -o CMakeFiles/modbus.dir/src/modbus-rtu.c.s
 
 modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o.requires:
 
@@ -131,16 +131,16 @@ modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o.provides.build: modbus/CMakeFile
 
 modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o: modbus/CMakeFiles/modbus.dir/flags.make
 modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o: ../modbus/src/modbus-tcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/modbus.dir/src/modbus-tcp.c.o   -c /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-tcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/modbus.dir/src/modbus-tcp.c.o   -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-tcp.c
 
 modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/modbus.dir/src/modbus-tcp.c.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-tcp.c > CMakeFiles/modbus.dir/src/modbus-tcp.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-tcp.c > CMakeFiles/modbus.dir/src/modbus-tcp.c.i
 
 modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/modbus.dir/src/modbus-tcp.c.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-tcp.c -o CMakeFiles/modbus.dir/src/modbus-tcp.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-tcp.c -o CMakeFiles/modbus.dir/src/modbus-tcp.c.s
 
 modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o.requires:
 
@@ -169,8 +169,8 @@ modbus_EXTERNAL_OBJECTS =
 ../lib/libmodbus.so: modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o
 ../lib/libmodbus.so: modbus/CMakeFiles/modbus.dir/build.make
 ../lib/libmodbus.so: modbus/CMakeFiles/modbus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library ../../lib/libmodbus.so"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/modbus.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library ../../lib/libmodbus.so"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/modbus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modbus/CMakeFiles/modbus.dir/build: ../lib/libmodbus.so
@@ -185,10 +185,10 @@ modbus/CMakeFiles/modbus.dir/requires: modbus/CMakeFiles/modbus.dir/src/modbus-t
 .PHONY : modbus/CMakeFiles/modbus.dir/requires
 
 modbus/CMakeFiles/modbus.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus && $(CMAKE_COMMAND) -P CMakeFiles/modbus.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus && $(CMAKE_COMMAND) -P CMakeFiles/modbus.dir/cmake_clean.cmake
 .PHONY : modbus/CMakeFiles/modbus.dir/clean
 
 modbus/CMakeFiles/modbus.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/modbus /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modbus/CMakeFiles/modbus.dir/depend
 

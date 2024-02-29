@@ -23,4 +23,4 @@ adc/CMakeFiles/adc_ky.dir/src/adc_ky.cpp.o
  ../utils/include/ringbuf.h
  ../utils/include/shm_queue.h
  ../utils/include/utils.h
- /home/ramandrom/sharedir/soft_arm_ads8867/adc/src/adc_ky.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/adc/src/adc_ky.cpp

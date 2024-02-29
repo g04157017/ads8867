@@ -43,7 +43,7 @@ apps/CMakeFiles/app_ex.dir/src/app.cpp.o
  ../utils/include/ringbuf.h
  ../utils/include/shm_queue.h
  ../utils/include/utils.h
- /home/ramandrom/sharedir/soft_arm_ads8867/apps/src/app.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/app.cpp
 apps/CMakeFiles/app_ex.dir/src/main.cpp.o
  ../adc/include/adc_ky.h
  ../aes/include/decrypt.h
@@ -86,4 +86,4 @@ apps/CMakeFiles/app_ex.dir/src/main.cpp.o
  ../utils/include/ringbuf.h
  ../utils/include/shm_queue.h
  ../utils/include/utils.h
- /home/ramandrom/sharedir/soft_arm_ads8867/apps/src/main.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/main.cpp

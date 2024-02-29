@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-data.c" "/home/ramandrom/sharedir/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-rtu.c" "/home/ramandrom/sharedir/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-tcp.c" "/home/ramandrom/sharedir/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus.c" "/home/ramandrom/sharedir/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/src/modbus.c.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-data.c" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-rtu.c" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-tcp.c" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus.c" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus/CMakeFiles/modbus.dir/src/modbus.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -43,6 +43,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../cfg/include"
   "../iirfilter/include"
   "../tools/zlib-1.2.13/include"
+  "../cgi-bin/include"
   )
 
 # Targets to which this target links.

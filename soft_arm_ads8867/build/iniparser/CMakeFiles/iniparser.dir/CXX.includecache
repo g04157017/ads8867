@@ -130,9 +130,9 @@ string.h
 dictionary.h
 ../iniparser/include/dictionary.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/dictionary.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/dictionary.cpp
 dictionary.h
-/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/dictionary.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/dictionary.h
 stdio.h
 -
 stdlib.h
@@ -142,23 +142,23 @@ string.h
 unistd.h
 -
 
-/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniext.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniext.cpp
 stdio.h
 -
 def.h
-/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/def.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/def.h
 iniparser.h
-/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniparser.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniparser.h
 dictionary.h
-/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/dictionary.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/dictionary.h
 iniext.h
-/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniext.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniext.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniparser.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniparser.cpp
 ctype.h
 -
 stdarg.h
 -
 iniparser.h
-/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniparser.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniparser.h
 

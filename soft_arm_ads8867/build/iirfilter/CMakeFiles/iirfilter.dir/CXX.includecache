@@ -10,7 +10,7 @@
 stdint.h
 -
 
-/home/ramandrom/sharedir/soft_arm_ads8867/iirfilter/src/iirfilter.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iirfilter/src/iirfilter.cpp
 stdlib.h
 -
 stdio.h
@@ -18,5 +18,5 @@ stdio.h
 math.h
 -
 iirfilter.h
-/home/ramandrom/sharedir/soft_arm_ads8867/iirfilter/src/iirfilter.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iirfilter/src/iirfilter.h
 

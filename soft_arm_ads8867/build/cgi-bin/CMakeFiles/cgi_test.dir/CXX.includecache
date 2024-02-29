@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../cgi-bin/include/cgi_main.h
+iostream
+-
+string
+-
+cstdlib
+-
+
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cgi-bin/src/cgi_main.cpp
+cgi_main.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cgi-bin/src/cgi_main.h
+

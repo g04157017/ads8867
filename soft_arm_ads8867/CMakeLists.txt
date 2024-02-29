@@ -54,7 +54,7 @@ include_directories(${PROJECT_SOURCE_DIR}/sm2/sm2_dec/include)
 include_directories(${PROJECT_SOURCE_DIR}/cfg/include)
 include_directories(${PROJECT_SOURCE_DIR}/iirfilter/include)
 include_directories(${PROJECT_SOURCE_DIR}/tools/zlib-1.2.13/include)
-
+include_directories(${PROJECT_SOURCE_DIR}/cgi-bin/include)
 
 # 本地动态连接库的路径
 link_directories(${PROJECT_SOURCE_DIR}/lib)
@@ -90,8 +90,8 @@ add_definitions(-DDEBUG_FOR_FLAG)
 
 # 增加所有子模块
 add_subdirectory(${PROJECT_SOURCE_DIR}/aes)
-add_subdirectory(${PROJECT_SOURCE_DIR}/utils)
 add_subdirectory(${PROJECT_SOURCE_DIR}/json)
+add_subdirectory(${PROJECT_SOURCE_DIR}/utils)
 add_subdirectory(${PROJECT_SOURCE_DIR}/mqtt)
 add_subdirectory(${PROJECT_SOURCE_DIR}/test)
 add_subdirectory(${PROJECT_SOURCE_DIR}/database)
@@ -104,7 +104,7 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/modbus)
 add_subdirectory(${PROJECT_SOURCE_DIR}/sgmii)
 add_subdirectory(${PROJECT_SOURCE_DIR}/cfg)
 add_subdirectory(${PROJECT_SOURCE_DIR}/iirfilter)
-
+add_subdirectory(${PROJECT_SOURCE_DIR}/cgi-bin)
 #add_subdirectory(${PROJECT_SOURCE_DIR}/jni)
 
 # 有关第三方库的使用

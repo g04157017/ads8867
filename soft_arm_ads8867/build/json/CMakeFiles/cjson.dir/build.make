@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include json/CMakeFiles/cjson.dir/depend.make
@@ -59,16 +59,16 @@ include json/CMakeFiles/cjson.dir/flags.make
 
 json/CMakeFiles/cjson.dir/src/cJSON.cpp.o: json/CMakeFiles/cjson.dir/flags.make
 json/CMakeFiles/cjson.dir/src/cJSON.cpp.o: ../json/src/cJSON.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/CMakeFiles/cjson.dir/src/cJSON.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cjson.dir/src/cJSON.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/json/src/cJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/CMakeFiles/cjson.dir/src/cJSON.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cjson.dir/src/cJSON.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/cJSON.cpp
 
 json/CMakeFiles/cjson.dir/src/cJSON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cjson.dir/src/cJSON.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/json/src/cJSON.cpp > CMakeFiles/cjson.dir/src/cJSON.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/cJSON.cpp > CMakeFiles/cjson.dir/src/cJSON.cpp.i
 
 json/CMakeFiles/cjson.dir/src/cJSON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cjson.dir/src/cJSON.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/json/src/cJSON.cpp -o CMakeFiles/cjson.dir/src/cJSON.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/cJSON.cpp -o CMakeFiles/cjson.dir/src/cJSON.cpp.s
 
 json/CMakeFiles/cjson.dir/src/cJSON.cpp.o.requires:
 
@@ -83,16 +83,16 @@ json/CMakeFiles/cjson.dir/src/cJSON.cpp.o.provides.build: json/CMakeFiles/cjson.
 
 json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o: json/CMakeFiles/cjson.dir/flags.make
 json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o: ../json/src/CJsonObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cjson.dir/src/CJsonObject.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/json/src/CJsonObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cjson.dir/src/CJsonObject.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/CJsonObject.cpp
 
 json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cjson.dir/src/CJsonObject.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/json/src/CJsonObject.cpp > CMakeFiles/cjson.dir/src/CJsonObject.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/CJsonObject.cpp > CMakeFiles/cjson.dir/src/CJsonObject.cpp.i
 
 json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cjson.dir/src/CJsonObject.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/json/src/CJsonObject.cpp -o CMakeFiles/cjson.dir/src/CJsonObject.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/CJsonObject.cpp -o CMakeFiles/cjson.dir/src/CJsonObject.cpp.s
 
 json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o.requires:
 
@@ -107,16 +107,16 @@ json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o.provides.build: json/CMakeFiles/
 
 json/CMakeFiles/cjson.dir/src/parson.cpp.o: json/CMakeFiles/cjson.dir/flags.make
 json/CMakeFiles/cjson.dir/src/parson.cpp.o: ../json/src/parson.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object json/CMakeFiles/cjson.dir/src/parson.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cjson.dir/src/parson.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/json/src/parson.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object json/CMakeFiles/cjson.dir/src/parson.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cjson.dir/src/parson.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/parson.cpp
 
 json/CMakeFiles/cjson.dir/src/parson.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cjson.dir/src/parson.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/json/src/parson.cpp > CMakeFiles/cjson.dir/src/parson.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/parson.cpp > CMakeFiles/cjson.dir/src/parson.cpp.i
 
 json/CMakeFiles/cjson.dir/src/parson.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cjson.dir/src/parson.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/json/src/parson.cpp -o CMakeFiles/cjson.dir/src/parson.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/parson.cpp -o CMakeFiles/cjson.dir/src/parson.cpp.s
 
 json/CMakeFiles/cjson.dir/src/parson.cpp.o.requires:
 
@@ -143,8 +143,8 @@ cjson_EXTERNAL_OBJECTS =
 ../lib/libcjson.so: json/CMakeFiles/cjson.dir/src/parson.cpp.o
 ../lib/libcjson.so: json/CMakeFiles/cjson.dir/build.make
 ../lib/libcjson.so: json/CMakeFiles/cjson.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../lib/libcjson.so"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cjson.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../lib/libcjson.so"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cjson.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 json/CMakeFiles/cjson.dir/build: ../lib/libcjson.so
@@ -158,10 +158,10 @@ json/CMakeFiles/cjson.dir/requires: json/CMakeFiles/cjson.dir/src/parson.cpp.o.r
 .PHONY : json/CMakeFiles/cjson.dir/requires
 
 json/CMakeFiles/cjson.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/json && $(CMAKE_COMMAND) -P CMakeFiles/cjson.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json && $(CMAKE_COMMAND) -P CMakeFiles/cjson.dir/cmake_clean.cmake
 .PHONY : json/CMakeFiles/cjson.dir/clean
 
 json/CMakeFiles/cjson.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/json /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/json /home/ramandrom/sharedir/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : json/CMakeFiles/cjson.dir/depend
 

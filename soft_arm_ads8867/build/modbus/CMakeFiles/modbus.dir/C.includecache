@@ -70,19 +70,19 @@ modbus-rtu.h
 
 ../ql_oe/include/ql_gpio.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-data.c
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-data.c
 stdlib.h
 -
 stdint.h
 -
 stdint.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/stdint.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/stdint.h
 string.h
 -
 assert.h
 -
 
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-rtu.c
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-rtu.c
 stdio.h
 -
 stdlib.h
@@ -98,21 +98,21 @@ unistd.h
 assert.h
 -
 modbus-private.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-private.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-private.h
 modbus-rtu.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-rtu.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-rtu.h
 modbus-rtu-private.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-rtu-private.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-rtu-private.h
 sys/ioctl.h
 -
 linux/serial.h
 -
 ql_gpio.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/ql_gpio.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/ql_gpio.h
 ql_error.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/ql_error.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/ql_error.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-tcp.c
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-tcp.c
 stdio.h
 -
 stdlib.h
@@ -148,13 +148,13 @@ poll.h
 netdb.h
 -
 modbus-private.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-private.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-private.h
 modbus-tcp.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-tcp.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-tcp.h
 modbus-tcp-private.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-tcp-private.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-tcp-private.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus.c
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus.c
 stdio.h
 -
 string.h
@@ -168,9 +168,9 @@ limits.h
 time.h
 -
 modbus_config.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus_config.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus_config.h
 modbus.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus.h
 modbus-private.h
-/home/ramandrom/sharedir/soft_arm_ads8867/modbus/src/modbus-private.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/modbus/src/modbus-private.h
 

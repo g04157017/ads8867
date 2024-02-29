@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include utils/CMakeFiles/utils.dir/depend.make
@@ -59,16 +59,16 @@ include utils/CMakeFiles/utils.dir/flags.make
 
 utils/CMakeFiles/utils.dir/src/utils.cpp.o: utils/CMakeFiles/utils.dir/flags.make
 utils/CMakeFiles/utils.dir/src/utils.cpp.o: ../utils/src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils/CMakeFiles/utils.dir/src/utils.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/utils && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/utils.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/utils/src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils/CMakeFiles/utils.dir/src/utils.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/utils && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/utils.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/utils/src/utils.cpp
 
 utils/CMakeFiles/utils.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/src/utils.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/utils && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/utils/src/utils.cpp > CMakeFiles/utils.dir/src/utils.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/utils && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/utils/src/utils.cpp > CMakeFiles/utils.dir/src/utils.cpp.i
 
 utils/CMakeFiles/utils.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/src/utils.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/utils && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/utils/src/utils.cpp -o CMakeFiles/utils.dir/src/utils.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/utils && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/utils/src/utils.cpp -o CMakeFiles/utils.dir/src/utils.cpp.s
 
 utils/CMakeFiles/utils.dir/src/utils.cpp.o.requires:
 
@@ -92,8 +92,8 @@ utils_EXTERNAL_OBJECTS =
 ../lib/libutils.so: utils/CMakeFiles/utils.dir/build.make
 ../lib/libutils.so: ../lib/libcjson.so
 ../lib/libutils.so: utils/CMakeFiles/utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../lib/libutils.so"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utils.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../lib/libutils.so"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/CMakeFiles/utils.dir/build: ../lib/libutils.so
@@ -105,10 +105,10 @@ utils/CMakeFiles/utils.dir/requires: utils/CMakeFiles/utils.dir/src/utils.cpp.o.
 .PHONY : utils/CMakeFiles/utils.dir/requires
 
 utils/CMakeFiles/utils.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
 .PHONY : utils/CMakeFiles/utils.dir/clean
 
 utils/CMakeFiles/utils.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/utils /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/utils /home/ramandrom/sharedir/soft_arm_ads8867/build/utils/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/utils /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/utils /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/utils/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/CMakeFiles/utils.dir/depend
 

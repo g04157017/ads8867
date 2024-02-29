@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/sm2_imp/CMakeFiles/progress.marks
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/sm2_imp/CMakeFiles/progress.marks
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/clean
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sm2/sm2_imp/CMakeFiles/sm2test.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/CMakeFiles/sm2test.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/CMakeFiles/sm2test.dir/rule
 .PHONY : sm2/sm2_imp/CMakeFiles/sm2test.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ sm2test: sm2/sm2_imp/CMakeFiles/sm2test.dir/rule
 
 # fast build rule for target.
 sm2test/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/build
 .PHONY : sm2test/fast
 
 # Convenience name for target.
 sm2/sm2_imp/CMakeFiles/sm2.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/CMakeFiles/sm2.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/sm2_imp/CMakeFiles/sm2.dir/rule
 .PHONY : sm2/sm2_imp/CMakeFiles/sm2.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ sm2: sm2/sm2_imp/CMakeFiles/sm2.dir/rule
 
 # fast build rule for target.
 sm2/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/build
 .PHONY : sm2/fast
 
 src/base64.o: src/base64.cpp.o
@@ -146,8 +146,8 @@ src/base64.o: src/base64.cpp.o
 
 # target to build an object file
 src/base64.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/base64.cpp.o
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/base64.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/base64.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/base64.cpp.o
 .PHONY : src/base64.cpp.o
 
 src/base64.i: src/base64.cpp.i
@@ -156,8 +156,8 @@ src/base64.i: src/base64.cpp.i
 
 # target to preprocess a source file
 src/base64.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/base64.cpp.i
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/base64.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/base64.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/base64.cpp.i
 .PHONY : src/base64.cpp.i
 
 src/base64.s: src/base64.cpp.s
@@ -166,8 +166,8 @@ src/base64.s: src/base64.cpp.s
 
 # target to generate assembly for a file
 src/base64.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/base64.cpp.s
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/base64.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/base64.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/base64.cpp.s
 .PHONY : src/base64.cpp.s
 
 src/sm2.o: src/sm2.cpp.o
@@ -176,7 +176,7 @@ src/sm2.o: src/sm2.cpp.o
 
 # target to build an object file
 src/sm2.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm2.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm2.cpp.o
 .PHONY : src/sm2.cpp.o
 
 src/sm2.i: src/sm2.cpp.i
@@ -185,7 +185,7 @@ src/sm2.i: src/sm2.cpp.i
 
 # target to preprocess a source file
 src/sm2.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm2.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm2.cpp.i
 .PHONY : src/sm2.cpp.i
 
 src/sm2.s: src/sm2.cpp.s
@@ -194,7 +194,7 @@ src/sm2.s: src/sm2.cpp.s
 
 # target to generate assembly for a file
 src/sm2.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm2.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm2.cpp.s
 .PHONY : src/sm2.cpp.s
 
 src/sm2_Intrfs_test.o: src/sm2_Intrfs_test.cpp.o
@@ -203,7 +203,7 @@ src/sm2_Intrfs_test.o: src/sm2_Intrfs_test.cpp.o
 
 # target to build an object file
 src/sm2_Intrfs_test.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_Intrfs_test.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_Intrfs_test.cpp.o
 .PHONY : src/sm2_Intrfs_test.cpp.o
 
 src/sm2_Intrfs_test.i: src/sm2_Intrfs_test.cpp.i
@@ -212,7 +212,7 @@ src/sm2_Intrfs_test.i: src/sm2_Intrfs_test.cpp.i
 
 # target to preprocess a source file
 src/sm2_Intrfs_test.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_Intrfs_test.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_Intrfs_test.cpp.i
 .PHONY : src/sm2_Intrfs_test.cpp.i
 
 src/sm2_Intrfs_test.s: src/sm2_Intrfs_test.cpp.s
@@ -221,7 +221,7 @@ src/sm2_Intrfs_test.s: src/sm2_Intrfs_test.cpp.s
 
 # target to generate assembly for a file
 src/sm2_Intrfs_test.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_Intrfs_test.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_Intrfs_test.cpp.s
 .PHONY : src/sm2_Intrfs_test.cpp.s
 
 src/sm2_libtom.o: src/sm2_libtom.cpp.o
@@ -230,7 +230,7 @@ src/sm2_libtom.o: src/sm2_libtom.cpp.o
 
 # target to build an object file
 src/sm2_libtom.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_libtom.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_libtom.cpp.o
 .PHONY : src/sm2_libtom.cpp.o
 
 src/sm2_libtom.i: src/sm2_libtom.cpp.i
@@ -239,7 +239,7 @@ src/sm2_libtom.i: src/sm2_libtom.cpp.i
 
 # target to preprocess a source file
 src/sm2_libtom.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_libtom.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_libtom.cpp.i
 .PHONY : src/sm2_libtom.cpp.i
 
 src/sm2_libtom.s: src/sm2_libtom.cpp.s
@@ -248,7 +248,7 @@ src/sm2_libtom.s: src/sm2_libtom.cpp.s
 
 # target to generate assembly for a file
 src/sm2_libtom.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_libtom.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2test.dir/build.make sm2/sm2_imp/CMakeFiles/sm2test.dir/src/sm2_libtom.cpp.s
 .PHONY : src/sm2_libtom.cpp.s
 
 src/sm3.o: src/sm3.cpp.o
@@ -257,7 +257,7 @@ src/sm3.o: src/sm3.cpp.o
 
 # target to build an object file
 src/sm3.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm3.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm3.cpp.o
 .PHONY : src/sm3.cpp.o
 
 src/sm3.i: src/sm3.cpp.i
@@ -266,7 +266,7 @@ src/sm3.i: src/sm3.cpp.i
 
 # target to preprocess a source file
 src/sm3.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm3.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm3.cpp.i
 .PHONY : src/sm3.cpp.i
 
 src/sm3.s: src/sm3.cpp.s
@@ -275,7 +275,7 @@ src/sm3.s: src/sm3.cpp.s
 
 # target to generate assembly for a file
 src/sm3.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm3.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/sm2_imp/CMakeFiles/sm2.dir/build.make sm2/sm2_imp/CMakeFiles/sm2.dir/src/sm3.cpp.s
 .PHONY : src/sm3.cpp.s
 
 # Help Target
@@ -314,6 +314,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

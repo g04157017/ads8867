@@ -1,4 +1,4 @@
-# Install script for directory: /home/ramandrom/sharedir/soft_arm_ads8867/mqtt
+# Install script for directory: /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/mqtt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

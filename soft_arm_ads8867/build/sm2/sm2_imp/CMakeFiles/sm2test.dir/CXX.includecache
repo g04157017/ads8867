@@ -36,27 +36,27 @@ stdio.h
 tommath.h
 ../sm2/sm2_imp/include/tommath.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/base64.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/base64.cpp
 string.h
 -
 stdlib.h
 -
 base64.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/base64.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/base64.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm2_Intrfs_test.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm2_Intrfs_test.cpp
 sm2.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm2.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm2.h
 tommath.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/tommath.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/tommath.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm2_libtom.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm2_libtom.cpp
 stdio.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/stdio.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/stdio.h
 stdlib.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/stdlib.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/stdlib.h
 sm2.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/sm2.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/sm2.h
 base64.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sm2/sm2_imp/src/base64.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sm2/sm2_imp/src/base64.h
 

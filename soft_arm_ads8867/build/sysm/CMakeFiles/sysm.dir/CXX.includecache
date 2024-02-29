@@ -436,23 +436,23 @@ pkt_queue.h
 ringbuf.h
 ../utils/include/ringbuf.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm.cpp
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.cpp
 sysm_LedAndHeart.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_authorization.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_authorization.cpp
 sysm_authorization.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_authorization.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_authorization.h
 base64.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/base64.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/base64.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_log.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_log.cpp
 stdio.h
 -
 def.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/def.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/def.h
 sysm_log.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_log.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_log.h
 

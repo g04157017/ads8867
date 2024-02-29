@@ -3,14 +3,14 @@
 
 iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o
  ../iniparser/include/dictionary.h
- /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/dictionary.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/dictionary.cpp
 iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o
  ../include/def.h
  ../iniparser/include/dictionary.h
  ../iniparser/include/iniext.h
  ../iniparser/include/iniparser.h
- /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniext.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniext.cpp
 iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o
  ../iniparser/include/dictionary.h
  ../iniparser/include/iniparser.h
- /home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniparser.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniparser.cpp

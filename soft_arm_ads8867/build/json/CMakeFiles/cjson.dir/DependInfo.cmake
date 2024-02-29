@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ramandrom/sharedir/soft_arm_ads8867/json/src/CJsonObject.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/json/src/cJSON.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/src/cJSON.cpp.o"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/json/src/parson.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/src/parson.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/CJsonObject.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/cJSON.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/src/cJSON.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/json/src/parson.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/src/parson.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -42,6 +42,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../cfg/include"
   "../iirfilter/include"
   "../tools/zlib-1.2.13/include"
+  "../cgi-bin/include"
   )
 
 # Targets to which this target links.

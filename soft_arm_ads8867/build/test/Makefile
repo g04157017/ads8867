@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/test/CMakeFiles/progress.marks
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test/CMakeFiles/progress.marks
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/spi_test.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/spi_test.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/spi_test.dir/rule
 .PHONY : test/CMakeFiles/spi_test.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ spi_test: test/CMakeFiles/spi_test.dir/rule
 
 # fast build rule for target.
 spi_test/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/spi_test.dir/build.make test/CMakeFiles/spi_test.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/spi_test.dir/build.make test/CMakeFiles/spi_test.dir/build
 .PHONY : spi_test/fast
 
 # Convenience name for target.
 test/CMakeFiles/test_main.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test_main.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test_main.dir/rule
 .PHONY : test/CMakeFiles/test_main.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ test_main: test/CMakeFiles/test_main.dir/rule
 
 # fast build rule for target.
 test_main/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/test_main.dir/build.make test/CMakeFiles/test_main.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/test_main.dir/build.make test/CMakeFiles/test_main.dir/build
 .PHONY : test_main/fast
 
 # Convenience name for target.
 test/CMakeFiles/modbus_test.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/modbus_test.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/modbus_test.dir/rule
 .PHONY : test/CMakeFiles/modbus_test.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ modbus_test: test/CMakeFiles/modbus_test.dir/rule
 
 # fast build rule for target.
 modbus_test/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/modbus_test.dir/build.make test/CMakeFiles/modbus_test.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/modbus_test.dir/build.make test/CMakeFiles/modbus_test.dir/build
 .PHONY : modbus_test/fast
 
 # Convenience name for target.
 test/CMakeFiles/database_test.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/database_test.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/database_test.dir/rule
 .PHONY : test/CMakeFiles/database_test.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ database_test: test/CMakeFiles/database_test.dir/rule
 
 # fast build rule for target.
 database_test/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/database_test.dir/build.make test/CMakeFiles/database_test.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/database_test.dir/build.make test/CMakeFiles/database_test.dir/build
 .PHONY : database_test/fast
 
 # Convenience name for target.
 test/CMakeFiles/pub_client_test.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/pub_client_test.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/pub_client_test.dir/rule
 .PHONY : test/CMakeFiles/pub_client_test.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ pub_client_test: test/CMakeFiles/pub_client_test.dir/rule
 
 # fast build rule for target.
 pub_client_test/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/pub_client_test.dir/build.make test/CMakeFiles/pub_client_test.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/pub_client_test.dir/build.make test/CMakeFiles/pub_client_test.dir/build
 .PHONY : pub_client_test/fast
 
 # Convenience name for target.
 test/CMakeFiles/adc_test.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/adc_test.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/adc_test.dir/rule
 .PHONY : test/CMakeFiles/adc_test.dir/rule
 
 # Convenience name for target.
@@ -197,7 +197,7 @@ adc_test: test/CMakeFiles/adc_test.dir/rule
 
 # fast build rule for target.
 adc_test/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/adc_test.dir/build.make test/CMakeFiles/adc_test.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/adc_test.dir/build.make test/CMakeFiles/adc_test.dir/build
 .PHONY : adc_test/fast
 
 src/database_test.o: src/database_test.cpp.o
@@ -206,7 +206,7 @@ src/database_test.o: src/database_test.cpp.o
 
 # target to build an object file
 src/database_test.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/database_test.dir/build.make test/CMakeFiles/database_test.dir/src/database_test.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/database_test.dir/build.make test/CMakeFiles/database_test.dir/src/database_test.cpp.o
 .PHONY : src/database_test.cpp.o
 
 src/database_test.i: src/database_test.cpp.i
@@ -215,7 +215,7 @@ src/database_test.i: src/database_test.cpp.i
 
 # target to preprocess a source file
 src/database_test.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/database_test.dir/build.make test/CMakeFiles/database_test.dir/src/database_test.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/database_test.dir/build.make test/CMakeFiles/database_test.dir/src/database_test.cpp.i
 .PHONY : src/database_test.cpp.i
 
 src/database_test.s: src/database_test.cpp.s
@@ -224,7 +224,7 @@ src/database_test.s: src/database_test.cpp.s
 
 # target to generate assembly for a file
 src/database_test.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/database_test.dir/build.make test/CMakeFiles/database_test.dir/src/database_test.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/database_test.dir/build.make test/CMakeFiles/database_test.dir/src/database_test.cpp.s
 .PHONY : src/database_test.cpp.s
 
 src/example_adc.o: src/example_adc.c.o
@@ -233,7 +233,7 @@ src/example_adc.o: src/example_adc.c.o
 
 # target to build an object file
 src/example_adc.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/adc_test.dir/build.make test/CMakeFiles/adc_test.dir/src/example_adc.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/adc_test.dir/build.make test/CMakeFiles/adc_test.dir/src/example_adc.c.o
 .PHONY : src/example_adc.c.o
 
 src/example_adc.i: src/example_adc.c.i
@@ -242,7 +242,7 @@ src/example_adc.i: src/example_adc.c.i
 
 # target to preprocess a source file
 src/example_adc.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/adc_test.dir/build.make test/CMakeFiles/adc_test.dir/src/example_adc.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/adc_test.dir/build.make test/CMakeFiles/adc_test.dir/src/example_adc.c.i
 .PHONY : src/example_adc.c.i
 
 src/example_adc.s: src/example_adc.c.s
@@ -251,7 +251,7 @@ src/example_adc.s: src/example_adc.c.s
 
 # target to generate assembly for a file
 src/example_adc.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/adc_test.dir/build.make test/CMakeFiles/adc_test.dir/src/example_adc.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/adc_test.dir/build.make test/CMakeFiles/adc_test.dir/src/example_adc.c.s
 .PHONY : src/example_adc.c.s
 
 src/example_spi.o: src/example_spi.c.o
@@ -260,7 +260,7 @@ src/example_spi.o: src/example_spi.c.o
 
 # target to build an object file
 src/example_spi.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/spi_test.dir/build.make test/CMakeFiles/spi_test.dir/src/example_spi.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/spi_test.dir/build.make test/CMakeFiles/spi_test.dir/src/example_spi.c.o
 .PHONY : src/example_spi.c.o
 
 src/example_spi.i: src/example_spi.c.i
@@ -269,7 +269,7 @@ src/example_spi.i: src/example_spi.c.i
 
 # target to preprocess a source file
 src/example_spi.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/spi_test.dir/build.make test/CMakeFiles/spi_test.dir/src/example_spi.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/spi_test.dir/build.make test/CMakeFiles/spi_test.dir/src/example_spi.c.i
 .PHONY : src/example_spi.c.i
 
 src/example_spi.s: src/example_spi.c.s
@@ -278,7 +278,7 @@ src/example_spi.s: src/example_spi.c.s
 
 # target to generate assembly for a file
 src/example_spi.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/spi_test.dir/build.make test/CMakeFiles/spi_test.dir/src/example_spi.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/spi_test.dir/build.make test/CMakeFiles/spi_test.dir/src/example_spi.c.s
 .PHONY : src/example_spi.c.s
 
 src/main_test.o: src/main_test.cpp.o
@@ -287,7 +287,7 @@ src/main_test.o: src/main_test.cpp.o
 
 # target to build an object file
 src/main_test.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/test_main.dir/build.make test/CMakeFiles/test_main.dir/src/main_test.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/test_main.dir/build.make test/CMakeFiles/test_main.dir/src/main_test.cpp.o
 .PHONY : src/main_test.cpp.o
 
 src/main_test.i: src/main_test.cpp.i
@@ -296,7 +296,7 @@ src/main_test.i: src/main_test.cpp.i
 
 # target to preprocess a source file
 src/main_test.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/test_main.dir/build.make test/CMakeFiles/test_main.dir/src/main_test.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/test_main.dir/build.make test/CMakeFiles/test_main.dir/src/main_test.cpp.i
 .PHONY : src/main_test.cpp.i
 
 src/main_test.s: src/main_test.cpp.s
@@ -305,7 +305,7 @@ src/main_test.s: src/main_test.cpp.s
 
 # target to generate assembly for a file
 src/main_test.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/test_main.dir/build.make test/CMakeFiles/test_main.dir/src/main_test.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/test_main.dir/build.make test/CMakeFiles/test_main.dir/src/main_test.cpp.s
 .PHONY : src/main_test.cpp.s
 
 src/modbus_test.o: src/modbus_test.cpp.o
@@ -314,7 +314,7 @@ src/modbus_test.o: src/modbus_test.cpp.o
 
 # target to build an object file
 src/modbus_test.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/modbus_test.dir/build.make test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/modbus_test.dir/build.make test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o
 .PHONY : src/modbus_test.cpp.o
 
 src/modbus_test.i: src/modbus_test.cpp.i
@@ -323,7 +323,7 @@ src/modbus_test.i: src/modbus_test.cpp.i
 
 # target to preprocess a source file
 src/modbus_test.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/modbus_test.dir/build.make test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/modbus_test.dir/build.make test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.i
 .PHONY : src/modbus_test.cpp.i
 
 src/modbus_test.s: src/modbus_test.cpp.s
@@ -332,7 +332,7 @@ src/modbus_test.s: src/modbus_test.cpp.s
 
 # target to generate assembly for a file
 src/modbus_test.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/modbus_test.dir/build.make test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/modbus_test.dir/build.make test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.s
 .PHONY : src/modbus_test.cpp.s
 
 src/pub_client_test.o: src/pub_client_test.cpp.o
@@ -341,7 +341,7 @@ src/pub_client_test.o: src/pub_client_test.cpp.o
 
 # target to build an object file
 src/pub_client_test.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/pub_client_test.dir/build.make test/CMakeFiles/pub_client_test.dir/src/pub_client_test.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/pub_client_test.dir/build.make test/CMakeFiles/pub_client_test.dir/src/pub_client_test.cpp.o
 .PHONY : src/pub_client_test.cpp.o
 
 src/pub_client_test.i: src/pub_client_test.cpp.i
@@ -350,7 +350,7 @@ src/pub_client_test.i: src/pub_client_test.cpp.i
 
 # target to preprocess a source file
 src/pub_client_test.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/pub_client_test.dir/build.make test/CMakeFiles/pub_client_test.dir/src/pub_client_test.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/pub_client_test.dir/build.make test/CMakeFiles/pub_client_test.dir/src/pub_client_test.cpp.i
 .PHONY : src/pub_client_test.cpp.i
 
 src/pub_client_test.s: src/pub_client_test.cpp.s
@@ -359,7 +359,7 @@ src/pub_client_test.s: src/pub_client_test.cpp.s
 
 # target to generate assembly for a file
 src/pub_client_test.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/pub_client_test.dir/build.make test/CMakeFiles/pub_client_test.dir/src/pub_client_test.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f test/CMakeFiles/pub_client_test.dir/build.make test/CMakeFiles/pub_client_test.dir/src/pub_client_test.cpp.s
 .PHONY : src/pub_client_test.cpp.s
 
 # Help Target
@@ -405,6 +405,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

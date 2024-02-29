@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/dictionary.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniext.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/iniparser/src/iniparser.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/dictionary.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/src/dictionary.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniext.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/src/iniext.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/iniparser/src/iniparser.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/src/iniparser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -42,6 +42,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../cfg/include"
   "../iirfilter/include"
   "../tools/zlib-1.2.13/include"
+  "../cgi-bin/include"
   )
 
 # Targets to which this target links.

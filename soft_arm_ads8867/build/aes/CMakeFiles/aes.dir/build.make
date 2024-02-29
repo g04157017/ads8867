@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include aes/CMakeFiles/aes.dir/depend.make
@@ -59,16 +59,16 @@ include aes/CMakeFiles/aes.dir/flags.make
 
 aes/CMakeFiles/aes.dir/src/keyExtend.cpp.o: aes/CMakeFiles/aes.dir/flags.make
 aes/CMakeFiles/aes.dir/src/keyExtend.cpp.o: ../aes/src/keyExtend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object aes/CMakeFiles/aes.dir/src/keyExtend.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aes.dir/src/keyExtend.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/keyExtend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object aes/CMakeFiles/aes.dir/src/keyExtend.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aes.dir/src/keyExtend.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/keyExtend.cpp
 
 aes/CMakeFiles/aes.dir/src/keyExtend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aes.dir/src/keyExtend.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/keyExtend.cpp > CMakeFiles/aes.dir/src/keyExtend.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/keyExtend.cpp > CMakeFiles/aes.dir/src/keyExtend.cpp.i
 
 aes/CMakeFiles/aes.dir/src/keyExtend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aes.dir/src/keyExtend.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/keyExtend.cpp -o CMakeFiles/aes.dir/src/keyExtend.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/keyExtend.cpp -o CMakeFiles/aes.dir/src/keyExtend.cpp.s
 
 aes/CMakeFiles/aes.dir/src/keyExtend.cpp.o.requires:
 
@@ -83,16 +83,16 @@ aes/CMakeFiles/aes.dir/src/keyExtend.cpp.o.provides.build: aes/CMakeFiles/aes.di
 
 aes/CMakeFiles/aes.dir/src/encryption.cpp.o: aes/CMakeFiles/aes.dir/flags.make
 aes/CMakeFiles/aes.dir/src/encryption.cpp.o: ../aes/src/encryption.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object aes/CMakeFiles/aes.dir/src/encryption.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aes.dir/src/encryption.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/encryption.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object aes/CMakeFiles/aes.dir/src/encryption.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aes.dir/src/encryption.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/encryption.cpp
 
 aes/CMakeFiles/aes.dir/src/encryption.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aes.dir/src/encryption.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/encryption.cpp > CMakeFiles/aes.dir/src/encryption.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/encryption.cpp > CMakeFiles/aes.dir/src/encryption.cpp.i
 
 aes/CMakeFiles/aes.dir/src/encryption.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aes.dir/src/encryption.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/encryption.cpp -o CMakeFiles/aes.dir/src/encryption.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/encryption.cpp -o CMakeFiles/aes.dir/src/encryption.cpp.s
 
 aes/CMakeFiles/aes.dir/src/encryption.cpp.o.requires:
 
@@ -107,16 +107,16 @@ aes/CMakeFiles/aes.dir/src/encryption.cpp.o.provides.build: aes/CMakeFiles/aes.d
 
 aes/CMakeFiles/aes.dir/src/decrypt.cpp.o: aes/CMakeFiles/aes.dir/flags.make
 aes/CMakeFiles/aes.dir/src/decrypt.cpp.o: ../aes/src/decrypt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object aes/CMakeFiles/aes.dir/src/decrypt.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aes.dir/src/decrypt.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/decrypt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object aes/CMakeFiles/aes.dir/src/decrypt.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aes.dir/src/decrypt.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/decrypt.cpp
 
 aes/CMakeFiles/aes.dir/src/decrypt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aes.dir/src/decrypt.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/decrypt.cpp > CMakeFiles/aes.dir/src/decrypt.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/decrypt.cpp > CMakeFiles/aes.dir/src/decrypt.cpp.i
 
 aes/CMakeFiles/aes.dir/src/decrypt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aes.dir/src/decrypt.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/decrypt.cpp -o CMakeFiles/aes.dir/src/decrypt.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/decrypt.cpp -o CMakeFiles/aes.dir/src/decrypt.cpp.s
 
 aes/CMakeFiles/aes.dir/src/decrypt.cpp.o.requires:
 
@@ -131,16 +131,16 @@ aes/CMakeFiles/aes.dir/src/decrypt.cpp.o.provides.build: aes/CMakeFiles/aes.dir/
 
 aes/CMakeFiles/aes.dir/src/main.cpp.o: aes/CMakeFiles/aes.dir/flags.make
 aes/CMakeFiles/aes.dir/src/main.cpp.o: ../aes/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object aes/CMakeFiles/aes.dir/src/main.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aes.dir/src/main.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object aes/CMakeFiles/aes.dir/src/main.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aes.dir/src/main.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/main.cpp
 
 aes/CMakeFiles/aes.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aes.dir/src/main.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/main.cpp > CMakeFiles/aes.dir/src/main.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/main.cpp > CMakeFiles/aes.dir/src/main.cpp.i
 
 aes/CMakeFiles/aes.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aes.dir/src/main.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/aes/src/main.cpp -o CMakeFiles/aes.dir/src/main.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes/src/main.cpp -o CMakeFiles/aes.dir/src/main.cpp.s
 
 aes/CMakeFiles/aes.dir/src/main.cpp.o.requires:
 
@@ -169,8 +169,8 @@ aes_EXTERNAL_OBJECTS =
 ../lib/libaes.so: aes/CMakeFiles/aes.dir/src/main.cpp.o
 ../lib/libaes.so: aes/CMakeFiles/aes.dir/build.make
 ../lib/libaes.so: aes/CMakeFiles/aes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../lib/libaes.so"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aes.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../lib/libaes.so"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 aes/CMakeFiles/aes.dir/build: ../lib/libaes.so
@@ -185,10 +185,10 @@ aes/CMakeFiles/aes.dir/requires: aes/CMakeFiles/aes.dir/src/main.cpp.o.requires
 .PHONY : aes/CMakeFiles/aes.dir/requires
 
 aes/CMakeFiles/aes.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/aes && $(CMAKE_COMMAND) -P CMakeFiles/aes.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes && $(CMAKE_COMMAND) -P CMakeFiles/aes.dir/cmake_clean.cmake
 .PHONY : aes/CMakeFiles/aes.dir/clean
 
 aes/CMakeFiles/aes.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/aes /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/aes /home/ramandrom/sharedir/soft_arm_ads8867/build/aes/CMakeFiles/aes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/aes /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes/CMakeFiles/aes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : aes/CMakeFiles/aes.dir/depend
 

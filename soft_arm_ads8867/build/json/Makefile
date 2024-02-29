@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/json/CMakeFiles/progress.marks
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json/CMakeFiles/progress.marks
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/clean
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 json/CMakeFiles/cjson.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/cjson.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/cjson.dir/rule
 .PHONY : json/CMakeFiles/cjson.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ cjson: json/CMakeFiles/cjson.dir/rule
 
 # fast build rule for target.
 cjson/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/build
 .PHONY : cjson/fast
 
 src/CJsonObject.o: src/CJsonObject.cpp.o
@@ -131,7 +131,7 @@ src/CJsonObject.o: src/CJsonObject.cpp.o
 
 # target to build an object file
 src/CJsonObject.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.o
 .PHONY : src/CJsonObject.cpp.o
 
 src/CJsonObject.i: src/CJsonObject.cpp.i
@@ -140,7 +140,7 @@ src/CJsonObject.i: src/CJsonObject.cpp.i
 
 # target to preprocess a source file
 src/CJsonObject.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.i
 .PHONY : src/CJsonObject.cpp.i
 
 src/CJsonObject.s: src/CJsonObject.cpp.s
@@ -149,7 +149,7 @@ src/CJsonObject.s: src/CJsonObject.cpp.s
 
 # target to generate assembly for a file
 src/CJsonObject.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/CJsonObject.cpp.s
 .PHONY : src/CJsonObject.cpp.s
 
 src/cJSON.o: src/cJSON.cpp.o
@@ -158,7 +158,7 @@ src/cJSON.o: src/cJSON.cpp.o
 
 # target to build an object file
 src/cJSON.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/cJSON.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/cJSON.cpp.o
 .PHONY : src/cJSON.cpp.o
 
 src/cJSON.i: src/cJSON.cpp.i
@@ -167,7 +167,7 @@ src/cJSON.i: src/cJSON.cpp.i
 
 # target to preprocess a source file
 src/cJSON.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/cJSON.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/cJSON.cpp.i
 .PHONY : src/cJSON.cpp.i
 
 src/cJSON.s: src/cJSON.cpp.s
@@ -176,7 +176,7 @@ src/cJSON.s: src/cJSON.cpp.s
 
 # target to generate assembly for a file
 src/cJSON.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/cJSON.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/cJSON.cpp.s
 .PHONY : src/cJSON.cpp.s
 
 src/parson.o: src/parson.cpp.o
@@ -185,7 +185,7 @@ src/parson.o: src/parson.cpp.o
 
 # target to build an object file
 src/parson.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/parson.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/parson.cpp.o
 .PHONY : src/parson.cpp.o
 
 src/parson.i: src/parson.cpp.i
@@ -194,7 +194,7 @@ src/parson.i: src/parson.cpp.i
 
 # target to preprocess a source file
 src/parson.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/parson.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/parson.cpp.i
 .PHONY : src/parson.cpp.i
 
 src/parson.s: src/parson.cpp.s
@@ -203,7 +203,7 @@ src/parson.s: src/parson.cpp.s
 
 # target to generate assembly for a file
 src/parson.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/parson.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f json/CMakeFiles/cjson.dir/build.make json/CMakeFiles/cjson.dir/src/parson.cpp.s
 .PHONY : src/parson.cpp.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

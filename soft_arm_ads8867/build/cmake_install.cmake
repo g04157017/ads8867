@@ -1,4 +1,4 @@
-# Install script for directory: /home/ramandrom/sharedir/soft_arm_ads8867
+# Install script for directory: /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/aes/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/utils/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/json/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/mqtt/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/test/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/database/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/adc/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/apps/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/sysm/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/modbus/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/sgmii/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/cfg/cmake_install.cmake")
-  include("/home/ramandrom/sharedir/soft_arm_ads8867/build/iirfilter/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/utils/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/mqtt/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/adc/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sgmii/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iirfilter/cmake_install.cmake")
+  include("/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cgi-bin/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +61,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ramandrom/sharedir/soft_arm_ads8867/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

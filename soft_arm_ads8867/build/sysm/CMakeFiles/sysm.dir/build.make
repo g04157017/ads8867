@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include sysm/CMakeFiles/sysm.dir/depend.make
@@ -59,16 +59,16 @@ include sysm/CMakeFiles/sysm.dir/flags.make
 
 sysm/CMakeFiles/sysm.dir/src/sysm.cpp.o: sysm/CMakeFiles/sysm.dir/flags.make
 sysm/CMakeFiles/sysm.dir/src/sysm.cpp.o: ../sysm/src/sysm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sysm/CMakeFiles/sysm.dir/src/sysm.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sysm.dir/src/sysm.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sysm/CMakeFiles/sysm.dir/src/sysm.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sysm.dir/src/sysm.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm.cpp
 
 sysm/CMakeFiles/sysm.dir/src/sysm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sysm.dir/src/sysm.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm.cpp > CMakeFiles/sysm.dir/src/sysm.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm.cpp > CMakeFiles/sysm.dir/src/sysm.cpp.i
 
 sysm/CMakeFiles/sysm.dir/src/sysm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sysm.dir/src/sysm.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm.cpp -o CMakeFiles/sysm.dir/src/sysm.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm.cpp -o CMakeFiles/sysm.dir/src/sysm.cpp.s
 
 sysm/CMakeFiles/sysm.dir/src/sysm.cpp.o.requires:
 
@@ -83,16 +83,16 @@ sysm/CMakeFiles/sysm.dir/src/sysm.cpp.o.provides.build: sysm/CMakeFiles/sysm.dir
 
 sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.o: sysm/CMakeFiles/sysm.dir/flags.make
 sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.o: ../sysm/src/sysm_log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sysm.dir/src/sysm_log.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sysm.dir/src/sysm_log.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_log.cpp
 
 sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sysm.dir/src/sysm_log.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_log.cpp > CMakeFiles/sysm.dir/src/sysm_log.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_log.cpp > CMakeFiles/sysm.dir/src/sysm_log.cpp.i
 
 sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sysm.dir/src/sysm_log.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_log.cpp -o CMakeFiles/sysm.dir/src/sysm_log.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_log.cpp -o CMakeFiles/sysm.dir/src/sysm_log.cpp.s
 
 sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.o.requires:
 
@@ -107,16 +107,16 @@ sysm/CMakeFiles/sysm.dir/src/sysm_log.cpp.o.provides.build: sysm/CMakeFiles/sysm
 
 sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o: sysm/CMakeFiles/sysm.dir/flags.make
 sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o: ../sysm/src/sysm_authorization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_authorization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_authorization.cpp
 
 sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sysm.dir/src/sysm_authorization.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_authorization.cpp > CMakeFiles/sysm.dir/src/sysm_authorization.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_authorization.cpp > CMakeFiles/sysm.dir/src/sysm_authorization.cpp.i
 
 sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sysm.dir/src/sysm_authorization.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_authorization.cpp -o CMakeFiles/sysm.dir/src/sysm_authorization.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_authorization.cpp -o CMakeFiles/sysm.dir/src/sysm_authorization.cpp.s
 
 sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o.requires:
 
@@ -131,16 +131,16 @@ sysm/CMakeFiles/sysm.dir/src/sysm_authorization.cpp.o.provides.build: sysm/CMake
 
 sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.o: sysm/CMakeFiles/sysm.dir/flags.make
 sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.o: ../sysm/src/sysm_LedAndHeart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.cpp
 
 sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.cpp > CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.cpp > CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.i
 
 sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.cpp -o CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm/src/sysm_LedAndHeart.cpp -o CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.s
 
 sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart.cpp.o.requires:
 
@@ -178,8 +178,8 @@ sysm_EXTERNAL_OBJECTS =
 ../lib/libsysm.so: ../lib/libiniparser.so
 ../lib/libsysm.so: ../lib/libkydatabase.so
 ../lib/libsysm.so: sysm/CMakeFiles/sysm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../lib/libsysm.so"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sysm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../lib/libsysm.so"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sysm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sysm/CMakeFiles/sysm.dir/build: ../lib/libsysm.so
@@ -194,10 +194,10 @@ sysm/CMakeFiles/sysm.dir/requires: sysm/CMakeFiles/sysm.dir/src/sysm_LedAndHeart
 .PHONY : sysm/CMakeFiles/sysm.dir/requires
 
 sysm/CMakeFiles/sysm.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm && $(CMAKE_COMMAND) -P CMakeFiles/sysm.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm && $(CMAKE_COMMAND) -P CMakeFiles/sysm.dir/cmake_clean.cmake
 .PHONY : sysm/CMakeFiles/sysm.dir/clean
 
 sysm/CMakeFiles/sysm.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/sysm /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm /home/ramandrom/sharedir/soft_arm_ads8867/build/sysm/CMakeFiles/sysm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sysm /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm/CMakeFiles/sysm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sysm/CMakeFiles/sysm.dir/depend
 

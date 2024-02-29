@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ramandrom/sharedir/soft_arm_ads8867/apps/src/app.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/apps/CMakeFiles/app_ex.dir/src/app.cpp.o"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/apps/src/main.cpp" "/home/ramandrom/sharedir/soft_arm_ads8867/build/apps/CMakeFiles/app_ex.dir/src/main.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/app.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps/CMakeFiles/app_ex.dir/src/app.cpp.o"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/main.cpp" "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps/CMakeFiles/app_ex.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -41,22 +41,23 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../cfg/include"
   "../iirfilter/include"
   "../tools/zlib-1.2.13/include"
+  "../cgi-bin/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/adc/CMakeFiles/adc_ky.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/sysm/CMakeFiles/sysm.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/cfg/CMakeFiles/cfg.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/utils/CMakeFiles/utils.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/sm2_imp/CMakeFiles/sm2.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath/CMakeFiles/tommath.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/sm2_dec/CMakeFiles/sm2dec.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/aes/CMakeFiles/aes.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/mqtt/CMakeFiles/mqtt_pub.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/database/CMakeFiles/kydatabase.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/DependInfo.cmake"
-  "/home/ramandrom/sharedir/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/adc/CMakeFiles/adc_ky.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sysm/CMakeFiles/sysm.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg/CMakeFiles/cfg.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/utils/CMakeFiles/utils.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/sm2_imp/CMakeFiles/sm2.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath/CMakeFiles/tommath.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/sm2_dec/CMakeFiles/sm2dec.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/aes/CMakeFiles/aes.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/mqtt/CMakeFiles/mqtt_pub.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database/CMakeFiles/kydatabase.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/iniparser/CMakeFiles/iniparser.dir/DependInfo.cmake"
+  "/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/json/CMakeFiles/cjson.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

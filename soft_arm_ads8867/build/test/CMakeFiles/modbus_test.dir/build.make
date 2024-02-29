@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/modbus_test.dir/depend.make
@@ -59,16 +59,16 @@ include test/CMakeFiles/modbus_test.dir/flags.make
 
 test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o: test/CMakeFiles/modbus_test.dir/flags.make
 test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o: ../test/src/modbus_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/test && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/test/src/modbus_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/modbus_test.cpp
 
 test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/modbus_test.dir/src/modbus_test.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/test && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/test/src/modbus_test.cpp > CMakeFiles/modbus_test.dir/src/modbus_test.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/modbus_test.cpp > CMakeFiles/modbus_test.dir/src/modbus_test.cpp.i
 
 test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/modbus_test.dir/src/modbus_test.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/test && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/test/src/modbus_test.cpp -o CMakeFiles/modbus_test.dir/src/modbus_test.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/modbus_test.cpp -o CMakeFiles/modbus_test.dir/src/modbus_test.cpp.s
 
 test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o.requires:
 
@@ -92,8 +92,8 @@ modbus_test_EXTERNAL_OBJECTS =
 ../output/modbus_test: test/CMakeFiles/modbus_test.dir/build.make
 ../output/modbus_test: ../lib/libmodbus.so
 ../output/modbus_test: test/CMakeFiles/modbus_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../output/modbus_test"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/modbus_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../output/modbus_test"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/modbus_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/modbus_test.dir/build: ../output/modbus_test
@@ -105,10 +105,10 @@ test/CMakeFiles/modbus_test.dir/requires: test/CMakeFiles/modbus_test.dir/src/mo
 .PHONY : test/CMakeFiles/modbus_test.dir/requires
 
 test/CMakeFiles/modbus_test.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/test && $(CMAKE_COMMAND) -P CMakeFiles/modbus_test.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test && $(CMAKE_COMMAND) -P CMakeFiles/modbus_test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/modbus_test.dir/clean
 
 test/CMakeFiles/modbus_test.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/test /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/test /home/ramandrom/sharedir/soft_arm_ads8867/build/test/CMakeFiles/modbus_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/test/CMakeFiles/modbus_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/modbus_test.dir/depend
 

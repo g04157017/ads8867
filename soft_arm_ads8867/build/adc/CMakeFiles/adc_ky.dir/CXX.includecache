@@ -270,7 +270,7 @@ pkt_queue.h
 ringbuf.h
 ../utils/include/ringbuf.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/adc/src/adc_ky.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/adc/src/adc_ky.cpp
 adc_ky.h
-/home/ramandrom/sharedir/soft_arm_ads8867/adc/src/adc_ky.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/adc/src/adc_ky.h
 

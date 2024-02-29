@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/sm2/libtommath/CMakeFiles/progress.marks
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/sm2/libtommath/CMakeFiles/progress.marks
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/clean
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sm2/libtommath/CMakeFiles/tommath.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/CMakeFiles/tommath.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 sm2/libtommath/CMakeFiles/tommath.dir/rule
 .PHONY : sm2/libtommath/CMakeFiles/tommath.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ tommath: sm2/libtommath/CMakeFiles/tommath.dir/rule
 
 # fast build rule for target.
 tommath/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/build
 .PHONY : tommath/fast
 
 bn_error.o: bn_error.c.o
@@ -131,7 +131,7 @@ bn_error.o: bn_error.c.o
 
 # target to build an object file
 bn_error.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.o
 .PHONY : bn_error.c.o
 
 bn_error.i: bn_error.c.i
@@ -140,7 +140,7 @@ bn_error.i: bn_error.c.i
 
 # target to preprocess a source file
 bn_error.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.i
 .PHONY : bn_error.c.i
 
 bn_error.s: bn_error.c.s
@@ -149,7 +149,7 @@ bn_error.s: bn_error.c.s
 
 # target to generate assembly for a file
 bn_error.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_error.c.s
 .PHONY : bn_error.c.s
 
 bn_fast_mp_invmod.o: bn_fast_mp_invmod.c.o
@@ -158,7 +158,7 @@ bn_fast_mp_invmod.o: bn_fast_mp_invmod.c.o
 
 # target to build an object file
 bn_fast_mp_invmod.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.o
 .PHONY : bn_fast_mp_invmod.c.o
 
 bn_fast_mp_invmod.i: bn_fast_mp_invmod.c.i
@@ -167,7 +167,7 @@ bn_fast_mp_invmod.i: bn_fast_mp_invmod.c.i
 
 # target to preprocess a source file
 bn_fast_mp_invmod.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.i
 .PHONY : bn_fast_mp_invmod.c.i
 
 bn_fast_mp_invmod.s: bn_fast_mp_invmod.c.s
@@ -176,7 +176,7 @@ bn_fast_mp_invmod.s: bn_fast_mp_invmod.c.s
 
 # target to generate assembly for a file
 bn_fast_mp_invmod.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_invmod.c.s
 .PHONY : bn_fast_mp_invmod.c.s
 
 bn_fast_mp_montgomery_reduce.o: bn_fast_mp_montgomery_reduce.c.o
@@ -185,7 +185,7 @@ bn_fast_mp_montgomery_reduce.o: bn_fast_mp_montgomery_reduce.c.o
 
 # target to build an object file
 bn_fast_mp_montgomery_reduce.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.o
 .PHONY : bn_fast_mp_montgomery_reduce.c.o
 
 bn_fast_mp_montgomery_reduce.i: bn_fast_mp_montgomery_reduce.c.i
@@ -194,7 +194,7 @@ bn_fast_mp_montgomery_reduce.i: bn_fast_mp_montgomery_reduce.c.i
 
 # target to preprocess a source file
 bn_fast_mp_montgomery_reduce.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.i
 .PHONY : bn_fast_mp_montgomery_reduce.c.i
 
 bn_fast_mp_montgomery_reduce.s: bn_fast_mp_montgomery_reduce.c.s
@@ -203,7 +203,7 @@ bn_fast_mp_montgomery_reduce.s: bn_fast_mp_montgomery_reduce.c.s
 
 # target to generate assembly for a file
 bn_fast_mp_montgomery_reduce.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_mp_montgomery_reduce.c.s
 .PHONY : bn_fast_mp_montgomery_reduce.c.s
 
 bn_fast_s_mp_mul_digs.o: bn_fast_s_mp_mul_digs.c.o
@@ -212,7 +212,7 @@ bn_fast_s_mp_mul_digs.o: bn_fast_s_mp_mul_digs.c.o
 
 # target to build an object file
 bn_fast_s_mp_mul_digs.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.o
 .PHONY : bn_fast_s_mp_mul_digs.c.o
 
 bn_fast_s_mp_mul_digs.i: bn_fast_s_mp_mul_digs.c.i
@@ -221,7 +221,7 @@ bn_fast_s_mp_mul_digs.i: bn_fast_s_mp_mul_digs.c.i
 
 # target to preprocess a source file
 bn_fast_s_mp_mul_digs.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.i
 .PHONY : bn_fast_s_mp_mul_digs.c.i
 
 bn_fast_s_mp_mul_digs.s: bn_fast_s_mp_mul_digs.c.s
@@ -230,7 +230,7 @@ bn_fast_s_mp_mul_digs.s: bn_fast_s_mp_mul_digs.c.s
 
 # target to generate assembly for a file
 bn_fast_s_mp_mul_digs.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_digs.c.s
 .PHONY : bn_fast_s_mp_mul_digs.c.s
 
 bn_fast_s_mp_mul_high_digs.o: bn_fast_s_mp_mul_high_digs.c.o
@@ -239,7 +239,7 @@ bn_fast_s_mp_mul_high_digs.o: bn_fast_s_mp_mul_high_digs.c.o
 
 # target to build an object file
 bn_fast_s_mp_mul_high_digs.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.o
 .PHONY : bn_fast_s_mp_mul_high_digs.c.o
 
 bn_fast_s_mp_mul_high_digs.i: bn_fast_s_mp_mul_high_digs.c.i
@@ -248,7 +248,7 @@ bn_fast_s_mp_mul_high_digs.i: bn_fast_s_mp_mul_high_digs.c.i
 
 # target to preprocess a source file
 bn_fast_s_mp_mul_high_digs.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.i
 .PHONY : bn_fast_s_mp_mul_high_digs.c.i
 
 bn_fast_s_mp_mul_high_digs.s: bn_fast_s_mp_mul_high_digs.c.s
@@ -257,7 +257,7 @@ bn_fast_s_mp_mul_high_digs.s: bn_fast_s_mp_mul_high_digs.c.s
 
 # target to generate assembly for a file
 bn_fast_s_mp_mul_high_digs.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_mul_high_digs.c.s
 .PHONY : bn_fast_s_mp_mul_high_digs.c.s
 
 bn_fast_s_mp_sqr.o: bn_fast_s_mp_sqr.c.o
@@ -266,7 +266,7 @@ bn_fast_s_mp_sqr.o: bn_fast_s_mp_sqr.c.o
 
 # target to build an object file
 bn_fast_s_mp_sqr.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.o
 .PHONY : bn_fast_s_mp_sqr.c.o
 
 bn_fast_s_mp_sqr.i: bn_fast_s_mp_sqr.c.i
@@ -275,7 +275,7 @@ bn_fast_s_mp_sqr.i: bn_fast_s_mp_sqr.c.i
 
 # target to preprocess a source file
 bn_fast_s_mp_sqr.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.i
 .PHONY : bn_fast_s_mp_sqr.c.i
 
 bn_fast_s_mp_sqr.s: bn_fast_s_mp_sqr.c.s
@@ -284,7 +284,7 @@ bn_fast_s_mp_sqr.s: bn_fast_s_mp_sqr.c.s
 
 # target to generate assembly for a file
 bn_fast_s_mp_sqr.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_fast_s_mp_sqr.c.s
 .PHONY : bn_fast_s_mp_sqr.c.s
 
 bn_mp_2expt.o: bn_mp_2expt.c.o
@@ -293,7 +293,7 @@ bn_mp_2expt.o: bn_mp_2expt.c.o
 
 # target to build an object file
 bn_mp_2expt.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.o
 .PHONY : bn_mp_2expt.c.o
 
 bn_mp_2expt.i: bn_mp_2expt.c.i
@@ -302,7 +302,7 @@ bn_mp_2expt.i: bn_mp_2expt.c.i
 
 # target to preprocess a source file
 bn_mp_2expt.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.i
 .PHONY : bn_mp_2expt.c.i
 
 bn_mp_2expt.s: bn_mp_2expt.c.s
@@ -311,7 +311,7 @@ bn_mp_2expt.s: bn_mp_2expt.c.s
 
 # target to generate assembly for a file
 bn_mp_2expt.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_2expt.c.s
 .PHONY : bn_mp_2expt.c.s
 
 bn_mp_abs.o: bn_mp_abs.c.o
@@ -320,7 +320,7 @@ bn_mp_abs.o: bn_mp_abs.c.o
 
 # target to build an object file
 bn_mp_abs.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.o
 .PHONY : bn_mp_abs.c.o
 
 bn_mp_abs.i: bn_mp_abs.c.i
@@ -329,7 +329,7 @@ bn_mp_abs.i: bn_mp_abs.c.i
 
 # target to preprocess a source file
 bn_mp_abs.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.i
 .PHONY : bn_mp_abs.c.i
 
 bn_mp_abs.s: bn_mp_abs.c.s
@@ -338,7 +338,7 @@ bn_mp_abs.s: bn_mp_abs.c.s
 
 # target to generate assembly for a file
 bn_mp_abs.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_abs.c.s
 .PHONY : bn_mp_abs.c.s
 
 bn_mp_add.o: bn_mp_add.c.o
@@ -347,7 +347,7 @@ bn_mp_add.o: bn_mp_add.c.o
 
 # target to build an object file
 bn_mp_add.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.o
 .PHONY : bn_mp_add.c.o
 
 bn_mp_add.i: bn_mp_add.c.i
@@ -356,7 +356,7 @@ bn_mp_add.i: bn_mp_add.c.i
 
 # target to preprocess a source file
 bn_mp_add.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.i
 .PHONY : bn_mp_add.c.i
 
 bn_mp_add.s: bn_mp_add.c.s
@@ -365,7 +365,7 @@ bn_mp_add.s: bn_mp_add.c.s
 
 # target to generate assembly for a file
 bn_mp_add.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add.c.s
 .PHONY : bn_mp_add.c.s
 
 bn_mp_add_d.o: bn_mp_add_d.c.o
@@ -374,7 +374,7 @@ bn_mp_add_d.o: bn_mp_add_d.c.o
 
 # target to build an object file
 bn_mp_add_d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.o
 .PHONY : bn_mp_add_d.c.o
 
 bn_mp_add_d.i: bn_mp_add_d.c.i
@@ -383,7 +383,7 @@ bn_mp_add_d.i: bn_mp_add_d.c.i
 
 # target to preprocess a source file
 bn_mp_add_d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.i
 .PHONY : bn_mp_add_d.c.i
 
 bn_mp_add_d.s: bn_mp_add_d.c.s
@@ -392,7 +392,7 @@ bn_mp_add_d.s: bn_mp_add_d.c.s
 
 # target to generate assembly for a file
 bn_mp_add_d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_add_d.c.s
 .PHONY : bn_mp_add_d.c.s
 
 bn_mp_addmod.o: bn_mp_addmod.c.o
@@ -401,7 +401,7 @@ bn_mp_addmod.o: bn_mp_addmod.c.o
 
 # target to build an object file
 bn_mp_addmod.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.o
 .PHONY : bn_mp_addmod.c.o
 
 bn_mp_addmod.i: bn_mp_addmod.c.i
@@ -410,7 +410,7 @@ bn_mp_addmod.i: bn_mp_addmod.c.i
 
 # target to preprocess a source file
 bn_mp_addmod.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.i
 .PHONY : bn_mp_addmod.c.i
 
 bn_mp_addmod.s: bn_mp_addmod.c.s
@@ -419,7 +419,7 @@ bn_mp_addmod.s: bn_mp_addmod.c.s
 
 # target to generate assembly for a file
 bn_mp_addmod.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_addmod.c.s
 .PHONY : bn_mp_addmod.c.s
 
 bn_mp_and.o: bn_mp_and.c.o
@@ -428,7 +428,7 @@ bn_mp_and.o: bn_mp_and.c.o
 
 # target to build an object file
 bn_mp_and.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.o
 .PHONY : bn_mp_and.c.o
 
 bn_mp_and.i: bn_mp_and.c.i
@@ -437,7 +437,7 @@ bn_mp_and.i: bn_mp_and.c.i
 
 # target to preprocess a source file
 bn_mp_and.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.i
 .PHONY : bn_mp_and.c.i
 
 bn_mp_and.s: bn_mp_and.c.s
@@ -446,7 +446,7 @@ bn_mp_and.s: bn_mp_and.c.s
 
 # target to generate assembly for a file
 bn_mp_and.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_and.c.s
 .PHONY : bn_mp_and.c.s
 
 bn_mp_clamp.o: bn_mp_clamp.c.o
@@ -455,7 +455,7 @@ bn_mp_clamp.o: bn_mp_clamp.c.o
 
 # target to build an object file
 bn_mp_clamp.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.o
 .PHONY : bn_mp_clamp.c.o
 
 bn_mp_clamp.i: bn_mp_clamp.c.i
@@ -464,7 +464,7 @@ bn_mp_clamp.i: bn_mp_clamp.c.i
 
 # target to preprocess a source file
 bn_mp_clamp.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.i
 .PHONY : bn_mp_clamp.c.i
 
 bn_mp_clamp.s: bn_mp_clamp.c.s
@@ -473,7 +473,7 @@ bn_mp_clamp.s: bn_mp_clamp.c.s
 
 # target to generate assembly for a file
 bn_mp_clamp.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clamp.c.s
 .PHONY : bn_mp_clamp.c.s
 
 bn_mp_clear.o: bn_mp_clear.c.o
@@ -482,7 +482,7 @@ bn_mp_clear.o: bn_mp_clear.c.o
 
 # target to build an object file
 bn_mp_clear.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.o
 .PHONY : bn_mp_clear.c.o
 
 bn_mp_clear.i: bn_mp_clear.c.i
@@ -491,7 +491,7 @@ bn_mp_clear.i: bn_mp_clear.c.i
 
 # target to preprocess a source file
 bn_mp_clear.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.i
 .PHONY : bn_mp_clear.c.i
 
 bn_mp_clear.s: bn_mp_clear.c.s
@@ -500,7 +500,7 @@ bn_mp_clear.s: bn_mp_clear.c.s
 
 # target to generate assembly for a file
 bn_mp_clear.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear.c.s
 .PHONY : bn_mp_clear.c.s
 
 bn_mp_clear_multi.o: bn_mp_clear_multi.c.o
@@ -509,7 +509,7 @@ bn_mp_clear_multi.o: bn_mp_clear_multi.c.o
 
 # target to build an object file
 bn_mp_clear_multi.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.o
 .PHONY : bn_mp_clear_multi.c.o
 
 bn_mp_clear_multi.i: bn_mp_clear_multi.c.i
@@ -518,7 +518,7 @@ bn_mp_clear_multi.i: bn_mp_clear_multi.c.i
 
 # target to preprocess a source file
 bn_mp_clear_multi.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.i
 .PHONY : bn_mp_clear_multi.c.i
 
 bn_mp_clear_multi.s: bn_mp_clear_multi.c.s
@@ -527,7 +527,7 @@ bn_mp_clear_multi.s: bn_mp_clear_multi.c.s
 
 # target to generate assembly for a file
 bn_mp_clear_multi.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_clear_multi.c.s
 .PHONY : bn_mp_clear_multi.c.s
 
 bn_mp_cmp.o: bn_mp_cmp.c.o
@@ -536,7 +536,7 @@ bn_mp_cmp.o: bn_mp_cmp.c.o
 
 # target to build an object file
 bn_mp_cmp.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.o
 .PHONY : bn_mp_cmp.c.o
 
 bn_mp_cmp.i: bn_mp_cmp.c.i
@@ -545,7 +545,7 @@ bn_mp_cmp.i: bn_mp_cmp.c.i
 
 # target to preprocess a source file
 bn_mp_cmp.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.i
 .PHONY : bn_mp_cmp.c.i
 
 bn_mp_cmp.s: bn_mp_cmp.c.s
@@ -554,7 +554,7 @@ bn_mp_cmp.s: bn_mp_cmp.c.s
 
 # target to generate assembly for a file
 bn_mp_cmp.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp.c.s
 .PHONY : bn_mp_cmp.c.s
 
 bn_mp_cmp_d.o: bn_mp_cmp_d.c.o
@@ -563,7 +563,7 @@ bn_mp_cmp_d.o: bn_mp_cmp_d.c.o
 
 # target to build an object file
 bn_mp_cmp_d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.o
 .PHONY : bn_mp_cmp_d.c.o
 
 bn_mp_cmp_d.i: bn_mp_cmp_d.c.i
@@ -572,7 +572,7 @@ bn_mp_cmp_d.i: bn_mp_cmp_d.c.i
 
 # target to preprocess a source file
 bn_mp_cmp_d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.i
 .PHONY : bn_mp_cmp_d.c.i
 
 bn_mp_cmp_d.s: bn_mp_cmp_d.c.s
@@ -581,7 +581,7 @@ bn_mp_cmp_d.s: bn_mp_cmp_d.c.s
 
 # target to generate assembly for a file
 bn_mp_cmp_d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_d.c.s
 .PHONY : bn_mp_cmp_d.c.s
 
 bn_mp_cmp_mag.o: bn_mp_cmp_mag.c.o
@@ -590,7 +590,7 @@ bn_mp_cmp_mag.o: bn_mp_cmp_mag.c.o
 
 # target to build an object file
 bn_mp_cmp_mag.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.o
 .PHONY : bn_mp_cmp_mag.c.o
 
 bn_mp_cmp_mag.i: bn_mp_cmp_mag.c.i
@@ -599,7 +599,7 @@ bn_mp_cmp_mag.i: bn_mp_cmp_mag.c.i
 
 # target to preprocess a source file
 bn_mp_cmp_mag.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.i
 .PHONY : bn_mp_cmp_mag.c.i
 
 bn_mp_cmp_mag.s: bn_mp_cmp_mag.c.s
@@ -608,7 +608,7 @@ bn_mp_cmp_mag.s: bn_mp_cmp_mag.c.s
 
 # target to generate assembly for a file
 bn_mp_cmp_mag.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cmp_mag.c.s
 .PHONY : bn_mp_cmp_mag.c.s
 
 bn_mp_cnt_lsb.o: bn_mp_cnt_lsb.c.o
@@ -617,7 +617,7 @@ bn_mp_cnt_lsb.o: bn_mp_cnt_lsb.c.o
 
 # target to build an object file
 bn_mp_cnt_lsb.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.o
 .PHONY : bn_mp_cnt_lsb.c.o
 
 bn_mp_cnt_lsb.i: bn_mp_cnt_lsb.c.i
@@ -626,7 +626,7 @@ bn_mp_cnt_lsb.i: bn_mp_cnt_lsb.c.i
 
 # target to preprocess a source file
 bn_mp_cnt_lsb.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.i
 .PHONY : bn_mp_cnt_lsb.c.i
 
 bn_mp_cnt_lsb.s: bn_mp_cnt_lsb.c.s
@@ -635,7 +635,7 @@ bn_mp_cnt_lsb.s: bn_mp_cnt_lsb.c.s
 
 # target to generate assembly for a file
 bn_mp_cnt_lsb.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_cnt_lsb.c.s
 .PHONY : bn_mp_cnt_lsb.c.s
 
 bn_mp_copy.o: bn_mp_copy.c.o
@@ -644,7 +644,7 @@ bn_mp_copy.o: bn_mp_copy.c.o
 
 # target to build an object file
 bn_mp_copy.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.o
 .PHONY : bn_mp_copy.c.o
 
 bn_mp_copy.i: bn_mp_copy.c.i
@@ -653,7 +653,7 @@ bn_mp_copy.i: bn_mp_copy.c.i
 
 # target to preprocess a source file
 bn_mp_copy.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.i
 .PHONY : bn_mp_copy.c.i
 
 bn_mp_copy.s: bn_mp_copy.c.s
@@ -662,7 +662,7 @@ bn_mp_copy.s: bn_mp_copy.c.s
 
 # target to generate assembly for a file
 bn_mp_copy.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_copy.c.s
 .PHONY : bn_mp_copy.c.s
 
 bn_mp_count_bits.o: bn_mp_count_bits.c.o
@@ -671,7 +671,7 @@ bn_mp_count_bits.o: bn_mp_count_bits.c.o
 
 # target to build an object file
 bn_mp_count_bits.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.o
 .PHONY : bn_mp_count_bits.c.o
 
 bn_mp_count_bits.i: bn_mp_count_bits.c.i
@@ -680,7 +680,7 @@ bn_mp_count_bits.i: bn_mp_count_bits.c.i
 
 # target to preprocess a source file
 bn_mp_count_bits.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.i
 .PHONY : bn_mp_count_bits.c.i
 
 bn_mp_count_bits.s: bn_mp_count_bits.c.s
@@ -689,7 +689,7 @@ bn_mp_count_bits.s: bn_mp_count_bits.c.s
 
 # target to generate assembly for a file
 bn_mp_count_bits.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_count_bits.c.s
 .PHONY : bn_mp_count_bits.c.s
 
 bn_mp_div.o: bn_mp_div.c.o
@@ -698,7 +698,7 @@ bn_mp_div.o: bn_mp_div.c.o
 
 # target to build an object file
 bn_mp_div.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.o
 .PHONY : bn_mp_div.c.o
 
 bn_mp_div.i: bn_mp_div.c.i
@@ -707,7 +707,7 @@ bn_mp_div.i: bn_mp_div.c.i
 
 # target to preprocess a source file
 bn_mp_div.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.i
 .PHONY : bn_mp_div.c.i
 
 bn_mp_div.s: bn_mp_div.c.s
@@ -716,7 +716,7 @@ bn_mp_div.s: bn_mp_div.c.s
 
 # target to generate assembly for a file
 bn_mp_div.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div.c.s
 .PHONY : bn_mp_div.c.s
 
 bn_mp_div_2.o: bn_mp_div_2.c.o
@@ -725,7 +725,7 @@ bn_mp_div_2.o: bn_mp_div_2.c.o
 
 # target to build an object file
 bn_mp_div_2.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.o
 .PHONY : bn_mp_div_2.c.o
 
 bn_mp_div_2.i: bn_mp_div_2.c.i
@@ -734,7 +734,7 @@ bn_mp_div_2.i: bn_mp_div_2.c.i
 
 # target to preprocess a source file
 bn_mp_div_2.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.i
 .PHONY : bn_mp_div_2.c.i
 
 bn_mp_div_2.s: bn_mp_div_2.c.s
@@ -743,7 +743,7 @@ bn_mp_div_2.s: bn_mp_div_2.c.s
 
 # target to generate assembly for a file
 bn_mp_div_2.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2.c.s
 .PHONY : bn_mp_div_2.c.s
 
 bn_mp_div_2d.o: bn_mp_div_2d.c.o
@@ -752,7 +752,7 @@ bn_mp_div_2d.o: bn_mp_div_2d.c.o
 
 # target to build an object file
 bn_mp_div_2d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.o
 .PHONY : bn_mp_div_2d.c.o
 
 bn_mp_div_2d.i: bn_mp_div_2d.c.i
@@ -761,7 +761,7 @@ bn_mp_div_2d.i: bn_mp_div_2d.c.i
 
 # target to preprocess a source file
 bn_mp_div_2d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.i
 .PHONY : bn_mp_div_2d.c.i
 
 bn_mp_div_2d.s: bn_mp_div_2d.c.s
@@ -770,7 +770,7 @@ bn_mp_div_2d.s: bn_mp_div_2d.c.s
 
 # target to generate assembly for a file
 bn_mp_div_2d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_2d.c.s
 .PHONY : bn_mp_div_2d.c.s
 
 bn_mp_div_3.o: bn_mp_div_3.c.o
@@ -779,7 +779,7 @@ bn_mp_div_3.o: bn_mp_div_3.c.o
 
 # target to build an object file
 bn_mp_div_3.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.o
 .PHONY : bn_mp_div_3.c.o
 
 bn_mp_div_3.i: bn_mp_div_3.c.i
@@ -788,7 +788,7 @@ bn_mp_div_3.i: bn_mp_div_3.c.i
 
 # target to preprocess a source file
 bn_mp_div_3.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.i
 .PHONY : bn_mp_div_3.c.i
 
 bn_mp_div_3.s: bn_mp_div_3.c.s
@@ -797,7 +797,7 @@ bn_mp_div_3.s: bn_mp_div_3.c.s
 
 # target to generate assembly for a file
 bn_mp_div_3.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_3.c.s
 .PHONY : bn_mp_div_3.c.s
 
 bn_mp_div_d.o: bn_mp_div_d.c.o
@@ -806,7 +806,7 @@ bn_mp_div_d.o: bn_mp_div_d.c.o
 
 # target to build an object file
 bn_mp_div_d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.o
 .PHONY : bn_mp_div_d.c.o
 
 bn_mp_div_d.i: bn_mp_div_d.c.i
@@ -815,7 +815,7 @@ bn_mp_div_d.i: bn_mp_div_d.c.i
 
 # target to preprocess a source file
 bn_mp_div_d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.i
 .PHONY : bn_mp_div_d.c.i
 
 bn_mp_div_d.s: bn_mp_div_d.c.s
@@ -824,7 +824,7 @@ bn_mp_div_d.s: bn_mp_div_d.c.s
 
 # target to generate assembly for a file
 bn_mp_div_d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_div_d.c.s
 .PHONY : bn_mp_div_d.c.s
 
 bn_mp_dr_is_modulus.o: bn_mp_dr_is_modulus.c.o
@@ -833,7 +833,7 @@ bn_mp_dr_is_modulus.o: bn_mp_dr_is_modulus.c.o
 
 # target to build an object file
 bn_mp_dr_is_modulus.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.o
 .PHONY : bn_mp_dr_is_modulus.c.o
 
 bn_mp_dr_is_modulus.i: bn_mp_dr_is_modulus.c.i
@@ -842,7 +842,7 @@ bn_mp_dr_is_modulus.i: bn_mp_dr_is_modulus.c.i
 
 # target to preprocess a source file
 bn_mp_dr_is_modulus.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.i
 .PHONY : bn_mp_dr_is_modulus.c.i
 
 bn_mp_dr_is_modulus.s: bn_mp_dr_is_modulus.c.s
@@ -851,7 +851,7 @@ bn_mp_dr_is_modulus.s: bn_mp_dr_is_modulus.c.s
 
 # target to generate assembly for a file
 bn_mp_dr_is_modulus.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_is_modulus.c.s
 .PHONY : bn_mp_dr_is_modulus.c.s
 
 bn_mp_dr_reduce.o: bn_mp_dr_reduce.c.o
@@ -860,7 +860,7 @@ bn_mp_dr_reduce.o: bn_mp_dr_reduce.c.o
 
 # target to build an object file
 bn_mp_dr_reduce.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.o
 .PHONY : bn_mp_dr_reduce.c.o
 
 bn_mp_dr_reduce.i: bn_mp_dr_reduce.c.i
@@ -869,7 +869,7 @@ bn_mp_dr_reduce.i: bn_mp_dr_reduce.c.i
 
 # target to preprocess a source file
 bn_mp_dr_reduce.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.i
 .PHONY : bn_mp_dr_reduce.c.i
 
 bn_mp_dr_reduce.s: bn_mp_dr_reduce.c.s
@@ -878,7 +878,7 @@ bn_mp_dr_reduce.s: bn_mp_dr_reduce.c.s
 
 # target to generate assembly for a file
 bn_mp_dr_reduce.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_reduce.c.s
 .PHONY : bn_mp_dr_reduce.c.s
 
 bn_mp_dr_setup.o: bn_mp_dr_setup.c.o
@@ -887,7 +887,7 @@ bn_mp_dr_setup.o: bn_mp_dr_setup.c.o
 
 # target to build an object file
 bn_mp_dr_setup.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.o
 .PHONY : bn_mp_dr_setup.c.o
 
 bn_mp_dr_setup.i: bn_mp_dr_setup.c.i
@@ -896,7 +896,7 @@ bn_mp_dr_setup.i: bn_mp_dr_setup.c.i
 
 # target to preprocess a source file
 bn_mp_dr_setup.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.i
 .PHONY : bn_mp_dr_setup.c.i
 
 bn_mp_dr_setup.s: bn_mp_dr_setup.c.s
@@ -905,7 +905,7 @@ bn_mp_dr_setup.s: bn_mp_dr_setup.c.s
 
 # target to generate assembly for a file
 bn_mp_dr_setup.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_dr_setup.c.s
 .PHONY : bn_mp_dr_setup.c.s
 
 bn_mp_exch.o: bn_mp_exch.c.o
@@ -914,7 +914,7 @@ bn_mp_exch.o: bn_mp_exch.c.o
 
 # target to build an object file
 bn_mp_exch.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.o
 .PHONY : bn_mp_exch.c.o
 
 bn_mp_exch.i: bn_mp_exch.c.i
@@ -923,7 +923,7 @@ bn_mp_exch.i: bn_mp_exch.c.i
 
 # target to preprocess a source file
 bn_mp_exch.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.i
 .PHONY : bn_mp_exch.c.i
 
 bn_mp_exch.s: bn_mp_exch.c.s
@@ -932,7 +932,7 @@ bn_mp_exch.s: bn_mp_exch.c.s
 
 # target to generate assembly for a file
 bn_mp_exch.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exch.c.s
 .PHONY : bn_mp_exch.c.s
 
 bn_mp_expt_d.o: bn_mp_expt_d.c.o
@@ -941,7 +941,7 @@ bn_mp_expt_d.o: bn_mp_expt_d.c.o
 
 # target to build an object file
 bn_mp_expt_d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.o
 .PHONY : bn_mp_expt_d.c.o
 
 bn_mp_expt_d.i: bn_mp_expt_d.c.i
@@ -950,7 +950,7 @@ bn_mp_expt_d.i: bn_mp_expt_d.c.i
 
 # target to preprocess a source file
 bn_mp_expt_d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.i
 .PHONY : bn_mp_expt_d.c.i
 
 bn_mp_expt_d.s: bn_mp_expt_d.c.s
@@ -959,7 +959,7 @@ bn_mp_expt_d.s: bn_mp_expt_d.c.s
 
 # target to generate assembly for a file
 bn_mp_expt_d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_expt_d.c.s
 .PHONY : bn_mp_expt_d.c.s
 
 bn_mp_exptmod.o: bn_mp_exptmod.c.o
@@ -968,7 +968,7 @@ bn_mp_exptmod.o: bn_mp_exptmod.c.o
 
 # target to build an object file
 bn_mp_exptmod.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.o
 .PHONY : bn_mp_exptmod.c.o
 
 bn_mp_exptmod.i: bn_mp_exptmod.c.i
@@ -977,7 +977,7 @@ bn_mp_exptmod.i: bn_mp_exptmod.c.i
 
 # target to preprocess a source file
 bn_mp_exptmod.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.i
 .PHONY : bn_mp_exptmod.c.i
 
 bn_mp_exptmod.s: bn_mp_exptmod.c.s
@@ -986,7 +986,7 @@ bn_mp_exptmod.s: bn_mp_exptmod.c.s
 
 # target to generate assembly for a file
 bn_mp_exptmod.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod.c.s
 .PHONY : bn_mp_exptmod.c.s
 
 bn_mp_exptmod_fast.o: bn_mp_exptmod_fast.c.o
@@ -995,7 +995,7 @@ bn_mp_exptmod_fast.o: bn_mp_exptmod_fast.c.o
 
 # target to build an object file
 bn_mp_exptmod_fast.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.o
 .PHONY : bn_mp_exptmod_fast.c.o
 
 bn_mp_exptmod_fast.i: bn_mp_exptmod_fast.c.i
@@ -1004,7 +1004,7 @@ bn_mp_exptmod_fast.i: bn_mp_exptmod_fast.c.i
 
 # target to preprocess a source file
 bn_mp_exptmod_fast.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.i
 .PHONY : bn_mp_exptmod_fast.c.i
 
 bn_mp_exptmod_fast.s: bn_mp_exptmod_fast.c.s
@@ -1013,7 +1013,7 @@ bn_mp_exptmod_fast.s: bn_mp_exptmod_fast.c.s
 
 # target to generate assembly for a file
 bn_mp_exptmod_fast.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exptmod_fast.c.s
 .PHONY : bn_mp_exptmod_fast.c.s
 
 bn_mp_exteuclid.o: bn_mp_exteuclid.c.o
@@ -1022,7 +1022,7 @@ bn_mp_exteuclid.o: bn_mp_exteuclid.c.o
 
 # target to build an object file
 bn_mp_exteuclid.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.o
 .PHONY : bn_mp_exteuclid.c.o
 
 bn_mp_exteuclid.i: bn_mp_exteuclid.c.i
@@ -1031,7 +1031,7 @@ bn_mp_exteuclid.i: bn_mp_exteuclid.c.i
 
 # target to preprocess a source file
 bn_mp_exteuclid.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.i
 .PHONY : bn_mp_exteuclid.c.i
 
 bn_mp_exteuclid.s: bn_mp_exteuclid.c.s
@@ -1040,7 +1040,7 @@ bn_mp_exteuclid.s: bn_mp_exteuclid.c.s
 
 # target to generate assembly for a file
 bn_mp_exteuclid.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_exteuclid.c.s
 .PHONY : bn_mp_exteuclid.c.s
 
 bn_mp_fread.o: bn_mp_fread.c.o
@@ -1049,7 +1049,7 @@ bn_mp_fread.o: bn_mp_fread.c.o
 
 # target to build an object file
 bn_mp_fread.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.o
 .PHONY : bn_mp_fread.c.o
 
 bn_mp_fread.i: bn_mp_fread.c.i
@@ -1058,7 +1058,7 @@ bn_mp_fread.i: bn_mp_fread.c.i
 
 # target to preprocess a source file
 bn_mp_fread.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.i
 .PHONY : bn_mp_fread.c.i
 
 bn_mp_fread.s: bn_mp_fread.c.s
@@ -1067,7 +1067,7 @@ bn_mp_fread.s: bn_mp_fread.c.s
 
 # target to generate assembly for a file
 bn_mp_fread.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fread.c.s
 .PHONY : bn_mp_fread.c.s
 
 bn_mp_fwrite.o: bn_mp_fwrite.c.o
@@ -1076,7 +1076,7 @@ bn_mp_fwrite.o: bn_mp_fwrite.c.o
 
 # target to build an object file
 bn_mp_fwrite.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.o
 .PHONY : bn_mp_fwrite.c.o
 
 bn_mp_fwrite.i: bn_mp_fwrite.c.i
@@ -1085,7 +1085,7 @@ bn_mp_fwrite.i: bn_mp_fwrite.c.i
 
 # target to preprocess a source file
 bn_mp_fwrite.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.i
 .PHONY : bn_mp_fwrite.c.i
 
 bn_mp_fwrite.s: bn_mp_fwrite.c.s
@@ -1094,7 +1094,7 @@ bn_mp_fwrite.s: bn_mp_fwrite.c.s
 
 # target to generate assembly for a file
 bn_mp_fwrite.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_fwrite.c.s
 .PHONY : bn_mp_fwrite.c.s
 
 bn_mp_gcd.o: bn_mp_gcd.c.o
@@ -1103,7 +1103,7 @@ bn_mp_gcd.o: bn_mp_gcd.c.o
 
 # target to build an object file
 bn_mp_gcd.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.o
 .PHONY : bn_mp_gcd.c.o
 
 bn_mp_gcd.i: bn_mp_gcd.c.i
@@ -1112,7 +1112,7 @@ bn_mp_gcd.i: bn_mp_gcd.c.i
 
 # target to preprocess a source file
 bn_mp_gcd.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.i
 .PHONY : bn_mp_gcd.c.i
 
 bn_mp_gcd.s: bn_mp_gcd.c.s
@@ -1121,7 +1121,7 @@ bn_mp_gcd.s: bn_mp_gcd.c.s
 
 # target to generate assembly for a file
 bn_mp_gcd.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_gcd.c.s
 .PHONY : bn_mp_gcd.c.s
 
 bn_mp_get_int.o: bn_mp_get_int.c.o
@@ -1130,7 +1130,7 @@ bn_mp_get_int.o: bn_mp_get_int.c.o
 
 # target to build an object file
 bn_mp_get_int.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.o
 .PHONY : bn_mp_get_int.c.o
 
 bn_mp_get_int.i: bn_mp_get_int.c.i
@@ -1139,7 +1139,7 @@ bn_mp_get_int.i: bn_mp_get_int.c.i
 
 # target to preprocess a source file
 bn_mp_get_int.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.i
 .PHONY : bn_mp_get_int.c.i
 
 bn_mp_get_int.s: bn_mp_get_int.c.s
@@ -1148,7 +1148,7 @@ bn_mp_get_int.s: bn_mp_get_int.c.s
 
 # target to generate assembly for a file
 bn_mp_get_int.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_get_int.c.s
 .PHONY : bn_mp_get_int.c.s
 
 bn_mp_grow.o: bn_mp_grow.c.o
@@ -1157,7 +1157,7 @@ bn_mp_grow.o: bn_mp_grow.c.o
 
 # target to build an object file
 bn_mp_grow.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.o
 .PHONY : bn_mp_grow.c.o
 
 bn_mp_grow.i: bn_mp_grow.c.i
@@ -1166,7 +1166,7 @@ bn_mp_grow.i: bn_mp_grow.c.i
 
 # target to preprocess a source file
 bn_mp_grow.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.i
 .PHONY : bn_mp_grow.c.i
 
 bn_mp_grow.s: bn_mp_grow.c.s
@@ -1175,7 +1175,7 @@ bn_mp_grow.s: bn_mp_grow.c.s
 
 # target to generate assembly for a file
 bn_mp_grow.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_grow.c.s
 .PHONY : bn_mp_grow.c.s
 
 bn_mp_init.o: bn_mp_init.c.o
@@ -1184,7 +1184,7 @@ bn_mp_init.o: bn_mp_init.c.o
 
 # target to build an object file
 bn_mp_init.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.o
 .PHONY : bn_mp_init.c.o
 
 bn_mp_init.i: bn_mp_init.c.i
@@ -1193,7 +1193,7 @@ bn_mp_init.i: bn_mp_init.c.i
 
 # target to preprocess a source file
 bn_mp_init.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.i
 .PHONY : bn_mp_init.c.i
 
 bn_mp_init.s: bn_mp_init.c.s
@@ -1202,7 +1202,7 @@ bn_mp_init.s: bn_mp_init.c.s
 
 # target to generate assembly for a file
 bn_mp_init.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init.c.s
 .PHONY : bn_mp_init.c.s
 
 bn_mp_init_copy.o: bn_mp_init_copy.c.o
@@ -1211,7 +1211,7 @@ bn_mp_init_copy.o: bn_mp_init_copy.c.o
 
 # target to build an object file
 bn_mp_init_copy.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.o
 .PHONY : bn_mp_init_copy.c.o
 
 bn_mp_init_copy.i: bn_mp_init_copy.c.i
@@ -1220,7 +1220,7 @@ bn_mp_init_copy.i: bn_mp_init_copy.c.i
 
 # target to preprocess a source file
 bn_mp_init_copy.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.i
 .PHONY : bn_mp_init_copy.c.i
 
 bn_mp_init_copy.s: bn_mp_init_copy.c.s
@@ -1229,7 +1229,7 @@ bn_mp_init_copy.s: bn_mp_init_copy.c.s
 
 # target to generate assembly for a file
 bn_mp_init_copy.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_copy.c.s
 .PHONY : bn_mp_init_copy.c.s
 
 bn_mp_init_multi.o: bn_mp_init_multi.c.o
@@ -1238,7 +1238,7 @@ bn_mp_init_multi.o: bn_mp_init_multi.c.o
 
 # target to build an object file
 bn_mp_init_multi.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.o
 .PHONY : bn_mp_init_multi.c.o
 
 bn_mp_init_multi.i: bn_mp_init_multi.c.i
@@ -1247,7 +1247,7 @@ bn_mp_init_multi.i: bn_mp_init_multi.c.i
 
 # target to preprocess a source file
 bn_mp_init_multi.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.i
 .PHONY : bn_mp_init_multi.c.i
 
 bn_mp_init_multi.s: bn_mp_init_multi.c.s
@@ -1256,7 +1256,7 @@ bn_mp_init_multi.s: bn_mp_init_multi.c.s
 
 # target to generate assembly for a file
 bn_mp_init_multi.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_multi.c.s
 .PHONY : bn_mp_init_multi.c.s
 
 bn_mp_init_set.o: bn_mp_init_set.c.o
@@ -1265,7 +1265,7 @@ bn_mp_init_set.o: bn_mp_init_set.c.o
 
 # target to build an object file
 bn_mp_init_set.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.o
 .PHONY : bn_mp_init_set.c.o
 
 bn_mp_init_set.i: bn_mp_init_set.c.i
@@ -1274,7 +1274,7 @@ bn_mp_init_set.i: bn_mp_init_set.c.i
 
 # target to preprocess a source file
 bn_mp_init_set.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.i
 .PHONY : bn_mp_init_set.c.i
 
 bn_mp_init_set.s: bn_mp_init_set.c.s
@@ -1283,7 +1283,7 @@ bn_mp_init_set.s: bn_mp_init_set.c.s
 
 # target to generate assembly for a file
 bn_mp_init_set.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set.c.s
 .PHONY : bn_mp_init_set.c.s
 
 bn_mp_init_set_int.o: bn_mp_init_set_int.c.o
@@ -1292,7 +1292,7 @@ bn_mp_init_set_int.o: bn_mp_init_set_int.c.o
 
 # target to build an object file
 bn_mp_init_set_int.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.o
 .PHONY : bn_mp_init_set_int.c.o
 
 bn_mp_init_set_int.i: bn_mp_init_set_int.c.i
@@ -1301,7 +1301,7 @@ bn_mp_init_set_int.i: bn_mp_init_set_int.c.i
 
 # target to preprocess a source file
 bn_mp_init_set_int.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.i
 .PHONY : bn_mp_init_set_int.c.i
 
 bn_mp_init_set_int.s: bn_mp_init_set_int.c.s
@@ -1310,7 +1310,7 @@ bn_mp_init_set_int.s: bn_mp_init_set_int.c.s
 
 # target to generate assembly for a file
 bn_mp_init_set_int.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_set_int.c.s
 .PHONY : bn_mp_init_set_int.c.s
 
 bn_mp_init_size.o: bn_mp_init_size.c.o
@@ -1319,7 +1319,7 @@ bn_mp_init_size.o: bn_mp_init_size.c.o
 
 # target to build an object file
 bn_mp_init_size.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.o
 .PHONY : bn_mp_init_size.c.o
 
 bn_mp_init_size.i: bn_mp_init_size.c.i
@@ -1328,7 +1328,7 @@ bn_mp_init_size.i: bn_mp_init_size.c.i
 
 # target to preprocess a source file
 bn_mp_init_size.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.i
 .PHONY : bn_mp_init_size.c.i
 
 bn_mp_init_size.s: bn_mp_init_size.c.s
@@ -1337,7 +1337,7 @@ bn_mp_init_size.s: bn_mp_init_size.c.s
 
 # target to generate assembly for a file
 bn_mp_init_size.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_init_size.c.s
 .PHONY : bn_mp_init_size.c.s
 
 bn_mp_invmod.o: bn_mp_invmod.c.o
@@ -1346,7 +1346,7 @@ bn_mp_invmod.o: bn_mp_invmod.c.o
 
 # target to build an object file
 bn_mp_invmod.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.o
 .PHONY : bn_mp_invmod.c.o
 
 bn_mp_invmod.i: bn_mp_invmod.c.i
@@ -1355,7 +1355,7 @@ bn_mp_invmod.i: bn_mp_invmod.c.i
 
 # target to preprocess a source file
 bn_mp_invmod.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.i
 .PHONY : bn_mp_invmod.c.i
 
 bn_mp_invmod.s: bn_mp_invmod.c.s
@@ -1364,7 +1364,7 @@ bn_mp_invmod.s: bn_mp_invmod.c.s
 
 # target to generate assembly for a file
 bn_mp_invmod.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod.c.s
 .PHONY : bn_mp_invmod.c.s
 
 bn_mp_invmod_slow.o: bn_mp_invmod_slow.c.o
@@ -1373,7 +1373,7 @@ bn_mp_invmod_slow.o: bn_mp_invmod_slow.c.o
 
 # target to build an object file
 bn_mp_invmod_slow.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.o
 .PHONY : bn_mp_invmod_slow.c.o
 
 bn_mp_invmod_slow.i: bn_mp_invmod_slow.c.i
@@ -1382,7 +1382,7 @@ bn_mp_invmod_slow.i: bn_mp_invmod_slow.c.i
 
 # target to preprocess a source file
 bn_mp_invmod_slow.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.i
 .PHONY : bn_mp_invmod_slow.c.i
 
 bn_mp_invmod_slow.s: bn_mp_invmod_slow.c.s
@@ -1391,7 +1391,7 @@ bn_mp_invmod_slow.s: bn_mp_invmod_slow.c.s
 
 # target to generate assembly for a file
 bn_mp_invmod_slow.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_invmod_slow.c.s
 .PHONY : bn_mp_invmod_slow.c.s
 
 bn_mp_is_square.o: bn_mp_is_square.c.o
@@ -1400,7 +1400,7 @@ bn_mp_is_square.o: bn_mp_is_square.c.o
 
 # target to build an object file
 bn_mp_is_square.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.o
 .PHONY : bn_mp_is_square.c.o
 
 bn_mp_is_square.i: bn_mp_is_square.c.i
@@ -1409,7 +1409,7 @@ bn_mp_is_square.i: bn_mp_is_square.c.i
 
 # target to preprocess a source file
 bn_mp_is_square.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.i
 .PHONY : bn_mp_is_square.c.i
 
 bn_mp_is_square.s: bn_mp_is_square.c.s
@@ -1418,7 +1418,7 @@ bn_mp_is_square.s: bn_mp_is_square.c.s
 
 # target to generate assembly for a file
 bn_mp_is_square.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_is_square.c.s
 .PHONY : bn_mp_is_square.c.s
 
 bn_mp_jacobi.o: bn_mp_jacobi.c.o
@@ -1427,7 +1427,7 @@ bn_mp_jacobi.o: bn_mp_jacobi.c.o
 
 # target to build an object file
 bn_mp_jacobi.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.o
 .PHONY : bn_mp_jacobi.c.o
 
 bn_mp_jacobi.i: bn_mp_jacobi.c.i
@@ -1436,7 +1436,7 @@ bn_mp_jacobi.i: bn_mp_jacobi.c.i
 
 # target to preprocess a source file
 bn_mp_jacobi.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.i
 .PHONY : bn_mp_jacobi.c.i
 
 bn_mp_jacobi.s: bn_mp_jacobi.c.s
@@ -1445,7 +1445,7 @@ bn_mp_jacobi.s: bn_mp_jacobi.c.s
 
 # target to generate assembly for a file
 bn_mp_jacobi.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_jacobi.c.s
 .PHONY : bn_mp_jacobi.c.s
 
 bn_mp_karatsuba_mul.o: bn_mp_karatsuba_mul.c.o
@@ -1454,7 +1454,7 @@ bn_mp_karatsuba_mul.o: bn_mp_karatsuba_mul.c.o
 
 # target to build an object file
 bn_mp_karatsuba_mul.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.o
 .PHONY : bn_mp_karatsuba_mul.c.o
 
 bn_mp_karatsuba_mul.i: bn_mp_karatsuba_mul.c.i
@@ -1463,7 +1463,7 @@ bn_mp_karatsuba_mul.i: bn_mp_karatsuba_mul.c.i
 
 # target to preprocess a source file
 bn_mp_karatsuba_mul.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.i
 .PHONY : bn_mp_karatsuba_mul.c.i
 
 bn_mp_karatsuba_mul.s: bn_mp_karatsuba_mul.c.s
@@ -1472,7 +1472,7 @@ bn_mp_karatsuba_mul.s: bn_mp_karatsuba_mul.c.s
 
 # target to generate assembly for a file
 bn_mp_karatsuba_mul.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_mul.c.s
 .PHONY : bn_mp_karatsuba_mul.c.s
 
 bn_mp_karatsuba_sqr.o: bn_mp_karatsuba_sqr.c.o
@@ -1481,7 +1481,7 @@ bn_mp_karatsuba_sqr.o: bn_mp_karatsuba_sqr.c.o
 
 # target to build an object file
 bn_mp_karatsuba_sqr.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.o
 .PHONY : bn_mp_karatsuba_sqr.c.o
 
 bn_mp_karatsuba_sqr.i: bn_mp_karatsuba_sqr.c.i
@@ -1490,7 +1490,7 @@ bn_mp_karatsuba_sqr.i: bn_mp_karatsuba_sqr.c.i
 
 # target to preprocess a source file
 bn_mp_karatsuba_sqr.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.i
 .PHONY : bn_mp_karatsuba_sqr.c.i
 
 bn_mp_karatsuba_sqr.s: bn_mp_karatsuba_sqr.c.s
@@ -1499,7 +1499,7 @@ bn_mp_karatsuba_sqr.s: bn_mp_karatsuba_sqr.c.s
 
 # target to generate assembly for a file
 bn_mp_karatsuba_sqr.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_karatsuba_sqr.c.s
 .PHONY : bn_mp_karatsuba_sqr.c.s
 
 bn_mp_lcm.o: bn_mp_lcm.c.o
@@ -1508,7 +1508,7 @@ bn_mp_lcm.o: bn_mp_lcm.c.o
 
 # target to build an object file
 bn_mp_lcm.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.o
 .PHONY : bn_mp_lcm.c.o
 
 bn_mp_lcm.i: bn_mp_lcm.c.i
@@ -1517,7 +1517,7 @@ bn_mp_lcm.i: bn_mp_lcm.c.i
 
 # target to preprocess a source file
 bn_mp_lcm.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.i
 .PHONY : bn_mp_lcm.c.i
 
 bn_mp_lcm.s: bn_mp_lcm.c.s
@@ -1526,7 +1526,7 @@ bn_mp_lcm.s: bn_mp_lcm.c.s
 
 # target to generate assembly for a file
 bn_mp_lcm.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lcm.c.s
 .PHONY : bn_mp_lcm.c.s
 
 bn_mp_lshd.o: bn_mp_lshd.c.o
@@ -1535,7 +1535,7 @@ bn_mp_lshd.o: bn_mp_lshd.c.o
 
 # target to build an object file
 bn_mp_lshd.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.o
 .PHONY : bn_mp_lshd.c.o
 
 bn_mp_lshd.i: bn_mp_lshd.c.i
@@ -1544,7 +1544,7 @@ bn_mp_lshd.i: bn_mp_lshd.c.i
 
 # target to preprocess a source file
 bn_mp_lshd.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.i
 .PHONY : bn_mp_lshd.c.i
 
 bn_mp_lshd.s: bn_mp_lshd.c.s
@@ -1553,7 +1553,7 @@ bn_mp_lshd.s: bn_mp_lshd.c.s
 
 # target to generate assembly for a file
 bn_mp_lshd.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_lshd.c.s
 .PHONY : bn_mp_lshd.c.s
 
 bn_mp_mod.o: bn_mp_mod.c.o
@@ -1562,7 +1562,7 @@ bn_mp_mod.o: bn_mp_mod.c.o
 
 # target to build an object file
 bn_mp_mod.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.o
 .PHONY : bn_mp_mod.c.o
 
 bn_mp_mod.i: bn_mp_mod.c.i
@@ -1571,7 +1571,7 @@ bn_mp_mod.i: bn_mp_mod.c.i
 
 # target to preprocess a source file
 bn_mp_mod.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.i
 .PHONY : bn_mp_mod.c.i
 
 bn_mp_mod.s: bn_mp_mod.c.s
@@ -1580,7 +1580,7 @@ bn_mp_mod.s: bn_mp_mod.c.s
 
 # target to generate assembly for a file
 bn_mp_mod.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod.c.s
 .PHONY : bn_mp_mod.c.s
 
 bn_mp_mod_2d.o: bn_mp_mod_2d.c.o
@@ -1589,7 +1589,7 @@ bn_mp_mod_2d.o: bn_mp_mod_2d.c.o
 
 # target to build an object file
 bn_mp_mod_2d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.o
 .PHONY : bn_mp_mod_2d.c.o
 
 bn_mp_mod_2d.i: bn_mp_mod_2d.c.i
@@ -1598,7 +1598,7 @@ bn_mp_mod_2d.i: bn_mp_mod_2d.c.i
 
 # target to preprocess a source file
 bn_mp_mod_2d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.i
 .PHONY : bn_mp_mod_2d.c.i
 
 bn_mp_mod_2d.s: bn_mp_mod_2d.c.s
@@ -1607,7 +1607,7 @@ bn_mp_mod_2d.s: bn_mp_mod_2d.c.s
 
 # target to generate assembly for a file
 bn_mp_mod_2d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_2d.c.s
 .PHONY : bn_mp_mod_2d.c.s
 
 bn_mp_mod_d.o: bn_mp_mod_d.c.o
@@ -1616,7 +1616,7 @@ bn_mp_mod_d.o: bn_mp_mod_d.c.o
 
 # target to build an object file
 bn_mp_mod_d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.o
 .PHONY : bn_mp_mod_d.c.o
 
 bn_mp_mod_d.i: bn_mp_mod_d.c.i
@@ -1625,7 +1625,7 @@ bn_mp_mod_d.i: bn_mp_mod_d.c.i
 
 # target to preprocess a source file
 bn_mp_mod_d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.i
 .PHONY : bn_mp_mod_d.c.i
 
 bn_mp_mod_d.s: bn_mp_mod_d.c.s
@@ -1634,7 +1634,7 @@ bn_mp_mod_d.s: bn_mp_mod_d.c.s
 
 # target to generate assembly for a file
 bn_mp_mod_d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mod_d.c.s
 .PHONY : bn_mp_mod_d.c.s
 
 bn_mp_montgomery_calc_normalization.o: bn_mp_montgomery_calc_normalization.c.o
@@ -1643,7 +1643,7 @@ bn_mp_montgomery_calc_normalization.o: bn_mp_montgomery_calc_normalization.c.o
 
 # target to build an object file
 bn_mp_montgomery_calc_normalization.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.o
 .PHONY : bn_mp_montgomery_calc_normalization.c.o
 
 bn_mp_montgomery_calc_normalization.i: bn_mp_montgomery_calc_normalization.c.i
@@ -1652,7 +1652,7 @@ bn_mp_montgomery_calc_normalization.i: bn_mp_montgomery_calc_normalization.c.i
 
 # target to preprocess a source file
 bn_mp_montgomery_calc_normalization.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.i
 .PHONY : bn_mp_montgomery_calc_normalization.c.i
 
 bn_mp_montgomery_calc_normalization.s: bn_mp_montgomery_calc_normalization.c.s
@@ -1661,7 +1661,7 @@ bn_mp_montgomery_calc_normalization.s: bn_mp_montgomery_calc_normalization.c.s
 
 # target to generate assembly for a file
 bn_mp_montgomery_calc_normalization.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_calc_normalization.c.s
 .PHONY : bn_mp_montgomery_calc_normalization.c.s
 
 bn_mp_montgomery_reduce.o: bn_mp_montgomery_reduce.c.o
@@ -1670,7 +1670,7 @@ bn_mp_montgomery_reduce.o: bn_mp_montgomery_reduce.c.o
 
 # target to build an object file
 bn_mp_montgomery_reduce.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.o
 .PHONY : bn_mp_montgomery_reduce.c.o
 
 bn_mp_montgomery_reduce.i: bn_mp_montgomery_reduce.c.i
@@ -1679,7 +1679,7 @@ bn_mp_montgomery_reduce.i: bn_mp_montgomery_reduce.c.i
 
 # target to preprocess a source file
 bn_mp_montgomery_reduce.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.i
 .PHONY : bn_mp_montgomery_reduce.c.i
 
 bn_mp_montgomery_reduce.s: bn_mp_montgomery_reduce.c.s
@@ -1688,7 +1688,7 @@ bn_mp_montgomery_reduce.s: bn_mp_montgomery_reduce.c.s
 
 # target to generate assembly for a file
 bn_mp_montgomery_reduce.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_reduce.c.s
 .PHONY : bn_mp_montgomery_reduce.c.s
 
 bn_mp_montgomery_setup.o: bn_mp_montgomery_setup.c.o
@@ -1697,7 +1697,7 @@ bn_mp_montgomery_setup.o: bn_mp_montgomery_setup.c.o
 
 # target to build an object file
 bn_mp_montgomery_setup.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.o
 .PHONY : bn_mp_montgomery_setup.c.o
 
 bn_mp_montgomery_setup.i: bn_mp_montgomery_setup.c.i
@@ -1706,7 +1706,7 @@ bn_mp_montgomery_setup.i: bn_mp_montgomery_setup.c.i
 
 # target to preprocess a source file
 bn_mp_montgomery_setup.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.i
 .PHONY : bn_mp_montgomery_setup.c.i
 
 bn_mp_montgomery_setup.s: bn_mp_montgomery_setup.c.s
@@ -1715,7 +1715,7 @@ bn_mp_montgomery_setup.s: bn_mp_montgomery_setup.c.s
 
 # target to generate assembly for a file
 bn_mp_montgomery_setup.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_montgomery_setup.c.s
 .PHONY : bn_mp_montgomery_setup.c.s
 
 bn_mp_mul.o: bn_mp_mul.c.o
@@ -1724,7 +1724,7 @@ bn_mp_mul.o: bn_mp_mul.c.o
 
 # target to build an object file
 bn_mp_mul.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.o
 .PHONY : bn_mp_mul.c.o
 
 bn_mp_mul.i: bn_mp_mul.c.i
@@ -1733,7 +1733,7 @@ bn_mp_mul.i: bn_mp_mul.c.i
 
 # target to preprocess a source file
 bn_mp_mul.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.i
 .PHONY : bn_mp_mul.c.i
 
 bn_mp_mul.s: bn_mp_mul.c.s
@@ -1742,7 +1742,7 @@ bn_mp_mul.s: bn_mp_mul.c.s
 
 # target to generate assembly for a file
 bn_mp_mul.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul.c.s
 .PHONY : bn_mp_mul.c.s
 
 bn_mp_mul_2.o: bn_mp_mul_2.c.o
@@ -1751,7 +1751,7 @@ bn_mp_mul_2.o: bn_mp_mul_2.c.o
 
 # target to build an object file
 bn_mp_mul_2.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.o
 .PHONY : bn_mp_mul_2.c.o
 
 bn_mp_mul_2.i: bn_mp_mul_2.c.i
@@ -1760,7 +1760,7 @@ bn_mp_mul_2.i: bn_mp_mul_2.c.i
 
 # target to preprocess a source file
 bn_mp_mul_2.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.i
 .PHONY : bn_mp_mul_2.c.i
 
 bn_mp_mul_2.s: bn_mp_mul_2.c.s
@@ -1769,7 +1769,7 @@ bn_mp_mul_2.s: bn_mp_mul_2.c.s
 
 # target to generate assembly for a file
 bn_mp_mul_2.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2.c.s
 .PHONY : bn_mp_mul_2.c.s
 
 bn_mp_mul_2d.o: bn_mp_mul_2d.c.o
@@ -1778,7 +1778,7 @@ bn_mp_mul_2d.o: bn_mp_mul_2d.c.o
 
 # target to build an object file
 bn_mp_mul_2d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.o
 .PHONY : bn_mp_mul_2d.c.o
 
 bn_mp_mul_2d.i: bn_mp_mul_2d.c.i
@@ -1787,7 +1787,7 @@ bn_mp_mul_2d.i: bn_mp_mul_2d.c.i
 
 # target to preprocess a source file
 bn_mp_mul_2d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.i
 .PHONY : bn_mp_mul_2d.c.i
 
 bn_mp_mul_2d.s: bn_mp_mul_2d.c.s
@@ -1796,7 +1796,7 @@ bn_mp_mul_2d.s: bn_mp_mul_2d.c.s
 
 # target to generate assembly for a file
 bn_mp_mul_2d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_2d.c.s
 .PHONY : bn_mp_mul_2d.c.s
 
 bn_mp_mul_d.o: bn_mp_mul_d.c.o
@@ -1805,7 +1805,7 @@ bn_mp_mul_d.o: bn_mp_mul_d.c.o
 
 # target to build an object file
 bn_mp_mul_d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.o
 .PHONY : bn_mp_mul_d.c.o
 
 bn_mp_mul_d.i: bn_mp_mul_d.c.i
@@ -1814,7 +1814,7 @@ bn_mp_mul_d.i: bn_mp_mul_d.c.i
 
 # target to preprocess a source file
 bn_mp_mul_d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.i
 .PHONY : bn_mp_mul_d.c.i
 
 bn_mp_mul_d.s: bn_mp_mul_d.c.s
@@ -1823,7 +1823,7 @@ bn_mp_mul_d.s: bn_mp_mul_d.c.s
 
 # target to generate assembly for a file
 bn_mp_mul_d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mul_d.c.s
 .PHONY : bn_mp_mul_d.c.s
 
 bn_mp_mulmod.o: bn_mp_mulmod.c.o
@@ -1832,7 +1832,7 @@ bn_mp_mulmod.o: bn_mp_mulmod.c.o
 
 # target to build an object file
 bn_mp_mulmod.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.o
 .PHONY : bn_mp_mulmod.c.o
 
 bn_mp_mulmod.i: bn_mp_mulmod.c.i
@@ -1841,7 +1841,7 @@ bn_mp_mulmod.i: bn_mp_mulmod.c.i
 
 # target to preprocess a source file
 bn_mp_mulmod.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.i
 .PHONY : bn_mp_mulmod.c.i
 
 bn_mp_mulmod.s: bn_mp_mulmod.c.s
@@ -1850,7 +1850,7 @@ bn_mp_mulmod.s: bn_mp_mulmod.c.s
 
 # target to generate assembly for a file
 bn_mp_mulmod.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_mulmod.c.s
 .PHONY : bn_mp_mulmod.c.s
 
 bn_mp_n_root.o: bn_mp_n_root.c.o
@@ -1859,7 +1859,7 @@ bn_mp_n_root.o: bn_mp_n_root.c.o
 
 # target to build an object file
 bn_mp_n_root.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.o
 .PHONY : bn_mp_n_root.c.o
 
 bn_mp_n_root.i: bn_mp_n_root.c.i
@@ -1868,7 +1868,7 @@ bn_mp_n_root.i: bn_mp_n_root.c.i
 
 # target to preprocess a source file
 bn_mp_n_root.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.i
 .PHONY : bn_mp_n_root.c.i
 
 bn_mp_n_root.s: bn_mp_n_root.c.s
@@ -1877,7 +1877,7 @@ bn_mp_n_root.s: bn_mp_n_root.c.s
 
 # target to generate assembly for a file
 bn_mp_n_root.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_n_root.c.s
 .PHONY : bn_mp_n_root.c.s
 
 bn_mp_neg.o: bn_mp_neg.c.o
@@ -1886,7 +1886,7 @@ bn_mp_neg.o: bn_mp_neg.c.o
 
 # target to build an object file
 bn_mp_neg.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.o
 .PHONY : bn_mp_neg.c.o
 
 bn_mp_neg.i: bn_mp_neg.c.i
@@ -1895,7 +1895,7 @@ bn_mp_neg.i: bn_mp_neg.c.i
 
 # target to preprocess a source file
 bn_mp_neg.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.i
 .PHONY : bn_mp_neg.c.i
 
 bn_mp_neg.s: bn_mp_neg.c.s
@@ -1904,7 +1904,7 @@ bn_mp_neg.s: bn_mp_neg.c.s
 
 # target to generate assembly for a file
 bn_mp_neg.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_neg.c.s
 .PHONY : bn_mp_neg.c.s
 
 bn_mp_or.o: bn_mp_or.c.o
@@ -1913,7 +1913,7 @@ bn_mp_or.o: bn_mp_or.c.o
 
 # target to build an object file
 bn_mp_or.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.o
 .PHONY : bn_mp_or.c.o
 
 bn_mp_or.i: bn_mp_or.c.i
@@ -1922,7 +1922,7 @@ bn_mp_or.i: bn_mp_or.c.i
 
 # target to preprocess a source file
 bn_mp_or.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.i
 .PHONY : bn_mp_or.c.i
 
 bn_mp_or.s: bn_mp_or.c.s
@@ -1931,7 +1931,7 @@ bn_mp_or.s: bn_mp_or.c.s
 
 # target to generate assembly for a file
 bn_mp_or.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_or.c.s
 .PHONY : bn_mp_or.c.s
 
 bn_mp_prime_fermat.o: bn_mp_prime_fermat.c.o
@@ -1940,7 +1940,7 @@ bn_mp_prime_fermat.o: bn_mp_prime_fermat.c.o
 
 # target to build an object file
 bn_mp_prime_fermat.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.o
 .PHONY : bn_mp_prime_fermat.c.o
 
 bn_mp_prime_fermat.i: bn_mp_prime_fermat.c.i
@@ -1949,7 +1949,7 @@ bn_mp_prime_fermat.i: bn_mp_prime_fermat.c.i
 
 # target to preprocess a source file
 bn_mp_prime_fermat.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.i
 .PHONY : bn_mp_prime_fermat.c.i
 
 bn_mp_prime_fermat.s: bn_mp_prime_fermat.c.s
@@ -1958,7 +1958,7 @@ bn_mp_prime_fermat.s: bn_mp_prime_fermat.c.s
 
 # target to generate assembly for a file
 bn_mp_prime_fermat.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_fermat.c.s
 .PHONY : bn_mp_prime_fermat.c.s
 
 bn_mp_prime_is_divisible.o: bn_mp_prime_is_divisible.c.o
@@ -1967,7 +1967,7 @@ bn_mp_prime_is_divisible.o: bn_mp_prime_is_divisible.c.o
 
 # target to build an object file
 bn_mp_prime_is_divisible.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.o
 .PHONY : bn_mp_prime_is_divisible.c.o
 
 bn_mp_prime_is_divisible.i: bn_mp_prime_is_divisible.c.i
@@ -1976,7 +1976,7 @@ bn_mp_prime_is_divisible.i: bn_mp_prime_is_divisible.c.i
 
 # target to preprocess a source file
 bn_mp_prime_is_divisible.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.i
 .PHONY : bn_mp_prime_is_divisible.c.i
 
 bn_mp_prime_is_divisible.s: bn_mp_prime_is_divisible.c.s
@@ -1985,7 +1985,7 @@ bn_mp_prime_is_divisible.s: bn_mp_prime_is_divisible.c.s
 
 # target to generate assembly for a file
 bn_mp_prime_is_divisible.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_divisible.c.s
 .PHONY : bn_mp_prime_is_divisible.c.s
 
 bn_mp_prime_is_prime.o: bn_mp_prime_is_prime.c.o
@@ -1994,7 +1994,7 @@ bn_mp_prime_is_prime.o: bn_mp_prime_is_prime.c.o
 
 # target to build an object file
 bn_mp_prime_is_prime.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.o
 .PHONY : bn_mp_prime_is_prime.c.o
 
 bn_mp_prime_is_prime.i: bn_mp_prime_is_prime.c.i
@@ -2003,7 +2003,7 @@ bn_mp_prime_is_prime.i: bn_mp_prime_is_prime.c.i
 
 # target to preprocess a source file
 bn_mp_prime_is_prime.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.i
 .PHONY : bn_mp_prime_is_prime.c.i
 
 bn_mp_prime_is_prime.s: bn_mp_prime_is_prime.c.s
@@ -2012,7 +2012,7 @@ bn_mp_prime_is_prime.s: bn_mp_prime_is_prime.c.s
 
 # target to generate assembly for a file
 bn_mp_prime_is_prime.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_is_prime.c.s
 .PHONY : bn_mp_prime_is_prime.c.s
 
 bn_mp_prime_miller_rabin.o: bn_mp_prime_miller_rabin.c.o
@@ -2021,7 +2021,7 @@ bn_mp_prime_miller_rabin.o: bn_mp_prime_miller_rabin.c.o
 
 # target to build an object file
 bn_mp_prime_miller_rabin.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.o
 .PHONY : bn_mp_prime_miller_rabin.c.o
 
 bn_mp_prime_miller_rabin.i: bn_mp_prime_miller_rabin.c.i
@@ -2030,7 +2030,7 @@ bn_mp_prime_miller_rabin.i: bn_mp_prime_miller_rabin.c.i
 
 # target to preprocess a source file
 bn_mp_prime_miller_rabin.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.i
 .PHONY : bn_mp_prime_miller_rabin.c.i
 
 bn_mp_prime_miller_rabin.s: bn_mp_prime_miller_rabin.c.s
@@ -2039,7 +2039,7 @@ bn_mp_prime_miller_rabin.s: bn_mp_prime_miller_rabin.c.s
 
 # target to generate assembly for a file
 bn_mp_prime_miller_rabin.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_miller_rabin.c.s
 .PHONY : bn_mp_prime_miller_rabin.c.s
 
 bn_mp_prime_next_prime.o: bn_mp_prime_next_prime.c.o
@@ -2048,7 +2048,7 @@ bn_mp_prime_next_prime.o: bn_mp_prime_next_prime.c.o
 
 # target to build an object file
 bn_mp_prime_next_prime.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.o
 .PHONY : bn_mp_prime_next_prime.c.o
 
 bn_mp_prime_next_prime.i: bn_mp_prime_next_prime.c.i
@@ -2057,7 +2057,7 @@ bn_mp_prime_next_prime.i: bn_mp_prime_next_prime.c.i
 
 # target to preprocess a source file
 bn_mp_prime_next_prime.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.i
 .PHONY : bn_mp_prime_next_prime.c.i
 
 bn_mp_prime_next_prime.s: bn_mp_prime_next_prime.c.s
@@ -2066,7 +2066,7 @@ bn_mp_prime_next_prime.s: bn_mp_prime_next_prime.c.s
 
 # target to generate assembly for a file
 bn_mp_prime_next_prime.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_next_prime.c.s
 .PHONY : bn_mp_prime_next_prime.c.s
 
 bn_mp_prime_rabin_miller_trials.o: bn_mp_prime_rabin_miller_trials.c.o
@@ -2075,7 +2075,7 @@ bn_mp_prime_rabin_miller_trials.o: bn_mp_prime_rabin_miller_trials.c.o
 
 # target to build an object file
 bn_mp_prime_rabin_miller_trials.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.o
 .PHONY : bn_mp_prime_rabin_miller_trials.c.o
 
 bn_mp_prime_rabin_miller_trials.i: bn_mp_prime_rabin_miller_trials.c.i
@@ -2084,7 +2084,7 @@ bn_mp_prime_rabin_miller_trials.i: bn_mp_prime_rabin_miller_trials.c.i
 
 # target to preprocess a source file
 bn_mp_prime_rabin_miller_trials.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.i
 .PHONY : bn_mp_prime_rabin_miller_trials.c.i
 
 bn_mp_prime_rabin_miller_trials.s: bn_mp_prime_rabin_miller_trials.c.s
@@ -2093,7 +2093,7 @@ bn_mp_prime_rabin_miller_trials.s: bn_mp_prime_rabin_miller_trials.c.s
 
 # target to generate assembly for a file
 bn_mp_prime_rabin_miller_trials.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_rabin_miller_trials.c.s
 .PHONY : bn_mp_prime_rabin_miller_trials.c.s
 
 bn_mp_prime_random_ex.o: bn_mp_prime_random_ex.c.o
@@ -2102,7 +2102,7 @@ bn_mp_prime_random_ex.o: bn_mp_prime_random_ex.c.o
 
 # target to build an object file
 bn_mp_prime_random_ex.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.o
 .PHONY : bn_mp_prime_random_ex.c.o
 
 bn_mp_prime_random_ex.i: bn_mp_prime_random_ex.c.i
@@ -2111,7 +2111,7 @@ bn_mp_prime_random_ex.i: bn_mp_prime_random_ex.c.i
 
 # target to preprocess a source file
 bn_mp_prime_random_ex.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.i
 .PHONY : bn_mp_prime_random_ex.c.i
 
 bn_mp_prime_random_ex.s: bn_mp_prime_random_ex.c.s
@@ -2120,7 +2120,7 @@ bn_mp_prime_random_ex.s: bn_mp_prime_random_ex.c.s
 
 # target to generate assembly for a file
 bn_mp_prime_random_ex.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_prime_random_ex.c.s
 .PHONY : bn_mp_prime_random_ex.c.s
 
 bn_mp_radix_size.o: bn_mp_radix_size.c.o
@@ -2129,7 +2129,7 @@ bn_mp_radix_size.o: bn_mp_radix_size.c.o
 
 # target to build an object file
 bn_mp_radix_size.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.o
 .PHONY : bn_mp_radix_size.c.o
 
 bn_mp_radix_size.i: bn_mp_radix_size.c.i
@@ -2138,7 +2138,7 @@ bn_mp_radix_size.i: bn_mp_radix_size.c.i
 
 # target to preprocess a source file
 bn_mp_radix_size.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.i
 .PHONY : bn_mp_radix_size.c.i
 
 bn_mp_radix_size.s: bn_mp_radix_size.c.s
@@ -2147,7 +2147,7 @@ bn_mp_radix_size.s: bn_mp_radix_size.c.s
 
 # target to generate assembly for a file
 bn_mp_radix_size.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_size.c.s
 .PHONY : bn_mp_radix_size.c.s
 
 bn_mp_radix_smap.o: bn_mp_radix_smap.c.o
@@ -2156,7 +2156,7 @@ bn_mp_radix_smap.o: bn_mp_radix_smap.c.o
 
 # target to build an object file
 bn_mp_radix_smap.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.o
 .PHONY : bn_mp_radix_smap.c.o
 
 bn_mp_radix_smap.i: bn_mp_radix_smap.c.i
@@ -2165,7 +2165,7 @@ bn_mp_radix_smap.i: bn_mp_radix_smap.c.i
 
 # target to preprocess a source file
 bn_mp_radix_smap.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.i
 .PHONY : bn_mp_radix_smap.c.i
 
 bn_mp_radix_smap.s: bn_mp_radix_smap.c.s
@@ -2174,7 +2174,7 @@ bn_mp_radix_smap.s: bn_mp_radix_smap.c.s
 
 # target to generate assembly for a file
 bn_mp_radix_smap.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_radix_smap.c.s
 .PHONY : bn_mp_radix_smap.c.s
 
 bn_mp_rand.o: bn_mp_rand.c.o
@@ -2183,7 +2183,7 @@ bn_mp_rand.o: bn_mp_rand.c.o
 
 # target to build an object file
 bn_mp_rand.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.o
 .PHONY : bn_mp_rand.c.o
 
 bn_mp_rand.i: bn_mp_rand.c.i
@@ -2192,7 +2192,7 @@ bn_mp_rand.i: bn_mp_rand.c.i
 
 # target to preprocess a source file
 bn_mp_rand.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.i
 .PHONY : bn_mp_rand.c.i
 
 bn_mp_rand.s: bn_mp_rand.c.s
@@ -2201,7 +2201,7 @@ bn_mp_rand.s: bn_mp_rand.c.s
 
 # target to generate assembly for a file
 bn_mp_rand.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rand.c.s
 .PHONY : bn_mp_rand.c.s
 
 bn_mp_read_radix.o: bn_mp_read_radix.c.o
@@ -2210,7 +2210,7 @@ bn_mp_read_radix.o: bn_mp_read_radix.c.o
 
 # target to build an object file
 bn_mp_read_radix.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.o
 .PHONY : bn_mp_read_radix.c.o
 
 bn_mp_read_radix.i: bn_mp_read_radix.c.i
@@ -2219,7 +2219,7 @@ bn_mp_read_radix.i: bn_mp_read_radix.c.i
 
 # target to preprocess a source file
 bn_mp_read_radix.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.i
 .PHONY : bn_mp_read_radix.c.i
 
 bn_mp_read_radix.s: bn_mp_read_radix.c.s
@@ -2228,7 +2228,7 @@ bn_mp_read_radix.s: bn_mp_read_radix.c.s
 
 # target to generate assembly for a file
 bn_mp_read_radix.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_radix.c.s
 .PHONY : bn_mp_read_radix.c.s
 
 bn_mp_read_signed_bin.o: bn_mp_read_signed_bin.c.o
@@ -2237,7 +2237,7 @@ bn_mp_read_signed_bin.o: bn_mp_read_signed_bin.c.o
 
 # target to build an object file
 bn_mp_read_signed_bin.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.o
 .PHONY : bn_mp_read_signed_bin.c.o
 
 bn_mp_read_signed_bin.i: bn_mp_read_signed_bin.c.i
@@ -2246,7 +2246,7 @@ bn_mp_read_signed_bin.i: bn_mp_read_signed_bin.c.i
 
 # target to preprocess a source file
 bn_mp_read_signed_bin.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.i
 .PHONY : bn_mp_read_signed_bin.c.i
 
 bn_mp_read_signed_bin.s: bn_mp_read_signed_bin.c.s
@@ -2255,7 +2255,7 @@ bn_mp_read_signed_bin.s: bn_mp_read_signed_bin.c.s
 
 # target to generate assembly for a file
 bn_mp_read_signed_bin.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_signed_bin.c.s
 .PHONY : bn_mp_read_signed_bin.c.s
 
 bn_mp_read_unsigned_bin.o: bn_mp_read_unsigned_bin.c.o
@@ -2264,7 +2264,7 @@ bn_mp_read_unsigned_bin.o: bn_mp_read_unsigned_bin.c.o
 
 # target to build an object file
 bn_mp_read_unsigned_bin.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.o
 .PHONY : bn_mp_read_unsigned_bin.c.o
 
 bn_mp_read_unsigned_bin.i: bn_mp_read_unsigned_bin.c.i
@@ -2273,7 +2273,7 @@ bn_mp_read_unsigned_bin.i: bn_mp_read_unsigned_bin.c.i
 
 # target to preprocess a source file
 bn_mp_read_unsigned_bin.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.i
 .PHONY : bn_mp_read_unsigned_bin.c.i
 
 bn_mp_read_unsigned_bin.s: bn_mp_read_unsigned_bin.c.s
@@ -2282,7 +2282,7 @@ bn_mp_read_unsigned_bin.s: bn_mp_read_unsigned_bin.c.s
 
 # target to generate assembly for a file
 bn_mp_read_unsigned_bin.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_read_unsigned_bin.c.s
 .PHONY : bn_mp_read_unsigned_bin.c.s
 
 bn_mp_reduce.o: bn_mp_reduce.c.o
@@ -2291,7 +2291,7 @@ bn_mp_reduce.o: bn_mp_reduce.c.o
 
 # target to build an object file
 bn_mp_reduce.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.o
 .PHONY : bn_mp_reduce.c.o
 
 bn_mp_reduce.i: bn_mp_reduce.c.i
@@ -2300,7 +2300,7 @@ bn_mp_reduce.i: bn_mp_reduce.c.i
 
 # target to preprocess a source file
 bn_mp_reduce.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.i
 .PHONY : bn_mp_reduce.c.i
 
 bn_mp_reduce.s: bn_mp_reduce.c.s
@@ -2309,7 +2309,7 @@ bn_mp_reduce.s: bn_mp_reduce.c.s
 
 # target to generate assembly for a file
 bn_mp_reduce.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce.c.s
 .PHONY : bn_mp_reduce.c.s
 
 bn_mp_reduce_2k.o: bn_mp_reduce_2k.c.o
@@ -2318,7 +2318,7 @@ bn_mp_reduce_2k.o: bn_mp_reduce_2k.c.o
 
 # target to build an object file
 bn_mp_reduce_2k.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.o
 .PHONY : bn_mp_reduce_2k.c.o
 
 bn_mp_reduce_2k.i: bn_mp_reduce_2k.c.i
@@ -2327,7 +2327,7 @@ bn_mp_reduce_2k.i: bn_mp_reduce_2k.c.i
 
 # target to preprocess a source file
 bn_mp_reduce_2k.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.i
 .PHONY : bn_mp_reduce_2k.c.i
 
 bn_mp_reduce_2k.s: bn_mp_reduce_2k.c.s
@@ -2336,7 +2336,7 @@ bn_mp_reduce_2k.s: bn_mp_reduce_2k.c.s
 
 # target to generate assembly for a file
 bn_mp_reduce_2k.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k.c.s
 .PHONY : bn_mp_reduce_2k.c.s
 
 bn_mp_reduce_2k_l.o: bn_mp_reduce_2k_l.c.o
@@ -2345,7 +2345,7 @@ bn_mp_reduce_2k_l.o: bn_mp_reduce_2k_l.c.o
 
 # target to build an object file
 bn_mp_reduce_2k_l.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.o
 .PHONY : bn_mp_reduce_2k_l.c.o
 
 bn_mp_reduce_2k_l.i: bn_mp_reduce_2k_l.c.i
@@ -2354,7 +2354,7 @@ bn_mp_reduce_2k_l.i: bn_mp_reduce_2k_l.c.i
 
 # target to preprocess a source file
 bn_mp_reduce_2k_l.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.i
 .PHONY : bn_mp_reduce_2k_l.c.i
 
 bn_mp_reduce_2k_l.s: bn_mp_reduce_2k_l.c.s
@@ -2363,7 +2363,7 @@ bn_mp_reduce_2k_l.s: bn_mp_reduce_2k_l.c.s
 
 # target to generate assembly for a file
 bn_mp_reduce_2k_l.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_l.c.s
 .PHONY : bn_mp_reduce_2k_l.c.s
 
 bn_mp_reduce_2k_setup.o: bn_mp_reduce_2k_setup.c.o
@@ -2372,7 +2372,7 @@ bn_mp_reduce_2k_setup.o: bn_mp_reduce_2k_setup.c.o
 
 # target to build an object file
 bn_mp_reduce_2k_setup.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.o
 .PHONY : bn_mp_reduce_2k_setup.c.o
 
 bn_mp_reduce_2k_setup.i: bn_mp_reduce_2k_setup.c.i
@@ -2381,7 +2381,7 @@ bn_mp_reduce_2k_setup.i: bn_mp_reduce_2k_setup.c.i
 
 # target to preprocess a source file
 bn_mp_reduce_2k_setup.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.i
 .PHONY : bn_mp_reduce_2k_setup.c.i
 
 bn_mp_reduce_2k_setup.s: bn_mp_reduce_2k_setup.c.s
@@ -2390,7 +2390,7 @@ bn_mp_reduce_2k_setup.s: bn_mp_reduce_2k_setup.c.s
 
 # target to generate assembly for a file
 bn_mp_reduce_2k_setup.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup.c.s
 .PHONY : bn_mp_reduce_2k_setup.c.s
 
 bn_mp_reduce_2k_setup_l.o: bn_mp_reduce_2k_setup_l.c.o
@@ -2399,7 +2399,7 @@ bn_mp_reduce_2k_setup_l.o: bn_mp_reduce_2k_setup_l.c.o
 
 # target to build an object file
 bn_mp_reduce_2k_setup_l.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.o
 .PHONY : bn_mp_reduce_2k_setup_l.c.o
 
 bn_mp_reduce_2k_setup_l.i: bn_mp_reduce_2k_setup_l.c.i
@@ -2408,7 +2408,7 @@ bn_mp_reduce_2k_setup_l.i: bn_mp_reduce_2k_setup_l.c.i
 
 # target to preprocess a source file
 bn_mp_reduce_2k_setup_l.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.i
 .PHONY : bn_mp_reduce_2k_setup_l.c.i
 
 bn_mp_reduce_2k_setup_l.s: bn_mp_reduce_2k_setup_l.c.s
@@ -2417,7 +2417,7 @@ bn_mp_reduce_2k_setup_l.s: bn_mp_reduce_2k_setup_l.c.s
 
 # target to generate assembly for a file
 bn_mp_reduce_2k_setup_l.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_2k_setup_l.c.s
 .PHONY : bn_mp_reduce_2k_setup_l.c.s
 
 bn_mp_reduce_is_2k.o: bn_mp_reduce_is_2k.c.o
@@ -2426,7 +2426,7 @@ bn_mp_reduce_is_2k.o: bn_mp_reduce_is_2k.c.o
 
 # target to build an object file
 bn_mp_reduce_is_2k.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.o
 .PHONY : bn_mp_reduce_is_2k.c.o
 
 bn_mp_reduce_is_2k.i: bn_mp_reduce_is_2k.c.i
@@ -2435,7 +2435,7 @@ bn_mp_reduce_is_2k.i: bn_mp_reduce_is_2k.c.i
 
 # target to preprocess a source file
 bn_mp_reduce_is_2k.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.i
 .PHONY : bn_mp_reduce_is_2k.c.i
 
 bn_mp_reduce_is_2k.s: bn_mp_reduce_is_2k.c.s
@@ -2444,7 +2444,7 @@ bn_mp_reduce_is_2k.s: bn_mp_reduce_is_2k.c.s
 
 # target to generate assembly for a file
 bn_mp_reduce_is_2k.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k.c.s
 .PHONY : bn_mp_reduce_is_2k.c.s
 
 bn_mp_reduce_is_2k_l.o: bn_mp_reduce_is_2k_l.c.o
@@ -2453,7 +2453,7 @@ bn_mp_reduce_is_2k_l.o: bn_mp_reduce_is_2k_l.c.o
 
 # target to build an object file
 bn_mp_reduce_is_2k_l.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.o
 .PHONY : bn_mp_reduce_is_2k_l.c.o
 
 bn_mp_reduce_is_2k_l.i: bn_mp_reduce_is_2k_l.c.i
@@ -2462,7 +2462,7 @@ bn_mp_reduce_is_2k_l.i: bn_mp_reduce_is_2k_l.c.i
 
 # target to preprocess a source file
 bn_mp_reduce_is_2k_l.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.i
 .PHONY : bn_mp_reduce_is_2k_l.c.i
 
 bn_mp_reduce_is_2k_l.s: bn_mp_reduce_is_2k_l.c.s
@@ -2471,7 +2471,7 @@ bn_mp_reduce_is_2k_l.s: bn_mp_reduce_is_2k_l.c.s
 
 # target to generate assembly for a file
 bn_mp_reduce_is_2k_l.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_is_2k_l.c.s
 .PHONY : bn_mp_reduce_is_2k_l.c.s
 
 bn_mp_reduce_setup.o: bn_mp_reduce_setup.c.o
@@ -2480,7 +2480,7 @@ bn_mp_reduce_setup.o: bn_mp_reduce_setup.c.o
 
 # target to build an object file
 bn_mp_reduce_setup.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.o
 .PHONY : bn_mp_reduce_setup.c.o
 
 bn_mp_reduce_setup.i: bn_mp_reduce_setup.c.i
@@ -2489,7 +2489,7 @@ bn_mp_reduce_setup.i: bn_mp_reduce_setup.c.i
 
 # target to preprocess a source file
 bn_mp_reduce_setup.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.i
 .PHONY : bn_mp_reduce_setup.c.i
 
 bn_mp_reduce_setup.s: bn_mp_reduce_setup.c.s
@@ -2498,7 +2498,7 @@ bn_mp_reduce_setup.s: bn_mp_reduce_setup.c.s
 
 # target to generate assembly for a file
 bn_mp_reduce_setup.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_reduce_setup.c.s
 .PHONY : bn_mp_reduce_setup.c.s
 
 bn_mp_rshd.o: bn_mp_rshd.c.o
@@ -2507,7 +2507,7 @@ bn_mp_rshd.o: bn_mp_rshd.c.o
 
 # target to build an object file
 bn_mp_rshd.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.o
 .PHONY : bn_mp_rshd.c.o
 
 bn_mp_rshd.i: bn_mp_rshd.c.i
@@ -2516,7 +2516,7 @@ bn_mp_rshd.i: bn_mp_rshd.c.i
 
 # target to preprocess a source file
 bn_mp_rshd.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.i
 .PHONY : bn_mp_rshd.c.i
 
 bn_mp_rshd.s: bn_mp_rshd.c.s
@@ -2525,7 +2525,7 @@ bn_mp_rshd.s: bn_mp_rshd.c.s
 
 # target to generate assembly for a file
 bn_mp_rshd.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_rshd.c.s
 .PHONY : bn_mp_rshd.c.s
 
 bn_mp_set.o: bn_mp_set.c.o
@@ -2534,7 +2534,7 @@ bn_mp_set.o: bn_mp_set.c.o
 
 # target to build an object file
 bn_mp_set.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.o
 .PHONY : bn_mp_set.c.o
 
 bn_mp_set.i: bn_mp_set.c.i
@@ -2543,7 +2543,7 @@ bn_mp_set.i: bn_mp_set.c.i
 
 # target to preprocess a source file
 bn_mp_set.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.i
 .PHONY : bn_mp_set.c.i
 
 bn_mp_set.s: bn_mp_set.c.s
@@ -2552,7 +2552,7 @@ bn_mp_set.s: bn_mp_set.c.s
 
 # target to generate assembly for a file
 bn_mp_set.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set.c.s
 .PHONY : bn_mp_set.c.s
 
 bn_mp_set_int.o: bn_mp_set_int.c.o
@@ -2561,7 +2561,7 @@ bn_mp_set_int.o: bn_mp_set_int.c.o
 
 # target to build an object file
 bn_mp_set_int.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.o
 .PHONY : bn_mp_set_int.c.o
 
 bn_mp_set_int.i: bn_mp_set_int.c.i
@@ -2570,7 +2570,7 @@ bn_mp_set_int.i: bn_mp_set_int.c.i
 
 # target to preprocess a source file
 bn_mp_set_int.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.i
 .PHONY : bn_mp_set_int.c.i
 
 bn_mp_set_int.s: bn_mp_set_int.c.s
@@ -2579,7 +2579,7 @@ bn_mp_set_int.s: bn_mp_set_int.c.s
 
 # target to generate assembly for a file
 bn_mp_set_int.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_set_int.c.s
 .PHONY : bn_mp_set_int.c.s
 
 bn_mp_shrink.o: bn_mp_shrink.c.o
@@ -2588,7 +2588,7 @@ bn_mp_shrink.o: bn_mp_shrink.c.o
 
 # target to build an object file
 bn_mp_shrink.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.o
 .PHONY : bn_mp_shrink.c.o
 
 bn_mp_shrink.i: bn_mp_shrink.c.i
@@ -2597,7 +2597,7 @@ bn_mp_shrink.i: bn_mp_shrink.c.i
 
 # target to preprocess a source file
 bn_mp_shrink.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.i
 .PHONY : bn_mp_shrink.c.i
 
 bn_mp_shrink.s: bn_mp_shrink.c.s
@@ -2606,7 +2606,7 @@ bn_mp_shrink.s: bn_mp_shrink.c.s
 
 # target to generate assembly for a file
 bn_mp_shrink.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_shrink.c.s
 .PHONY : bn_mp_shrink.c.s
 
 bn_mp_signed_bin_size.o: bn_mp_signed_bin_size.c.o
@@ -2615,7 +2615,7 @@ bn_mp_signed_bin_size.o: bn_mp_signed_bin_size.c.o
 
 # target to build an object file
 bn_mp_signed_bin_size.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.o
 .PHONY : bn_mp_signed_bin_size.c.o
 
 bn_mp_signed_bin_size.i: bn_mp_signed_bin_size.c.i
@@ -2624,7 +2624,7 @@ bn_mp_signed_bin_size.i: bn_mp_signed_bin_size.c.i
 
 # target to preprocess a source file
 bn_mp_signed_bin_size.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.i
 .PHONY : bn_mp_signed_bin_size.c.i
 
 bn_mp_signed_bin_size.s: bn_mp_signed_bin_size.c.s
@@ -2633,7 +2633,7 @@ bn_mp_signed_bin_size.s: bn_mp_signed_bin_size.c.s
 
 # target to generate assembly for a file
 bn_mp_signed_bin_size.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_signed_bin_size.c.s
 .PHONY : bn_mp_signed_bin_size.c.s
 
 bn_mp_sqr.o: bn_mp_sqr.c.o
@@ -2642,7 +2642,7 @@ bn_mp_sqr.o: bn_mp_sqr.c.o
 
 # target to build an object file
 bn_mp_sqr.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.o
 .PHONY : bn_mp_sqr.c.o
 
 bn_mp_sqr.i: bn_mp_sqr.c.i
@@ -2651,7 +2651,7 @@ bn_mp_sqr.i: bn_mp_sqr.c.i
 
 # target to preprocess a source file
 bn_mp_sqr.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.i
 .PHONY : bn_mp_sqr.c.i
 
 bn_mp_sqr.s: bn_mp_sqr.c.s
@@ -2660,7 +2660,7 @@ bn_mp_sqr.s: bn_mp_sqr.c.s
 
 # target to generate assembly for a file
 bn_mp_sqr.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqr.c.s
 .PHONY : bn_mp_sqr.c.s
 
 bn_mp_sqrmod.o: bn_mp_sqrmod.c.o
@@ -2669,7 +2669,7 @@ bn_mp_sqrmod.o: bn_mp_sqrmod.c.o
 
 # target to build an object file
 bn_mp_sqrmod.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.o
 .PHONY : bn_mp_sqrmod.c.o
 
 bn_mp_sqrmod.i: bn_mp_sqrmod.c.i
@@ -2678,7 +2678,7 @@ bn_mp_sqrmod.i: bn_mp_sqrmod.c.i
 
 # target to preprocess a source file
 bn_mp_sqrmod.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.i
 .PHONY : bn_mp_sqrmod.c.i
 
 bn_mp_sqrmod.s: bn_mp_sqrmod.c.s
@@ -2687,7 +2687,7 @@ bn_mp_sqrmod.s: bn_mp_sqrmod.c.s
 
 # target to generate assembly for a file
 bn_mp_sqrmod.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrmod.c.s
 .PHONY : bn_mp_sqrmod.c.s
 
 bn_mp_sqrt.o: bn_mp_sqrt.c.o
@@ -2696,7 +2696,7 @@ bn_mp_sqrt.o: bn_mp_sqrt.c.o
 
 # target to build an object file
 bn_mp_sqrt.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.o
 .PHONY : bn_mp_sqrt.c.o
 
 bn_mp_sqrt.i: bn_mp_sqrt.c.i
@@ -2705,7 +2705,7 @@ bn_mp_sqrt.i: bn_mp_sqrt.c.i
 
 # target to preprocess a source file
 bn_mp_sqrt.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.i
 .PHONY : bn_mp_sqrt.c.i
 
 bn_mp_sqrt.s: bn_mp_sqrt.c.s
@@ -2714,7 +2714,7 @@ bn_mp_sqrt.s: bn_mp_sqrt.c.s
 
 # target to generate assembly for a file
 bn_mp_sqrt.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sqrt.c.s
 .PHONY : bn_mp_sqrt.c.s
 
 bn_mp_sub.o: bn_mp_sub.c.o
@@ -2723,7 +2723,7 @@ bn_mp_sub.o: bn_mp_sub.c.o
 
 # target to build an object file
 bn_mp_sub.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.o
 .PHONY : bn_mp_sub.c.o
 
 bn_mp_sub.i: bn_mp_sub.c.i
@@ -2732,7 +2732,7 @@ bn_mp_sub.i: bn_mp_sub.c.i
 
 # target to preprocess a source file
 bn_mp_sub.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.i
 .PHONY : bn_mp_sub.c.i
 
 bn_mp_sub.s: bn_mp_sub.c.s
@@ -2741,7 +2741,7 @@ bn_mp_sub.s: bn_mp_sub.c.s
 
 # target to generate assembly for a file
 bn_mp_sub.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub.c.s
 .PHONY : bn_mp_sub.c.s
 
 bn_mp_sub_d.o: bn_mp_sub_d.c.o
@@ -2750,7 +2750,7 @@ bn_mp_sub_d.o: bn_mp_sub_d.c.o
 
 # target to build an object file
 bn_mp_sub_d.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.o
 .PHONY : bn_mp_sub_d.c.o
 
 bn_mp_sub_d.i: bn_mp_sub_d.c.i
@@ -2759,7 +2759,7 @@ bn_mp_sub_d.i: bn_mp_sub_d.c.i
 
 # target to preprocess a source file
 bn_mp_sub_d.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.i
 .PHONY : bn_mp_sub_d.c.i
 
 bn_mp_sub_d.s: bn_mp_sub_d.c.s
@@ -2768,7 +2768,7 @@ bn_mp_sub_d.s: bn_mp_sub_d.c.s
 
 # target to generate assembly for a file
 bn_mp_sub_d.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_sub_d.c.s
 .PHONY : bn_mp_sub_d.c.s
 
 bn_mp_submod.o: bn_mp_submod.c.o
@@ -2777,7 +2777,7 @@ bn_mp_submod.o: bn_mp_submod.c.o
 
 # target to build an object file
 bn_mp_submod.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.o
 .PHONY : bn_mp_submod.c.o
 
 bn_mp_submod.i: bn_mp_submod.c.i
@@ -2786,7 +2786,7 @@ bn_mp_submod.i: bn_mp_submod.c.i
 
 # target to preprocess a source file
 bn_mp_submod.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.i
 .PHONY : bn_mp_submod.c.i
 
 bn_mp_submod.s: bn_mp_submod.c.s
@@ -2795,7 +2795,7 @@ bn_mp_submod.s: bn_mp_submod.c.s
 
 # target to generate assembly for a file
 bn_mp_submod.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_submod.c.s
 .PHONY : bn_mp_submod.c.s
 
 bn_mp_to_signed_bin.o: bn_mp_to_signed_bin.c.o
@@ -2804,7 +2804,7 @@ bn_mp_to_signed_bin.o: bn_mp_to_signed_bin.c.o
 
 # target to build an object file
 bn_mp_to_signed_bin.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.o
 .PHONY : bn_mp_to_signed_bin.c.o
 
 bn_mp_to_signed_bin.i: bn_mp_to_signed_bin.c.i
@@ -2813,7 +2813,7 @@ bn_mp_to_signed_bin.i: bn_mp_to_signed_bin.c.i
 
 # target to preprocess a source file
 bn_mp_to_signed_bin.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.i
 .PHONY : bn_mp_to_signed_bin.c.i
 
 bn_mp_to_signed_bin.s: bn_mp_to_signed_bin.c.s
@@ -2822,7 +2822,7 @@ bn_mp_to_signed_bin.s: bn_mp_to_signed_bin.c.s
 
 # target to generate assembly for a file
 bn_mp_to_signed_bin.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin.c.s
 .PHONY : bn_mp_to_signed_bin.c.s
 
 bn_mp_to_signed_bin_n.o: bn_mp_to_signed_bin_n.c.o
@@ -2831,7 +2831,7 @@ bn_mp_to_signed_bin_n.o: bn_mp_to_signed_bin_n.c.o
 
 # target to build an object file
 bn_mp_to_signed_bin_n.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.o
 .PHONY : bn_mp_to_signed_bin_n.c.o
 
 bn_mp_to_signed_bin_n.i: bn_mp_to_signed_bin_n.c.i
@@ -2840,7 +2840,7 @@ bn_mp_to_signed_bin_n.i: bn_mp_to_signed_bin_n.c.i
 
 # target to preprocess a source file
 bn_mp_to_signed_bin_n.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.i
 .PHONY : bn_mp_to_signed_bin_n.c.i
 
 bn_mp_to_signed_bin_n.s: bn_mp_to_signed_bin_n.c.s
@@ -2849,7 +2849,7 @@ bn_mp_to_signed_bin_n.s: bn_mp_to_signed_bin_n.c.s
 
 # target to generate assembly for a file
 bn_mp_to_signed_bin_n.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_signed_bin_n.c.s
 .PHONY : bn_mp_to_signed_bin_n.c.s
 
 bn_mp_to_unsigned_bin.o: bn_mp_to_unsigned_bin.c.o
@@ -2858,7 +2858,7 @@ bn_mp_to_unsigned_bin.o: bn_mp_to_unsigned_bin.c.o
 
 # target to build an object file
 bn_mp_to_unsigned_bin.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.o
 .PHONY : bn_mp_to_unsigned_bin.c.o
 
 bn_mp_to_unsigned_bin.i: bn_mp_to_unsigned_bin.c.i
@@ -2867,7 +2867,7 @@ bn_mp_to_unsigned_bin.i: bn_mp_to_unsigned_bin.c.i
 
 # target to preprocess a source file
 bn_mp_to_unsigned_bin.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.i
 .PHONY : bn_mp_to_unsigned_bin.c.i
 
 bn_mp_to_unsigned_bin.s: bn_mp_to_unsigned_bin.c.s
@@ -2876,7 +2876,7 @@ bn_mp_to_unsigned_bin.s: bn_mp_to_unsigned_bin.c.s
 
 # target to generate assembly for a file
 bn_mp_to_unsigned_bin.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin.c.s
 .PHONY : bn_mp_to_unsigned_bin.c.s
 
 bn_mp_to_unsigned_bin_n.o: bn_mp_to_unsigned_bin_n.c.o
@@ -2885,7 +2885,7 @@ bn_mp_to_unsigned_bin_n.o: bn_mp_to_unsigned_bin_n.c.o
 
 # target to build an object file
 bn_mp_to_unsigned_bin_n.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.o
 .PHONY : bn_mp_to_unsigned_bin_n.c.o
 
 bn_mp_to_unsigned_bin_n.i: bn_mp_to_unsigned_bin_n.c.i
@@ -2894,7 +2894,7 @@ bn_mp_to_unsigned_bin_n.i: bn_mp_to_unsigned_bin_n.c.i
 
 # target to preprocess a source file
 bn_mp_to_unsigned_bin_n.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.i
 .PHONY : bn_mp_to_unsigned_bin_n.c.i
 
 bn_mp_to_unsigned_bin_n.s: bn_mp_to_unsigned_bin_n.c.s
@@ -2903,7 +2903,7 @@ bn_mp_to_unsigned_bin_n.s: bn_mp_to_unsigned_bin_n.c.s
 
 # target to generate assembly for a file
 bn_mp_to_unsigned_bin_n.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_to_unsigned_bin_n.c.s
 .PHONY : bn_mp_to_unsigned_bin_n.c.s
 
 bn_mp_toom_mul.o: bn_mp_toom_mul.c.o
@@ -2912,7 +2912,7 @@ bn_mp_toom_mul.o: bn_mp_toom_mul.c.o
 
 # target to build an object file
 bn_mp_toom_mul.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.o
 .PHONY : bn_mp_toom_mul.c.o
 
 bn_mp_toom_mul.i: bn_mp_toom_mul.c.i
@@ -2921,7 +2921,7 @@ bn_mp_toom_mul.i: bn_mp_toom_mul.c.i
 
 # target to preprocess a source file
 bn_mp_toom_mul.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.i
 .PHONY : bn_mp_toom_mul.c.i
 
 bn_mp_toom_mul.s: bn_mp_toom_mul.c.s
@@ -2930,7 +2930,7 @@ bn_mp_toom_mul.s: bn_mp_toom_mul.c.s
 
 # target to generate assembly for a file
 bn_mp_toom_mul.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_mul.c.s
 .PHONY : bn_mp_toom_mul.c.s
 
 bn_mp_toom_sqr.o: bn_mp_toom_sqr.c.o
@@ -2939,7 +2939,7 @@ bn_mp_toom_sqr.o: bn_mp_toom_sqr.c.o
 
 # target to build an object file
 bn_mp_toom_sqr.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.o
 .PHONY : bn_mp_toom_sqr.c.o
 
 bn_mp_toom_sqr.i: bn_mp_toom_sqr.c.i
@@ -2948,7 +2948,7 @@ bn_mp_toom_sqr.i: bn_mp_toom_sqr.c.i
 
 # target to preprocess a source file
 bn_mp_toom_sqr.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.i
 .PHONY : bn_mp_toom_sqr.c.i
 
 bn_mp_toom_sqr.s: bn_mp_toom_sqr.c.s
@@ -2957,7 +2957,7 @@ bn_mp_toom_sqr.s: bn_mp_toom_sqr.c.s
 
 # target to generate assembly for a file
 bn_mp_toom_sqr.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toom_sqr.c.s
 .PHONY : bn_mp_toom_sqr.c.s
 
 bn_mp_toradix.o: bn_mp_toradix.c.o
@@ -2966,7 +2966,7 @@ bn_mp_toradix.o: bn_mp_toradix.c.o
 
 # target to build an object file
 bn_mp_toradix.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.o
 .PHONY : bn_mp_toradix.c.o
 
 bn_mp_toradix.i: bn_mp_toradix.c.i
@@ -2975,7 +2975,7 @@ bn_mp_toradix.i: bn_mp_toradix.c.i
 
 # target to preprocess a source file
 bn_mp_toradix.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.i
 .PHONY : bn_mp_toradix.c.i
 
 bn_mp_toradix.s: bn_mp_toradix.c.s
@@ -2984,7 +2984,7 @@ bn_mp_toradix.s: bn_mp_toradix.c.s
 
 # target to generate assembly for a file
 bn_mp_toradix.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix.c.s
 .PHONY : bn_mp_toradix.c.s
 
 bn_mp_toradix_n.o: bn_mp_toradix_n.c.o
@@ -2993,7 +2993,7 @@ bn_mp_toradix_n.o: bn_mp_toradix_n.c.o
 
 # target to build an object file
 bn_mp_toradix_n.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.o
 .PHONY : bn_mp_toradix_n.c.o
 
 bn_mp_toradix_n.i: bn_mp_toradix_n.c.i
@@ -3002,7 +3002,7 @@ bn_mp_toradix_n.i: bn_mp_toradix_n.c.i
 
 # target to preprocess a source file
 bn_mp_toradix_n.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.i
 .PHONY : bn_mp_toradix_n.c.i
 
 bn_mp_toradix_n.s: bn_mp_toradix_n.c.s
@@ -3011,7 +3011,7 @@ bn_mp_toradix_n.s: bn_mp_toradix_n.c.s
 
 # target to generate assembly for a file
 bn_mp_toradix_n.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_toradix_n.c.s
 .PHONY : bn_mp_toradix_n.c.s
 
 bn_mp_unsigned_bin_size.o: bn_mp_unsigned_bin_size.c.o
@@ -3020,7 +3020,7 @@ bn_mp_unsigned_bin_size.o: bn_mp_unsigned_bin_size.c.o
 
 # target to build an object file
 bn_mp_unsigned_bin_size.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.o
 .PHONY : bn_mp_unsigned_bin_size.c.o
 
 bn_mp_unsigned_bin_size.i: bn_mp_unsigned_bin_size.c.i
@@ -3029,7 +3029,7 @@ bn_mp_unsigned_bin_size.i: bn_mp_unsigned_bin_size.c.i
 
 # target to preprocess a source file
 bn_mp_unsigned_bin_size.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.i
 .PHONY : bn_mp_unsigned_bin_size.c.i
 
 bn_mp_unsigned_bin_size.s: bn_mp_unsigned_bin_size.c.s
@@ -3038,7 +3038,7 @@ bn_mp_unsigned_bin_size.s: bn_mp_unsigned_bin_size.c.s
 
 # target to generate assembly for a file
 bn_mp_unsigned_bin_size.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_unsigned_bin_size.c.s
 .PHONY : bn_mp_unsigned_bin_size.c.s
 
 bn_mp_xor.o: bn_mp_xor.c.o
@@ -3047,7 +3047,7 @@ bn_mp_xor.o: bn_mp_xor.c.o
 
 # target to build an object file
 bn_mp_xor.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.o
 .PHONY : bn_mp_xor.c.o
 
 bn_mp_xor.i: bn_mp_xor.c.i
@@ -3056,7 +3056,7 @@ bn_mp_xor.i: bn_mp_xor.c.i
 
 # target to preprocess a source file
 bn_mp_xor.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.i
 .PHONY : bn_mp_xor.c.i
 
 bn_mp_xor.s: bn_mp_xor.c.s
@@ -3065,7 +3065,7 @@ bn_mp_xor.s: bn_mp_xor.c.s
 
 # target to generate assembly for a file
 bn_mp_xor.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_xor.c.s
 .PHONY : bn_mp_xor.c.s
 
 bn_mp_zero.o: bn_mp_zero.c.o
@@ -3074,7 +3074,7 @@ bn_mp_zero.o: bn_mp_zero.c.o
 
 # target to build an object file
 bn_mp_zero.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.o
 .PHONY : bn_mp_zero.c.o
 
 bn_mp_zero.i: bn_mp_zero.c.i
@@ -3083,7 +3083,7 @@ bn_mp_zero.i: bn_mp_zero.c.i
 
 # target to preprocess a source file
 bn_mp_zero.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.i
 .PHONY : bn_mp_zero.c.i
 
 bn_mp_zero.s: bn_mp_zero.c.s
@@ -3092,7 +3092,7 @@ bn_mp_zero.s: bn_mp_zero.c.s
 
 # target to generate assembly for a file
 bn_mp_zero.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_mp_zero.c.s
 .PHONY : bn_mp_zero.c.s
 
 bn_prime_tab.o: bn_prime_tab.c.o
@@ -3101,7 +3101,7 @@ bn_prime_tab.o: bn_prime_tab.c.o
 
 # target to build an object file
 bn_prime_tab.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.o
 .PHONY : bn_prime_tab.c.o
 
 bn_prime_tab.i: bn_prime_tab.c.i
@@ -3110,7 +3110,7 @@ bn_prime_tab.i: bn_prime_tab.c.i
 
 # target to preprocess a source file
 bn_prime_tab.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.i
 .PHONY : bn_prime_tab.c.i
 
 bn_prime_tab.s: bn_prime_tab.c.s
@@ -3119,7 +3119,7 @@ bn_prime_tab.s: bn_prime_tab.c.s
 
 # target to generate assembly for a file
 bn_prime_tab.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_prime_tab.c.s
 .PHONY : bn_prime_tab.c.s
 
 bn_reverse.o: bn_reverse.c.o
@@ -3128,7 +3128,7 @@ bn_reverse.o: bn_reverse.c.o
 
 # target to build an object file
 bn_reverse.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.o
 .PHONY : bn_reverse.c.o
 
 bn_reverse.i: bn_reverse.c.i
@@ -3137,7 +3137,7 @@ bn_reverse.i: bn_reverse.c.i
 
 # target to preprocess a source file
 bn_reverse.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.i
 .PHONY : bn_reverse.c.i
 
 bn_reverse.s: bn_reverse.c.s
@@ -3146,7 +3146,7 @@ bn_reverse.s: bn_reverse.c.s
 
 # target to generate assembly for a file
 bn_reverse.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_reverse.c.s
 .PHONY : bn_reverse.c.s
 
 bn_s_mp_add.o: bn_s_mp_add.c.o
@@ -3155,7 +3155,7 @@ bn_s_mp_add.o: bn_s_mp_add.c.o
 
 # target to build an object file
 bn_s_mp_add.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.o
 .PHONY : bn_s_mp_add.c.o
 
 bn_s_mp_add.i: bn_s_mp_add.c.i
@@ -3164,7 +3164,7 @@ bn_s_mp_add.i: bn_s_mp_add.c.i
 
 # target to preprocess a source file
 bn_s_mp_add.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.i
 .PHONY : bn_s_mp_add.c.i
 
 bn_s_mp_add.s: bn_s_mp_add.c.s
@@ -3173,7 +3173,7 @@ bn_s_mp_add.s: bn_s_mp_add.c.s
 
 # target to generate assembly for a file
 bn_s_mp_add.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_add.c.s
 .PHONY : bn_s_mp_add.c.s
 
 bn_s_mp_exptmod.o: bn_s_mp_exptmod.c.o
@@ -3182,7 +3182,7 @@ bn_s_mp_exptmod.o: bn_s_mp_exptmod.c.o
 
 # target to build an object file
 bn_s_mp_exptmod.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.o
 .PHONY : bn_s_mp_exptmod.c.o
 
 bn_s_mp_exptmod.i: bn_s_mp_exptmod.c.i
@@ -3191,7 +3191,7 @@ bn_s_mp_exptmod.i: bn_s_mp_exptmod.c.i
 
 # target to preprocess a source file
 bn_s_mp_exptmod.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.i
 .PHONY : bn_s_mp_exptmod.c.i
 
 bn_s_mp_exptmod.s: bn_s_mp_exptmod.c.s
@@ -3200,7 +3200,7 @@ bn_s_mp_exptmod.s: bn_s_mp_exptmod.c.s
 
 # target to generate assembly for a file
 bn_s_mp_exptmod.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_exptmod.c.s
 .PHONY : bn_s_mp_exptmod.c.s
 
 bn_s_mp_mul_digs.o: bn_s_mp_mul_digs.c.o
@@ -3209,7 +3209,7 @@ bn_s_mp_mul_digs.o: bn_s_mp_mul_digs.c.o
 
 # target to build an object file
 bn_s_mp_mul_digs.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.o
 .PHONY : bn_s_mp_mul_digs.c.o
 
 bn_s_mp_mul_digs.i: bn_s_mp_mul_digs.c.i
@@ -3218,7 +3218,7 @@ bn_s_mp_mul_digs.i: bn_s_mp_mul_digs.c.i
 
 # target to preprocess a source file
 bn_s_mp_mul_digs.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.i
 .PHONY : bn_s_mp_mul_digs.c.i
 
 bn_s_mp_mul_digs.s: bn_s_mp_mul_digs.c.s
@@ -3227,7 +3227,7 @@ bn_s_mp_mul_digs.s: bn_s_mp_mul_digs.c.s
 
 # target to generate assembly for a file
 bn_s_mp_mul_digs.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_digs.c.s
 .PHONY : bn_s_mp_mul_digs.c.s
 
 bn_s_mp_mul_high_digs.o: bn_s_mp_mul_high_digs.c.o
@@ -3236,7 +3236,7 @@ bn_s_mp_mul_high_digs.o: bn_s_mp_mul_high_digs.c.o
 
 # target to build an object file
 bn_s_mp_mul_high_digs.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.o
 .PHONY : bn_s_mp_mul_high_digs.c.o
 
 bn_s_mp_mul_high_digs.i: bn_s_mp_mul_high_digs.c.i
@@ -3245,7 +3245,7 @@ bn_s_mp_mul_high_digs.i: bn_s_mp_mul_high_digs.c.i
 
 # target to preprocess a source file
 bn_s_mp_mul_high_digs.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.i
 .PHONY : bn_s_mp_mul_high_digs.c.i
 
 bn_s_mp_mul_high_digs.s: bn_s_mp_mul_high_digs.c.s
@@ -3254,7 +3254,7 @@ bn_s_mp_mul_high_digs.s: bn_s_mp_mul_high_digs.c.s
 
 # target to generate assembly for a file
 bn_s_mp_mul_high_digs.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_mul_high_digs.c.s
 .PHONY : bn_s_mp_mul_high_digs.c.s
 
 bn_s_mp_sqr.o: bn_s_mp_sqr.c.o
@@ -3263,7 +3263,7 @@ bn_s_mp_sqr.o: bn_s_mp_sqr.c.o
 
 # target to build an object file
 bn_s_mp_sqr.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.o
 .PHONY : bn_s_mp_sqr.c.o
 
 bn_s_mp_sqr.i: bn_s_mp_sqr.c.i
@@ -3272,7 +3272,7 @@ bn_s_mp_sqr.i: bn_s_mp_sqr.c.i
 
 # target to preprocess a source file
 bn_s_mp_sqr.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.i
 .PHONY : bn_s_mp_sqr.c.i
 
 bn_s_mp_sqr.s: bn_s_mp_sqr.c.s
@@ -3281,7 +3281,7 @@ bn_s_mp_sqr.s: bn_s_mp_sqr.c.s
 
 # target to generate assembly for a file
 bn_s_mp_sqr.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sqr.c.s
 .PHONY : bn_s_mp_sqr.c.s
 
 bn_s_mp_sub.o: bn_s_mp_sub.c.o
@@ -3290,7 +3290,7 @@ bn_s_mp_sub.o: bn_s_mp_sub.c.o
 
 # target to build an object file
 bn_s_mp_sub.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.o
 .PHONY : bn_s_mp_sub.c.o
 
 bn_s_mp_sub.i: bn_s_mp_sub.c.i
@@ -3299,7 +3299,7 @@ bn_s_mp_sub.i: bn_s_mp_sub.c.i
 
 # target to preprocess a source file
 bn_s_mp_sub.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.i
 .PHONY : bn_s_mp_sub.c.i
 
 bn_s_mp_sub.s: bn_s_mp_sub.c.s
@@ -3308,7 +3308,7 @@ bn_s_mp_sub.s: bn_s_mp_sub.c.s
 
 # target to generate assembly for a file
 bn_s_mp_sub.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bn_s_mp_sub.c.s
 .PHONY : bn_s_mp_sub.c.s
 
 bncore.o: bncore.c.o
@@ -3317,7 +3317,7 @@ bncore.o: bncore.c.o
 
 # target to build an object file
 bncore.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.o
 .PHONY : bncore.c.o
 
 bncore.i: bncore.c.i
@@ -3326,7 +3326,7 @@ bncore.i: bncore.c.i
 
 # target to preprocess a source file
 bncore.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.i
 .PHONY : bncore.c.i
 
 bncore.s: bncore.c.s
@@ -3335,7 +3335,7 @@ bncore.s: bncore.c.s
 
 # target to generate assembly for a file
 bncore.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f sm2/libtommath/CMakeFiles/tommath.dir/build.make sm2/libtommath/CMakeFiles/tommath.dir/bncore.c.s
 .PHONY : bncore.c.s
 
 # Help Target
@@ -3715,6 +3715,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg/CMakeFiles/progress.marks
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg/CMakeFiles/progress.marks
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/clean
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cfg/CMakeFiles/cfg.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/CMakeFiles/cfg.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 cfg/CMakeFiles/cfg.dir/rule
 .PHONY : cfg/CMakeFiles/cfg.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ cfg: cfg/CMakeFiles/cfg.dir/rule
 
 # fast build rule for target.
 cfg/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/build
 .PHONY : cfg/fast
 
 src/alarm.o: src/alarm.cpp.o
@@ -131,7 +131,7 @@ src/alarm.o: src/alarm.cpp.o
 
 # target to build an object file
 src/alarm.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o
 .PHONY : src/alarm.cpp.o
 
 src/alarm.i: src/alarm.cpp.i
@@ -140,7 +140,7 @@ src/alarm.i: src/alarm.cpp.i
 
 # target to preprocess a source file
 src/alarm.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/alarm.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/alarm.cpp.i
 .PHONY : src/alarm.cpp.i
 
 src/alarm.s: src/alarm.cpp.s
@@ -149,7 +149,7 @@ src/alarm.s: src/alarm.cpp.s
 
 # target to generate assembly for a file
 src/alarm.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/alarm.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/alarm.cpp.s
 .PHONY : src/alarm.cpp.s
 
 src/otaload.o: src/otaload.cpp.o
@@ -158,7 +158,7 @@ src/otaload.o: src/otaload.cpp.o
 
 # target to build an object file
 src/otaload.cpp.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o
 .PHONY : src/otaload.cpp.o
 
 src/otaload.i: src/otaload.cpp.i
@@ -167,7 +167,7 @@ src/otaload.i: src/otaload.cpp.i
 
 # target to preprocess a source file
 src/otaload.cpp.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/otaload.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/otaload.cpp.i
 .PHONY : src/otaload.cpp.i
 
 src/otaload.s: src/otaload.cpp.s
@@ -176,7 +176,7 @@ src/otaload.s: src/otaload.cpp.s
 
 # target to generate assembly for a file
 src/otaload.cpp.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/otaload.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f cfg/CMakeFiles/cfg.dir/build.make cfg/CMakeFiles/cfg.dir/src/otaload.cpp.s
 .PHONY : src/otaload.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

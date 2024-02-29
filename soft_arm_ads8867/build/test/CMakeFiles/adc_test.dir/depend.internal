@@ -3,4 +3,4 @@
 
 test/CMakeFiles/adc_test.dir/src/example_adc.c.o
  ../ql_oe/include/ql_adc.h
- /home/ramandrom/sharedir/soft_arm_ads8867/test/src/example_adc.c
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/example_adc.c

@@ -152,7 +152,7 @@ stdint.h
 
 ../ql_oe/include/ql_sgmii.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/sgmii/src/sgmii.cpp
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sgmii/src/sgmii.cpp
 stdio.h
 -
 stdlib.h
@@ -164,15 +164,15 @@ stdarg.h
 unistd.h
 -
 CJsonObject.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sgmii/src/CJsonObject.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sgmii/src/CJsonObject.h
 iniext.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sgmii/src/iniext.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sgmii/src/iniext.h
 def.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sgmii/src/def.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sgmii/src/def.h
 def.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sgmii/src/def.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sgmii/src/def.h
 config.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sgmii/src/config.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sgmii/src/config.h
 ql_sgmii.h
-/home/ramandrom/sharedir/soft_arm_ads8867/sgmii/src/ql_sgmii.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/sgmii/src/ql_sgmii.h
 

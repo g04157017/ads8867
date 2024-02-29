@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/sharedir/soft_arm_ads8867/build/modbus/CMakeFiles/progress.marks
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/modbus/CMakeFiles/progress.marks
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/clean
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/preinstall
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modbus/CMakeFiles/modbus.dir/rule:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/CMakeFiles/modbus.dir/rule
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f CMakeFiles/Makefile2 modbus/CMakeFiles/modbus.dir/rule
 .PHONY : modbus/CMakeFiles/modbus.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ modbus: modbus/CMakeFiles/modbus.dir/rule
 
 # fast build rule for target.
 modbus/fast:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/build
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/build
 .PHONY : modbus/fast
 
 src/modbus-data.o: src/modbus-data.c.o
@@ -131,7 +131,7 @@ src/modbus-data.o: src/modbus-data.c.o
 
 # target to build an object file
 src/modbus-data.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-data.c.o
 .PHONY : src/modbus-data.c.o
 
 src/modbus-data.i: src/modbus-data.c.i
@@ -140,7 +140,7 @@ src/modbus-data.i: src/modbus-data.c.i
 
 # target to preprocess a source file
 src/modbus-data.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-data.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-data.c.i
 .PHONY : src/modbus-data.c.i
 
 src/modbus-data.s: src/modbus-data.c.s
@@ -149,7 +149,7 @@ src/modbus-data.s: src/modbus-data.c.s
 
 # target to generate assembly for a file
 src/modbus-data.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-data.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-data.c.s
 .PHONY : src/modbus-data.c.s
 
 src/modbus-rtu.o: src/modbus-rtu.c.o
@@ -158,7 +158,7 @@ src/modbus-rtu.o: src/modbus-rtu.c.o
 
 # target to build an object file
 src/modbus-rtu.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.o
 .PHONY : src/modbus-rtu.c.o
 
 src/modbus-rtu.i: src/modbus-rtu.c.i
@@ -167,7 +167,7 @@ src/modbus-rtu.i: src/modbus-rtu.c.i
 
 # target to preprocess a source file
 src/modbus-rtu.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.i
 .PHONY : src/modbus-rtu.c.i
 
 src/modbus-rtu.s: src/modbus-rtu.c.s
@@ -176,7 +176,7 @@ src/modbus-rtu.s: src/modbus-rtu.c.s
 
 # target to generate assembly for a file
 src/modbus-rtu.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-rtu.c.s
 .PHONY : src/modbus-rtu.c.s
 
 src/modbus-tcp.o: src/modbus-tcp.c.o
@@ -185,7 +185,7 @@ src/modbus-tcp.o: src/modbus-tcp.c.o
 
 # target to build an object file
 src/modbus-tcp.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.o
 .PHONY : src/modbus-tcp.c.o
 
 src/modbus-tcp.i: src/modbus-tcp.c.i
@@ -194,7 +194,7 @@ src/modbus-tcp.i: src/modbus-tcp.c.i
 
 # target to preprocess a source file
 src/modbus-tcp.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.i
 .PHONY : src/modbus-tcp.c.i
 
 src/modbus-tcp.s: src/modbus-tcp.c.s
@@ -203,7 +203,7 @@ src/modbus-tcp.s: src/modbus-tcp.c.s
 
 # target to generate assembly for a file
 src/modbus-tcp.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus-tcp.c.s
 .PHONY : src/modbus-tcp.c.s
 
 src/modbus.o: src/modbus.c.o
@@ -212,7 +212,7 @@ src/modbus.o: src/modbus.c.o
 
 # target to build an object file
 src/modbus.c.o:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus.c.o
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus.c.o
 .PHONY : src/modbus.c.o
 
 src/modbus.i: src/modbus.c.i
@@ -221,7 +221,7 @@ src/modbus.i: src/modbus.c.i
 
 # target to preprocess a source file
 src/modbus.c.i:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus.c.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus.c.i
 .PHONY : src/modbus.c.i
 
 src/modbus.s: src/modbus.c.s
@@ -230,7 +230,7 @@ src/modbus.s: src/modbus.c.s
 
 # target to generate assembly for a file
 src/modbus.c.s:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus.c.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/src/modbus.c.s
 .PHONY : src/modbus.c.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

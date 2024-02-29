@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include database/CMakeFiles/kydatabase.dir/depend.make
@@ -59,16 +59,16 @@ include database/CMakeFiles/kydatabase.dir/flags.make
 
 database/CMakeFiles/kydatabase.dir/src/database.cpp.o: database/CMakeFiles/kydatabase.dir/flags.make
 database/CMakeFiles/kydatabase.dir/src/database.cpp.o: ../database/src/database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object database/CMakeFiles/kydatabase.dir/src/database.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/database && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kydatabase.dir/src/database.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/database/src/database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object database/CMakeFiles/kydatabase.dir/src/database.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kydatabase.dir/src/database.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/database/src/database.cpp
 
 database/CMakeFiles/kydatabase.dir/src/database.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kydatabase.dir/src/database.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/database && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/database/src/database.cpp > CMakeFiles/kydatabase.dir/src/database.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/database/src/database.cpp > CMakeFiles/kydatabase.dir/src/database.cpp.i
 
 database/CMakeFiles/kydatabase.dir/src/database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kydatabase.dir/src/database.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/database && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/database/src/database.cpp -o CMakeFiles/kydatabase.dir/src/database.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/database/src/database.cpp -o CMakeFiles/kydatabase.dir/src/database.cpp.s
 
 database/CMakeFiles/kydatabase.dir/src/database.cpp.o.requires:
 
@@ -91,8 +91,8 @@ kydatabase_EXTERNAL_OBJECTS =
 ../lib/libkydatabase.so: database/CMakeFiles/kydatabase.dir/src/database.cpp.o
 ../lib/libkydatabase.so: database/CMakeFiles/kydatabase.dir/build.make
 ../lib/libkydatabase.so: database/CMakeFiles/kydatabase.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../lib/libkydatabase.so"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/database && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kydatabase.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../lib/libkydatabase.so"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kydatabase.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 database/CMakeFiles/kydatabase.dir/build: ../lib/libkydatabase.so
@@ -104,10 +104,10 @@ database/CMakeFiles/kydatabase.dir/requires: database/CMakeFiles/kydatabase.dir/
 .PHONY : database/CMakeFiles/kydatabase.dir/requires
 
 database/CMakeFiles/kydatabase.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/database && $(CMAKE_COMMAND) -P CMakeFiles/kydatabase.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database && $(CMAKE_COMMAND) -P CMakeFiles/kydatabase.dir/cmake_clean.cmake
 .PHONY : database/CMakeFiles/kydatabase.dir/clean
 
 database/CMakeFiles/kydatabase.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/database /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/database /home/ramandrom/sharedir/soft_arm_ads8867/build/database/CMakeFiles/kydatabase.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/database /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/database/CMakeFiles/kydatabase.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : database/CMakeFiles/kydatabase.dir/depend
 

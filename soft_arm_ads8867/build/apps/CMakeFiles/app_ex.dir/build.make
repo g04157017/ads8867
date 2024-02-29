@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include apps/CMakeFiles/app_ex.dir/depend.make
@@ -59,16 +59,16 @@ include apps/CMakeFiles/app_ex.dir/flags.make
 
 apps/CMakeFiles/app_ex.dir/src/main.cpp.o: apps/CMakeFiles/app_ex.dir/flags.make
 apps/CMakeFiles/app_ex.dir/src/main.cpp.o: ../apps/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/app_ex.dir/src/main.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app_ex.dir/src/main.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/apps/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/app_ex.dir/src/main.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app_ex.dir/src/main.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/main.cpp
 
 apps/CMakeFiles/app_ex.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app_ex.dir/src/main.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/apps/src/main.cpp > CMakeFiles/app_ex.dir/src/main.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/main.cpp > CMakeFiles/app_ex.dir/src/main.cpp.i
 
 apps/CMakeFiles/app_ex.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app_ex.dir/src/main.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/apps/src/main.cpp -o CMakeFiles/app_ex.dir/src/main.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/main.cpp -o CMakeFiles/app_ex.dir/src/main.cpp.s
 
 apps/CMakeFiles/app_ex.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ apps/CMakeFiles/app_ex.dir/src/main.cpp.o.provides.build: apps/CMakeFiles/app_ex
 
 apps/CMakeFiles/app_ex.dir/src/app.cpp.o: apps/CMakeFiles/app_ex.dir/flags.make
 apps/CMakeFiles/app_ex.dir/src/app.cpp.o: ../apps/src/app.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object apps/CMakeFiles/app_ex.dir/src/app.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app_ex.dir/src/app.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/apps/src/app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object apps/CMakeFiles/app_ex.dir/src/app.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app_ex.dir/src/app.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/app.cpp
 
 apps/CMakeFiles/app_ex.dir/src/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app_ex.dir/src/app.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/apps/src/app.cpp > CMakeFiles/app_ex.dir/src/app.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/app.cpp > CMakeFiles/app_ex.dir/src/app.cpp.i
 
 apps/CMakeFiles/app_ex.dir/src/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app_ex.dir/src/app.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/apps/src/app.cpp -o CMakeFiles/app_ex.dir/src/app.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps/src/app.cpp -o CMakeFiles/app_ex.dir/src/app.cpp.s
 
 apps/CMakeFiles/app_ex.dir/src/app.cpp.o.requires:
 
@@ -129,8 +129,8 @@ app_ex_EXTERNAL_OBJECTS =
 ../output/app_ex: ../lib/libiniparser.so
 ../output/app_ex: ../lib/libcjson.so
 ../output/app_ex: apps/CMakeFiles/app_ex.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../output/app_ex"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/apps && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app_ex.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../output/app_ex"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app_ex.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 apps/CMakeFiles/app_ex.dir/build: ../output/app_ex
@@ -143,10 +143,10 @@ apps/CMakeFiles/app_ex.dir/requires: apps/CMakeFiles/app_ex.dir/src/app.cpp.o.re
 .PHONY : apps/CMakeFiles/app_ex.dir/requires
 
 apps/CMakeFiles/app_ex.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/app_ex.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/app_ex.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/app_ex.dir/clean
 
 apps/CMakeFiles/app_ex.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/apps /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/apps /home/ramandrom/sharedir/soft_arm_ads8867/build/apps/CMakeFiles/app_ex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/apps /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/apps/CMakeFiles/app_ex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/app_ex.dir/depend
 

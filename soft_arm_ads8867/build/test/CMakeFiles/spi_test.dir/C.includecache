@@ -12,7 +12,7 @@
 
 ../ql_oe/include/ql_spi.h
 
-/home/ramandrom/sharedir/soft_arm_ads8867/test/src/example_spi.c
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/example_spi.c
 stdint.h
 -
 stdio.h
@@ -36,9 +36,9 @@ fcntl.h
 stdlib.h
 -
 ql_spi.h
-/home/ramandrom/sharedir/soft_arm_ads8867/test/src/ql_spi.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/ql_spi.h
 ql_gpio.h
-/home/ramandrom/sharedir/soft_arm_ads8867/test/src/ql_gpio.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/ql_gpio.h
 ql_error.h
-/home/ramandrom/sharedir/soft_arm_ads8867/test/src/ql_error.h
+/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/ql_error.h
 

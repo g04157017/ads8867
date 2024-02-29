@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramandrom/sharedir/soft_arm_ads8867
+CMAKE_SOURCE_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramandrom/sharedir/soft_arm_ads8867/build
+CMAKE_BINARY_DIR = /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build
 
 # Include any dependencies generated for this target.
 include cfg/CMakeFiles/cfg.dir/depend.make
@@ -59,16 +59,16 @@ include cfg/CMakeFiles/cfg.dir/flags.make
 
 cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o: cfg/CMakeFiles/cfg.dir/flags.make
 cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o: ../cfg/src/alarm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cfg.dir/src/alarm.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/cfg/src/alarm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cfg.dir/src/alarm.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cfg/src/alarm.cpp
 
 cfg/CMakeFiles/cfg.dir/src/alarm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cfg.dir/src/alarm.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/cfg/src/alarm.cpp > CMakeFiles/cfg.dir/src/alarm.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cfg/src/alarm.cpp > CMakeFiles/cfg.dir/src/alarm.cpp.i
 
 cfg/CMakeFiles/cfg.dir/src/alarm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cfg.dir/src/alarm.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/cfg/src/alarm.cpp -o CMakeFiles/cfg.dir/src/alarm.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cfg/src/alarm.cpp -o CMakeFiles/cfg.dir/src/alarm.cpp.s
 
 cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o.requires:
 
@@ -83,16 +83,16 @@ cfg/CMakeFiles/cfg.dir/src/alarm.cpp.o.provides.build: cfg/CMakeFiles/cfg.dir/sr
 
 cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o: cfg/CMakeFiles/cfg.dir/flags.make
 cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o: ../cfg/src/otaload.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cfg.dir/src/otaload.cpp.o -c /home/ramandrom/sharedir/soft_arm_ads8867/cfg/src/otaload.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cfg.dir/src/otaload.cpp.o -c /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cfg/src/otaload.cpp
 
 cfg/CMakeFiles/cfg.dir/src/otaload.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cfg.dir/src/otaload.cpp.i"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/sharedir/soft_arm_ads8867/cfg/src/otaload.cpp > CMakeFiles/cfg.dir/src/otaload.cpp.i
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cfg/src/otaload.cpp > CMakeFiles/cfg.dir/src/otaload.cpp.i
 
 cfg/CMakeFiles/cfg.dir/src/otaload.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cfg.dir/src/otaload.cpp.s"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/sharedir/soft_arm_ads8867/cfg/src/otaload.cpp -o CMakeFiles/cfg.dir/src/otaload.cpp.s
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg && /home/ramandrom/sharedir/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi//arm-oe-linux-gnueabi-g++   -march=armv7-a -mfloat-abi=softfp -mfpu=neon $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cfg/src/otaload.cpp -o CMakeFiles/cfg.dir/src/otaload.cpp.s
 
 cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o.requires:
 
@@ -121,8 +121,8 @@ cfg_EXTERNAL_OBJECTS =
 ../lib/libcfg.so: ../lib/libiniparser.so
 ../lib/libcfg.so: ../lib/libkydatabase.so
 ../lib/libcfg.so: cfg/CMakeFiles/cfg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/sharedir/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../lib/libcfg.so"
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cfg.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../lib/libcfg.so"
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cfg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 cfg/CMakeFiles/cfg.dir/build: ../lib/libcfg.so
@@ -135,10 +135,10 @@ cfg/CMakeFiles/cfg.dir/requires: cfg/CMakeFiles/cfg.dir/src/otaload.cpp.o.requir
 .PHONY : cfg/CMakeFiles/cfg.dir/requires
 
 cfg/CMakeFiles/cfg.dir/clean:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg && $(CMAKE_COMMAND) -P CMakeFiles/cfg.dir/cmake_clean.cmake
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg && $(CMAKE_COMMAND) -P CMakeFiles/cfg.dir/cmake_clean.cmake
 .PHONY : cfg/CMakeFiles/cfg.dir/clean
 
 cfg/CMakeFiles/cfg.dir/depend:
-	cd /home/ramandrom/sharedir/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/sharedir/soft_arm_ads8867 /home/ramandrom/sharedir/soft_arm_ads8867/cfg /home/ramandrom/sharedir/soft_arm_ads8867/build /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg /home/ramandrom/sharedir/soft_arm_ads8867/build/cfg/CMakeFiles/cfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramandrom/lusxGitRepositories/soft_arm_ads8867 /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/cfg /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/build/cfg/CMakeFiles/cfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cfg/CMakeFiles/cfg.dir/depend
 

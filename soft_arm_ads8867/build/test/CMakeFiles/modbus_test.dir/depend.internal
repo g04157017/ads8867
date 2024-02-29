@@ -9,4 +9,4 @@ test/CMakeFiles/modbus_test.dir/src/modbus_test.cpp.o
  ../ql_oe/include/ql_error.h
  ../ql_oe/include/ql_gpio.h
  ../ql_oe/include/ql_uart.h
- /home/ramandrom/sharedir/soft_arm_ads8867/test/src/modbus_test.cpp
+ /home/ramandrom/lusxGitRepositories/soft_arm_ads8867/test/src/modbus_test.cpp
